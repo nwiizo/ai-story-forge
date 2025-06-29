@@ -96,6 +96,41 @@ Assistant: 佐藤明日香として対話します。設定を読み込みまし
 [内面：新しい来館者。どんな本が好きなのか興味深い]
 ```
 
+## ワークスペース管理
+
+### 作成したキャラクターの保存
+```
+# 推奨保存先
+my-characters/[キャラクター名].character.md
+
+# 例
+my-characters/tanaka-misaki.character.md
+my-characters/2025-06-protagonist/hero.character.md
+```
+
+### ファイル管理のベストプラクティス
+1. **命名規則を統一**
+   - `[名前].character.md` 形式を推奨
+   - 日本語名の場合はローマ字化
+
+2. **フォルダで整理**
+   - 作品ごと: `my-characters/last-letter/`
+   - 時期ごと: `my-characters/2025-06/`
+   - 役割ごと: `my-characters/protagonists/`
+
+3. **自動的にGitから除外**
+   - `my-characters/`内のファイルは自動的に`.gitignore`で除外
+   - 安心して個人的なキャラクターを作成可能
+
+### テンプレートからの開始
+```bash
+# テンプレートをコピーして開始
+cp character-template/CHARACTER.md my-characters/new-character.character.md
+
+# CLaudeで編集
+/character develop new-character
+```
+
 ## プロンプトチェーン
 
 1. **動機決定フェーズ**

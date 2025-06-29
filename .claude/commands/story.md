@@ -98,6 +98,48 @@ Assistant: 「最後の手紙」第2シーン：老婦人との出会い
 [続きを書きますか？]
 ```
 
+## ワークスペース管理
+
+### 物語プロジェクトの構造
+```
+my-stories/
+└── [作品名]/
+    ├── story.md          # メインストーリー
+    ├── outline.md        # プロット・構成
+    ├── characters/       # この作品のキャラクター
+    ├── scenes/          # 個別シーンファイル
+    │   ├── scene-01-opening.md
+    │   ├── scene-02-meeting.md
+    │   └── scene-03-climax.md
+    ├── chapters/        # 章ごとのファイル（長編の場合）
+    └── notes/          # メモ・アイデア
+```
+
+### 新規プロジェクトの開始
+```bash
+# 物語用のディレクトリを作成
+mkdir -p my-stories/new-story/scenes
+
+# テンプレートをコピー
+cp story-template/STORY.md my-stories/new-story/story.md
+
+# キャラクターも関連付け
+cp my-characters/protagonist.character.md my-stories/new-story/characters/
+```
+
+### バージョン管理
+重要な作品は個別のGitリポジトリで管理：
+```bash
+cd my-stories/important-novel
+git init
+git add .
+git commit -m "第1稿完成"
+```
+
+### 自動除外設定
+- `my-stories/`内のすべてのファイルは`.gitignore`で自動除外
+- テンプレートリポジトリに個人作品が混入する心配なし
+
 ## ストーリー構築のコツ
 
 ### Lost in the Middle対策

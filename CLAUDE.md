@@ -1,72 +1,137 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with this repository.
 
 ## Project Overview
 
-AI Story Forge is a Japanese-language framework for AI-assisted storytelling. It provides structured templates and methodologies for creating consistent characters and compelling narratives using generative AI tools.
+AI Story Forge (AIと共に物語を鍛える工房) is a comprehensive Japanese-language framework for AI-assisted creative writing. It provides structured templates, methodologies, and command tools for creating consistent characters and compelling narratives using generative AI.
 
-**Important**: This is a documentation-only repository with no executable code. All content consists of Markdown templates and guides written in Japanese.
+**Key Features**:
+- Motivation-driven character development system
+- Three-phase story construction methodology  
+- Five-axis quality evaluation framework
+- Integrated Claude command system
+- Workspace management for personal projects
 
 ## Repository Structure
 
-The project uses a clear template-based structure:
+```
+ai-story-forge/
+├── character-template/     # Character development resources
+│   ├── CHARACTER.md       # Main character template (3-layer system)
+│   ├── character-prompts.md # Character creation prompts
+│   ├── motivation-list.md # Comprehensive motivation catalog
+│   ├── tips.md           # Best practices and techniques
+│   └── examples/         # Sample characters
+├── story-template/       # Story construction resources
+│   ├── STORY.md         # Story planning template
+│   ├── story-prompts.md # Story development prompts
+│   ├── techniques.md    # Advanced storytelling techniques
+│   └── examples/        # Sample stories
+├── quality-check/       # Quality assurance tools
+│   ├── checklist.md    # 5-axis evaluation checklist
+│   └── common-problems.md # Troubleshooting guide
+├── resources/          # Supporting documentation
+│   ├── principles.md   # Prompt engineering principles
+│   ├── constraints.md  # LLM limitations and solutions
+│   └── workflow.md    # 3-week creation program
+├── .claude/commands/  # Claude integration commands
+│   ├── character.md   # /character command
+│   ├── story.md      # /story command  
+│   ├── scene.md      # /scene command
+│   ├── dialogue.md   # /dialogue command
+│   └── quality.md    # /quality command
+├── my-characters/    # User's characters (gitignored)
+└── my-stories/      # User's stories (gitignored)
+```
 
-- `character-template/` - Character development templates and prompts
-- `story-template/` - Story construction templates and techniques  
-- `quality-check/` - Quality assurance checklists and common problems
-- `resources/` - Supporting documentation on principles and workflows
+## Core Methodologies
 
-## Development Workflow
+### 1. Motivation-First Character Development
+Characters are built starting from their core motivation ("What does this person want?"), ensuring all actions and behaviors stem from this central drive.
 
-Since this is a template repository:
+### 2. Three-Layer Character System
+- **第1層：不変コア (Immutable Core)**: Core motivation, values, fears, and contradictions
+- **第2層：準安定層 (Semi-stable Layer)**: Emotional patterns, relationships, growth direction
+- **第3層：可変層 (Variable Layer)**: Speech patterns, behaviors, mannerisms
 
-1. **No build/test commands** - The project contains only Markdown documentation
-2. **Version control**: Standard Git workflow with changes tracked via commits
-3. **Language**: All documentation is in Japanese (日本語)
+### 3. Three-Phase Story Construction
+- **Phase 1**: Skeleton (basic plot structure)
+- **Phase 2**: Key scenes identification
+- **Phase 3**: Detailed scene design
 
-## Core Methodology
-
-The framework implements:
-
-1. **Three-layer character system**:
-   - 不変コア (Immutable Core): Values that never change
-   - 準安定層 (Semi-stable Layer): Elements that vary within limits
-   - 可変層 (Variable Layer): Flexible scene-specific elements
-
-2. **Phased story construction**:
-   - Phase 1: Basic plot skeleton
-   - Phase 2: Key scene identification
-   - Phase 3: Detailed scene design
-
-3. **Five-axis quality evaluation**:
-   - Character consistency
-   - Physical logic
-   - Psychological naturalness
-   - Readability
-   - Emotional impact
+### 4. Five-Axis Quality Evaluation
+Each scene/story is evaluated on:
+1. Character consistency (キャラクター一貫性)
+2. Physical logic (物理的論理性)
+3. Psychological naturalness (心理的自然さ)
+4. Readability (読みやすさ)
+5. Emotional impact (感情的インパクト)
 
 ## Working with This Repository
 
-When modifying or extending this repository:
+### For Template Development
+- Maintain Japanese language throughout
+- Follow established naming conventions
+- Keep examples in designated directories
+- Ensure consistency with core methodologies
 
-- Maintain the existing template structure
-- Preserve the Japanese language for all documentation
-- Follow the established naming conventions (CHARACTER.md, STORY.md, etc.)
-- Keep examples in their designated `examples/` subdirectories
-- Ensure any new content aligns with the five prompt engineering principles outlined in README.md
+### For Creative Writing
+1. Copy templates to personal workspace:
+   ```bash
+   cp character-template/CHARACTER.md my-characters/[name].character.md
+   cp story-template/STORY.md my-stories/[title]/story.md
+   ```
 
-## Quick Reference
+2. Use Claude commands:
+   - `/character new` - Create new character
+   - `/story new` - Start new story
+   - `/scene dialogue` - Create dialogue scene
+   - `/quality check` - Evaluate quality
 
-To get started with the templates:
-```bash
-cp character-template/CHARACTER.md my-character.md
-```
+3. Personal work is automatically gitignored:
+   - `my-characters/*` (except README.md)
+   - `my-stories/*` (except README.md)
+   - `*.character.md`, `*.story.md`, `*.scene.md`
 
-The primary workflow involves:
-1. Copying template files
-2. Filling in structured information
-3. Using the provided prompts with AI tools (Claude, ChatGPT, Gemini)
-4. Iterating based on quality checks
+## Command System Integration
 
-Remember: This repository focuses on methodology and templates for creative writing, not code development.
+The `.claude/commands/` directory contains five specialized commands that guide users through:
+- Character creation with motivation focus
+- Story construction with phased approach
+- Scene crafting with sensory details
+- Natural dialogue writing
+- Quality evaluation and improvement
+
+Each command provides:
+- Clear usage instructions in Japanese
+- Multiple options and parameters
+- Practical examples
+- Integration with project templates
+
+## Development Guidelines
+
+### When Adding Features
+1. Consider how it supports the core methodologies
+2. Provide both template and command support
+3. Include practical examples
+4. Update relevant documentation
+5. Maintain backward compatibility
+
+### Quality Standards
+- All documentation must be clear and actionable
+- Examples should demonstrate best practices
+- Commands should guide users step-by-step
+- Templates must be flexible yet structured
+
+## Version History
+- v0.0.1: Initial release with core templates and commands
+- v0.0.2: Added workspace management and .gitignore configuration
+
+## Key Principles
+1. **Motivation drives everything** - All character actions stem from core desires
+2. **Structure enables creativity** - Templates provide framework, not restrictions
+3. **Quality through iteration** - Use evaluation tools to improve continuously
+4. **Privacy by default** - Personal creations are never tracked by git
+
+Remember: This repository empowers writers to collaborate effectively with AI while maintaining the human touch that makes stories compelling.

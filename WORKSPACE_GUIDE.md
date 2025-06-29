@@ -7,10 +7,10 @@ AI Story Forgeを使って作成した作品は、以下のような構造で管
 ```
 ai-story-forge/
 ├── my-characters/              # 作成したキャラクター
-│   ├── 2024-01-protagonist/    # 日付-役割で整理
+│   ├── 2025-06-protagonist/    # 日付-役割で整理
 │   │   ├── tanaka-misaki.character.md
 │   │   └── notes.md
-│   └── 2024-01-supporting/
+│   └── 2025-06-supporting/
 │       ├── yamada-taro.character.md
 │       └── suzuki-hanako.character.md
 │
@@ -52,7 +52,7 @@ ai-story-forge/
 - `chapter-[番号].md` - 例: `chapter-01.md`
 
 ### 作業ファイル
-- `[日付]-[内容].draft.md` - 例: `2024-01-15-opening.draft.md`
+- `[日付]-[内容].draft.md` - 例: `2025-06-15-opening.draft.md`
 - `[内容].wip.md` - 例: `climax-scene.wip.md`
 
 ## 作品の整理のコツ
@@ -60,7 +60,7 @@ ai-story-forge/
 ### 1. 日付での管理
 ```
 my-characters/
-├── 2024-01/     # 月ごとに整理
+├── 2025-06/     # 月ごとに整理
 ├── 2024-02/
 └── archive/      # 古い作品
 ```
@@ -104,7 +104,7 @@ Claudeコマンドを使用する際の推奨保存先：
 ```bash
 # キャラクター作成時
 /character new
-# → 保存先: my-characters/2024-01/[character-name].character.md
+# → 保存先: my-characters/2025-06/[character-name].character.md
 
 # 物語作成時
 /story new

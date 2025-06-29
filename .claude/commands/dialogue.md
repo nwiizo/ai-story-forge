@@ -174,6 +174,28 @@ Assistant: 【告白の会話シーン】
 [真実：仕事だからじゃない。好きだから、見ていた]
 ```
 
+## ワークスペースでの会話管理
+
+### 会話シーンの保存
+```
+# シーンの一部として保存
+my-stories/[作品名]/scenes/scene-XX-dialogue.md
+
+# 会話練習用
+drafts/dialogue-practice-[キャラ名].md
+
+# 重要な会話は個別管理
+my-stories/[作品名]/key-dialogues/confession.md
+```
+
+### 会話のバージョン管理
+異なるバージョンを試す場合：
+```
+scene-05-confession-v1.md  # 直接的なバージョン
+scene-05-confession-v2.md  # 遠回しなバージョン
+scene-05-confession-final.md  # 採用版
+```
+
 ## 会話テクニック集
 
 ### 1. 三点リーダーの活用

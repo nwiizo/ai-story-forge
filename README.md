@@ -1,8 +1,16 @@
 # AI Story Forge - AIと共に物語を鍛える工房
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/nwiizo/ai-story-forge/releases)
+[![Language](https://img.shields.io/badge/language-Japanese-green.svg)](https://github.com/nwiizo/ai-story-forge)
 
 生成AIを活用した小説創作のための実践的なテンプレート集。キャラクターの一貫性を保ちながら、魅力的な物語を効率的に創作するためのシステムです。
+
+## 📌 最新情報 (v0.0.2)
+
+- 🆕 **ワークスペース管理機能**: 個人の作品を安全に管理できる`.gitignore`設定
+- 🆕 **動機ベースのキャラクター作成**: 「何をしたい人なのか」から始める新しいアプローチ
+- 🆕 **Claude統合コマンド**: `/character`、`/story`、`/scene`などの専用コマンド
 
 ## 🎯 このプロジェクトが解決する課題
 
@@ -122,6 +130,19 @@ ai-story-forge/
 
 - バグ報告・機能提案: [Issues](https://github.com/nwiizo/ai-story-forge/issues)
 - プルリクエスト: テンプレートの改善、新しい例の追加など
+
+## 📋 更新履歴
+
+### v0.0.2 (2025-06-29)
+- ワークスペース管理機能の追加
+- `.gitignore`による個人作品の保護
+- ワークスペースガイドの作成
+
+### v0.0.1 (2025-06-29)
+- 初回リリース
+- 基本テンプレートシステム
+- Claude統合コマンド
+- 動機ベースのキャラクター作成
 
 ## 📜 ライセンス
 

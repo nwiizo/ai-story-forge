@@ -136,6 +136,40 @@ Assistant: 【アクションシーンを作成します】
 [判断：今しかない]
 ```
 
+## ワークスペースでのシーン管理
+
+### シーンファイルの保存
+```
+# 個別シーンとして保存
+my-stories/[作品名]/scenes/scene-[番号]-[内容].md
+
+# 例
+my-stories/last-letter/scenes/scene-01-bookstore.md
+my-stories/last-letter/scenes/scene-02-letter-discovery.md
+my-stories/last-letter/scenes/scene-03-revelation.md
+```
+
+### シーンの命名規則
+- `scene-[番号]-[内容].md` 形式を推奨
+- 番号は2桁（01, 02...）で統一
+- 内容は英語またはローマ字で簡潔に
+
+### 下書きの管理
+```
+# 実験的なシーンは drafts/ に
+drafts/experimental-dialogue.draft.md
+drafts/alternative-ending.wip.md
+
+# 採用が決まったら正式な場所へ移動
+mv drafts/experimental-dialogue.draft.md my-stories/story-name/scenes/scene-04-dialogue.md
+```
+
+### シーンの品質管理
+各シーンを作成したら：
+1. `/quality scene [シーン名]` で評価
+2. 問題点を修正
+3. 本編に組み込み
+
 ## シーンタイプ別テクニック
 
 ### 会話シーン
