@@ -83,11 +83,12 @@ Each scene/story is evaluated on:
    cp story-template/STORY.md my-stories/[title]/story.md
    ```
 
-2. Use Claude commands:
+2. Use Claude commands (v1.0.25+ with argument support):
    - `/character new` - Create new character
-   - `/story new` - Start new story
-   - `/scene dialogue` - Create dialogue scene
-   - `/quality check` - Evaluate quality
+   - `/character develop [name]` - Develop existing character
+   - `/story plot "[title]"` - Start new story with title
+   - `/scene dialogue [character] [mood]` - Create dialogue scene
+   - `/quality scene "[name]" --detail` - Detailed quality evaluation
 
 3. Personal work is automatically gitignored:
    - `my-characters/*` (except README.md)
@@ -96,18 +97,19 @@ Each scene/story is evaluated on:
 
 ## Command System Integration
 
-The `.claude/commands/` directory contains five specialized commands that guide users through:
-- Character creation with motivation focus
-- Story construction with phased approach
-- Scene crafting with sensory details
-- Natural dialogue writing
-- Quality evaluation and improvement
+The `.claude/commands/` directory contains five specialized commands (compatible with Claude Code v1.0.25+) that guide users through:
+- Character creation with motivation focus (`/character [action] [name]`)
+- Story construction with phased approach (`/story [type] [title]`)
+- Scene crafting with sensory details (`/scene [type] [character] [mood]`)
+- Natural dialogue writing (`/dialogue [type] [characters]`)
+- Quality evaluation and improvement (`/quality [target] [options]`)
 
-Each command provides:
-- Clear usage instructions in Japanese
-- Multiple options and parameters
-- Practical examples
-- Integration with project templates
+Each command now supports:
+- **Argument handling**: Commands accept `$ARGUMENTS` for flexible usage
+- **Clear usage instructions** in Japanese
+- **Multiple options and parameters**
+- **Practical examples with argument patterns**
+- **Integration with project templates**
 
 ## Development Guidelines
 
@@ -127,6 +129,7 @@ Each command provides:
 ## Version History
 - v0.0.1: Initial release with core templates and commands
 - v0.0.2: Added workspace management and .gitignore configuration
+- v0.0.3: Enhanced Claude Code command support with $ARGUMENTS handling
 
 ## Key Principles
 1. **Motivation drives everything** - All character actions stem from core desires

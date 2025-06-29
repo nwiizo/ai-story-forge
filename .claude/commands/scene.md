@@ -1,27 +1,100 @@
+---
+description: "印象的なシーンを五感に訴える描写で作成するコマンド"
+---
+
 # scene - 印象的なシーンを作成する
 
 物語の中の一場面を、五感に訴える豊かな描写で作成します。
 
-## 使い方
+## 引数の処理
 
+コマンド引数: $ARGUMENTS
+
+引数形式: [タイプ] [オプション]
+
+引数が与えられた場合、以下のように解釈します：
+- `dialogue` → 会話中心のシーン作成
+- `action` → アクション中心のシーン作成
+- `emotion` → 感情描写中心のシーン作成
+- `transition` → 場面転換シーン作成
+- `climax` → クライマックスシーン作成
+
+追加オプション（スペース区切りで指定）：
+- キャラクター名
+- 雰囲気（緊張、穏やか、etc）
+- 文字数
+- シーンの目的
+
+例: `dialogue 佐藤明日香 緊張`
+
+## 引数解析の実装
+
+```javascript
+// $ARGUMENTSを解析
+const args = '$ARGUMENTS'.trim().split(/\s+/);
+let sceneType = args[0] || 'general';
+let character = '';
+let mood = '';
+let length = '';
+let purpose = '';
+
+// 引数を解析
+for (let i = 1; i < args.length; i++) {
+    const arg = args[i];
+    
+    // 数字なら文字数として扱う
+    if (/^\d+$/.test(arg)) {
+        length = arg;
+    }
+    // 雰囲気を表す単語
+    else if (['緊張', '穏やか', '静寂', '混沌', '喜び', '悲しみ', '懐かしさ', '緊迫'].includes(arg)) {
+        mood = arg;
+    }
+    // その他はキャラクター名として扱う
+    else if (!character) {
+        character = arg;
+    }
+    // 2つ目以降の文字列は目的として結合
+    else {
+        purpose += (purpose ? ' ' : '') + arg;
+    }
+}
 ```
-/scene [タイプ] [オプション]
+
+## 解析結果の使用
+
+```javascript
+// 解析結果を表示
+if (args.length > 0 && args[0] !== '') {
+    console.log('【引数を解析しました】');
+    console.log(`- シーンタイプ: ${sceneType}${getSceneTypeDescription(sceneType)}`);
+    if (character) console.log(`- キャラクター: ${character}`);
+    if (mood) console.log(`- 雰囲気: ${mood}`);
+    if (length) console.log(`- 文字数: ${length}文字`);
+    if (purpose) console.log(`- 目的: ${purpose}`);
+    console.log('');
+}
+
+// シーンタイプの説明を取得
+function getSceneTypeDescription(type) {
+    const descriptions = {
+        'dialogue': '（会話中心）',
+        'action': '（アクション中心）',
+        'emotion': '（感情描写中心）',
+        'transition': '（場面転換）',
+        'climax': '（クライマックス）',
+        'general': '（汎用シーン）'
+    };
+    return descriptions[type] || '';
+}
+
+// 引数に基づいてシーンを生成
+if (sceneType && sceneType !== 'general') {
+    generateScene(sceneType, character, mood, length, purpose);
+} else {
+    showSceneTypeMenu();
+}
 ```
-
-## シーンタイプ
-
-- `dialogue` - 会話中心のシーン
-- `action` - アクション中心のシーン
-- `emotion` - 感情描写中心のシーン
-- `transition` - 場面転換シーン
-- `climax` - クライマックスシーン
-
-## オプション
-
-- `--character <名前>` - 使用するキャラクター指定
-- `--mood <雰囲気>` - シーンの雰囲気（緊張、穏やか、etc）
-- `--length <文字数>` - シーンの長さ
-- `--purpose <目的>` - このシーンの役割
 
 ## シーン作成の基本構造
 
@@ -59,10 +132,15 @@
 
 ## 実行例
 
-### 会話シーン
+### 会話シーン（引数解析版）
 ```
-User: /scene dialogue --character 佐藤明日香 --mood 緊張
-Assistant: 【会話シーンを作成します】
+User: /scene dialogue 佐藤明日香 緊張
+Assistant: 【引数を解析しました】
+- シーンタイプ: dialogue（会話中心）
+- キャラクター: 佐藤明日香
+- 雰囲気: 緊張
+
+【会話シーンを作成します】
 
 設定：
 - キャラクター：佐藤明日香（図書館司書）
@@ -88,15 +166,22 @@ Assistant: 【会話シーンを作成します】
 続けますか？
 ```
 
-### 感情シーン
+### 感情シーン（複数オプション付き）
 ```
-User: /scene emotion --character 田中美咲 --mood 懐かしさ
-Assistant: 【感情描写シーンを作成します】
+User: /scene emotion 田中美咲 懐かしさ 800
+Assistant: 【引数を解析しました】
+- シーンタイプ: emotion（感情描写中心）
+- キャラクター: 田中美咲
+- 雰囲気: 懐かしさ
+- 文字数: 800文字
+
+【感情描写シーンを作成します】
 
 設定：
 - キャラクター：田中美咲（書店店主）
 - 感情：懐かしさ
 - きっかけ：母の愛読書を見つける
+- 目標文字数：約800文字
 
 ---
 
@@ -109,12 +194,19 @@ Assistant: 【感情描写シーンを作成します】
 美咲は本を胸に抱いた。固い表紙越しに、母の温もりを探すように。
 
 [内面：涙は出ない。でも、胸の奥が静かに熱い]
+
+（文字数を調整して800文字程度に展開）
 ```
 
-### アクションシーン
+### アクションシーン（雰囲気のみ指定）
 ```
-User: /scene action --mood 緊迫
-Assistant: 【アクションシーンを作成します】
+User: /scene action 緊迫
+Assistant: 【引数を解析しました】
+- シーンタイプ: action（アクション中心）
+- 雰囲気: 緊迫
+- キャラクター: （自動生成）
+
+【アクションシーンを作成します】
 
 雰囲気：緊迫
 シーンの目的：危機的状況での決断
@@ -134,6 +226,27 @@ Assistant: 【アクションシーンを作成します】
 翔は全体重を込めて、ドアに肩をぶつけた。
 
 [判断：今しかない]
+```
+
+### 引数なしの場合
+```
+User: /scene
+Assistant: 【引数が指定されていません】
+
+シーンタイプを選択してください：
+1. dialogue - 会話中心のシーン
+2. action - アクション中心のシーン
+3. emotion - 感情描写中心のシーン
+4. transition - 場面転換シーン
+5. climax - クライマックスシーン
+
+または、以下の形式で直接指定できます：
+/scene [タイプ] [キャラクター名] [雰囲気] [文字数]
+
+例：
+- /scene dialogue 山田太郎 緊張
+- /scene emotion 田中花子 喜び 500
+- /scene action 緊迫
 ```
 
 ## ワークスペースでのシーン管理

@@ -97,23 +97,46 @@ git commit -m "Initial draft"
 - 個人的な設定や実在の人物をモデルにしたキャラクターは、特に注意して管理
 - 必要に応じて暗号化ツールの使用を検討
 
-## コマンド使用時の保存先
+## Claude Codeコマンド使用時の保存先
 
-Claudeコマンドを使用する際の推奨保存先：
+### コマンドの引数指定
+
+Claude Code v1.0.25以降では、コマンドに引数を渡すことができます：
 
 ```bash
-# キャラクター作成時
-/character new
+# キャラクター作成（引数付き）
+/character new                      # 新規作成（対話形式）
+/character develop 田中美咲          # 特定キャラクターの深化
+/character check 佐藤明日香          # 一貫性チェック
+/character dialogue 山田太郎         # 対話シミュレーション
 # → 保存先: my-characters/2025-06/[character-name].character.md
 
-# 物語作成時
-/story new
+# 物語作成（引数付き）
+/story plot "最後の手紙"           # タイトル指定で構築
+/story structure "デジタルの亡霊"   # 構成作成
+/story theme "人間とAIの共存"      # テーマから構築
 # → 保存先: my-stories/[story-title]/story.md
 
-# シーン作成時
-/scene dialogue
+# シーン作成（引数付き）
+/scene dialogue 佐藤明日香 緊張      # 会話シーン（キャラと雰囲気指定）
+/scene emotion 田中美咲 懐かしさ 800   # 感情描写（文字数指定）
+/scene action 緊迫                 # アクションシーン
 # → 保存先: my-stories/[story-title]/scenes/scene-XX.md
+
+# 品質チェック（引数付き）
+/quality scene "手紙の発見" --detail     # 詳細評価
+/quality character 佐藤明日香 --fix      # 修正案付き
+/quality story "最後の手紙" --compare   # 比較分析
+# → 保存先: my-stories/[story-title]/quality-checks/check-[date].md
+
+# 会話作成（引数付き）
+/dialogue first-meet 佐藤明日香 山田太郎  # 初対面の会話
+/dialogue conflict 美咲 息子 --mood 緊張   # 対立シーン
+/dialogue confession --subtext       # 告白（言外の意味重視）
+# → 保存先: my-stories/[story-title]/scenes/scene-XX-dialogue.md
 ```
+
+### 推奨保存先のまとめ
 
 ## テンプレートからの作業開始
 
@@ -121,9 +144,30 @@ Claudeコマンドを使用する際の推奨保存先：
 # キャラクターテンプレートをコピーして開始
 cp character-template/CHARACTER.md my-characters/new-character.character.md
 
+# Claude Codeで編集
+/character develop new-character
+
 # 物語テンプレートをコピーして開始
 cp story-template/STORY.md my-stories/new-story/story.md
+
+# Claude Codeで構築
+/story develop new-story
 ```
+
+## 効率的なワークフロー
+
+### 新作品の開始
+1. キャラクター作成： `/character new`
+2. キャラクターの一貫性確認： `/character check [名前]`
+3. 物語構築： `/story plot "[タイトル]"`
+4. 重要シーン作成： `/scene [タイプ] [オプション]`
+5. 品質チェック： `/quality story "[タイトル]" --detail`
+
+### 既存作品の改善
+1. 現状評価： `/quality story "[タイトル]"`
+2. 問題点の修正： `/quality scene "[シーン名]" --fix`
+3. キャラクター調整： `/character develop [名前]`
+4. 会話の改善： `/dialogue [タイプ] [キャラクター]`
 
 ---
 
@@ -131,3 +175,4 @@ cp story-template/STORY.md my-stories/new-story/story.md
 - 作品フォルダは定期的に整理しましょう
 - 完成した作品は`archive`フォルダに移動
 - お気に入りのプロンプトは`personal-notes`に保存して再利用
+- Claude Codeのコマンド引数を活用して効率化
