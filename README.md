@@ -63,6 +63,8 @@ ai-story-forge/
 4. プロンプト集を使ってAIと対話
 5. 物語の執筆開始
 
+作品の管理方法については[WORKSPACE_GUIDE.md](./WORKSPACE_GUIDE.md)をご覧ください。
+
 ## 💡 使用例
 
 ### キャラクター作成の例
