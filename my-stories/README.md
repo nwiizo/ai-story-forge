@@ -1,23 +1,23 @@
-# 作成した物語保存用ディレクトリ
+# Directory for Saving Created Stories
 
-このディレクトリは、AI Story Forgeを使って作成した物語を保存するための場所です。
+This directory is for saving stories created using AI Story Forge.
 
-## 注意事項
-- このディレクトリ内のファイルは`.gitignore`により自動的にGitの追跡対象外となります
-- 個人的な作品を安全に保管できます
-- 重要な作品は個別にバックアップを取ることをお勧めします
+## Important Notes
+- Files in this directory are automatically excluded from Git tracking by `.gitignore`.
+- You can safely store personal works here.
+- It is recommended to back up important works individually.
 
-## 推奨構造
+## Recommended Structure
 ```
 my-stories/
-├── [作品名]/
-│   ├── story.md          # メインストーリー
-│   ├── outline.md        # プロット
-│   ├── scenes/           # シーン別ファイル
-│   └── characters/       # この作品用のキャラクター設定
+├── [work-name]/
+│   ├── story.md          # Main story
+│   ├── outline.md        # Plot
+│   ├── scenes/           # Scene files
+│   └── characters/       # Character settings for this work
 ```
 
-## ファイル名の例
+## File Name Examples
 - `last-letter.story.md`
 - `scene-01-opening.md`
 - `chapter-01.md`

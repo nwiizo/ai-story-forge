@@ -1,74 +1,74 @@
-# ワークスペースガイド - 作品の管理方法
+# Workspace Guide - How to Manage Your Works
 
-## 推奨ディレクトリ構造
+## Recommended Directory Structure
 
-AI Story Forgeを使って作成した作品は、以下のような構造で管理することをお勧めします。これらのディレクトリは`.gitignore`で除外されているため、誤ってコミットされることはありません。
+It is recommended to manage works created using AI Story Forge with the following structure. These directories are excluded by `.gitignore`, so they will not be accidentally committed.
 
 ```
 ai-story-forge/
-├── my-characters/              # 作成したキャラクター
-│   ├── 2025-06-protagonist/    # 日付-役割で整理
+├── my-characters/              # Created characters
+│   ├── 2025-06-protagonist/    # Organized by date-role
 │   │   ├── tanaka-misaki.character.md
 │   │   └── notes.md
 │   └── 2025-06-supporting/
 │       ├── yamada-taro.character.md
 │       └── suzuki-hanako.character.md
 │
-├── my-stories/                 # 作成した物語
-│   ├── last-letter/           # 作品ごとにフォルダ
-│   │   ├── story.md           # メインストーリー
-│   │   ├── outline.md         # プロット
-│   │   ├── scenes/            # 個別シーン
+├── my-stories/                 # Created stories
+│   ├── last-letter/           # Folder per work
+│   │   ├── story.md           # Main story
+│   │   ├── outline.md         # Plot
+│   │   ├── scenes/            # Individual scenes
 │   │   │   ├── scene-01-meeting.md
 │   │   │   └── scene-02-revelation.md
-│   │   └── quality-checks/    # 品質評価記録
+│   │   └── quality-checks/    # Quality evaluation records
 │   └── digital-ghost/
 │       ├── story.md
 │       ├── chapters/
 │       │   ├── chapter-01.md
 │       │   └── chapter-02.md
-│       └── character-refs/    # この物語用のキャラ設定
+│       └── character-refs/    # Character settings for this story
 │
-├── drafts/                    # 作業中・下書き
+├── drafts/                    # Work in progress/drafts
 │   ├── ideas.md
 │   ├── experimental-scene.md
 │   └── dialogue-practice.md
 │
-└── personal-notes/            # 個人的なメモ
+└── personal-notes/            # Personal notes
     ├── writing-tips.md
     ├── favorite-prompts.md
     └── my-motivation-list.md
 ```
 
-## ファイル命名規則
+## File Naming Conventions
 
-### キャラクターファイル
-- `[名前].character.md` - 例: `tanaka-misaki.character.md`
-- `[名前]-[バージョン].character.md` - 例: `tanaka-misaki-v2.character.md`
+### Character Files
+- `[name].character.md` - Example: `tanaka-misaki.character.md`
+- `[name]-[version].character.md` - Example: `tanaka-misaki-v2.character.md`
 
-### 物語ファイル
-- `[タイトル].story.md` - 例: `last-letter.story.md`
-- `scene-[番号]-[内容].md` - 例: `scene-03-confession.md`
-- `chapter-[番号].md` - 例: `chapter-01.md`
+### Story Files
+- `[title].story.md` - Example: `last-letter.story.md`
+- `scene-[number]-[content].md` - Example: `scene-03-confession.md`
+- `chapter-[number].md` - Example: `chapter-01.md`
 
-### 作業ファイル
-- `[日付]-[内容].draft.md` - 例: `2025-06-15-opening.draft.md`
-- `[内容].wip.md` - 例: `climax-scene.wip.md`
+### Work Files
+- `[date]-[content].draft.md` - Example: `2025-06-15-opening.draft.md`
+- `[content].wip.md` - Example: `climax-scene.wip.md`
 
-## 作品の整理のコツ
+## Tips for Organizing Works
 
-### 1. 日付での管理
+### 1. Management by Date
 ```
 my-characters/
-├── 2025-06/     # 月ごとに整理
+├── 2025-06/     # Organize by month
 ├── 2024-02/
-└── archive/      # 古い作品
+└── archive/      # Old works
 ```
 
-### 2. プロジェクトごとの管理
+### 2. Management by Project
 ```
 my-stories/
-├── project-mystery-novel/    # プロジェクト名
+├── project-mystery-novel/    # Project name
 │   ├── characters/
 │   ├── plot/
 │   └── scenes/
@@ -77,8 +77,8 @@ my-stories/
     └── story-02/
 ```
 
-### 3. バージョン管理
-重要な作品は個別のGitリポジトリで管理することも検討してください：
+### 3. Version Control
+Consider managing important works in individual Git repositories:
 ```bash
 cd my-stories/important-novel
 git init
@@ -86,93 +86,93 @@ git add .
 git commit -m "Initial draft"
 ```
 
-## セキュリティとバックアップ
+## Security and Backup
 
-### 重要な作品のバックアップ
-1. **クラウドストレージ**: Google Drive、Dropbox等に定期的にバックアップ
-2. **個別リポジトリ**: 重要な作品は別のプライベートリポジトリで管理
-3. **エクスポート**: 定期的にPDFやWord形式でエクスポート
+### Backing Up Important Works
+1. **Cloud Storage**: Regularly back up to Google Drive, Dropbox, etc.
+2. **Individual Repositories**: Manage important works in separate private repositories.
+3. **Export**: Regularly export in PDF or Word format.
 
-### プライバシーの確保
-- 個人的な設定や実在の人物をモデルにしたキャラクターは、特に注意して管理
-- 必要に応じて暗号化ツールの使用を検討
+### Ensuring Privacy
+- Manage personal settings and characters modeled on real people with particular care.
+- Consider using encryption tools if necessary.
 
-## Claude Codeコマンド使用時の保存先
+## Save Destination when using Claude Code Commands
 
-### コマンドの引数指定
+### Specifying Command Arguments
 
-Claude Code v1.0.25以降では、コマンドに引数を渡すことができます：
+With Claude Code v1.0.25 and later, you can pass arguments to commands:
 
 ```bash
-# キャラクター作成（引数付き）
-/character new                      # 新規作成（対話形式）
-/character develop 田中美咲          # 特定キャラクターの深化
-/character check 佐藤明日香          # 一貫性チェック
-/character dialogue 山田太郎         # 対話シミュレーション
-# → 保存先: my-characters/2025-06/[character-name].character.md
+# Character creation (with arguments)
+/character new                      # Create new (interactive)
+/character develop Misaki Tanaka    # Deepen a specific character
+/character check Asuka Sato         # Check consistency
+/character dialogue Taro Yamada     # Dialogue simulation
+# → Save destination: my-characters/2025-06/[character-name].character.md
 
-# 物語作成（引数付き）
-/story plot "最後の手紙"           # タイトル指定で構築
-/story structure "デジタルの亡霊"   # 構成作成
-/story theme "人間とAIの共存"      # テーマから構築
-# → 保存先: my-stories/[story-title]/story.md
+# Story creation (with arguments)
+/story plot "The Last Letter"         # Construct by title
+/story structure "Digital Ghost"    # Create structure
+/story theme "Human-AI Coexistence" # Construct from theme
+# → Save destination: my-stories/[story-title]/story.md
 
-# シーン作成（引数付き）
-/scene dialogue 佐藤明日香 緊張      # 会話シーン（キャラと雰囲気指定）
-/scene emotion 田中美咲 懐かしさ 800   # 感情描写（文字数指定）
-/scene action 緊迫                 # アクションシーン
-# → 保存先: my-stories/[story-title]/scenes/scene-XX.md
+# Scene creation (with arguments)
+/scene dialogue Asuka Sato tense    # Dialogue scene (specify character and atmosphere)
+/scene emotion Misaki Tanaka nostalgic 800 # Emotion depiction (specify character count)
+/scene action suspenseful           # Action scene
+# → Save destination: my-stories/[story-title]/scenes/scene-XX.md
 
-# 品質チェック（引数付き）
-/quality scene "手紙の発見" --detail     # 詳細評価
-/quality character 佐藤明日香 --fix      # 修正案付き
-/quality story "最後の手紙" --compare   # 比較分析
-# → 保存先: my-stories/[story-title]/quality-checks/check-[date].md
+# Quality check (with arguments)
+/quality scene "Discovery of the letter" --detail # Detailed evaluation
+/quality character Asuka Sato --fix     # With revision suggestions
+/quality story "The Last Letter" --compare # Comparative analysis
+# → Save destination: my-stories/[story-title]/quality-checks/check-[date].md
 
-# 会話作成（引数付き）
-/dialogue first-meet 佐藤明日香 山田太郎  # 初対面の会話
-/dialogue conflict 美咲 息子 --mood 緊張   # 対立シーン
-/dialogue confession --subtext       # 告白（言外の意味重視）
-# → 保存先: my-stories/[story-title]/scenes/scene-XX-dialogue.md
+# Conversation creation (with arguments)
+/dialogue first-meet Asuka Sato Taro Yamada # First meeting conversation
+/dialogue conflict Misaki Son --mood tense  # Conflict scene
+/dialogue confession --subtext      # Confession (emphasize subtext)
+# → Save destination: my-stories/[story-title]/scenes/scene-XX-dialogue.md
 ```
 
-### 推奨保存先のまとめ
+### Summary of Recommended Save Destinations
 
-## テンプレートからの作業開始
+## Starting Work from a Template
 
 ```bash
-# キャラクターテンプレートをコピーして開始
+# Copy character template to start
 cp character-template/CHARACTER.md my-characters/new-character.character.md
 
-# Claude Codeで編集
+# Edit with Claude Code
 /character develop new-character
 
-# 物語テンプレートをコピーして開始
+# Copy story template to start
 cp story-template/STORY.md my-stories/new-story/story.md
 
-# Claude Codeで構築
+# Construct with Claude Code
 /story develop new-story
 ```
 
-## 効率的なワークフロー
+## Efficient Workflow
 
-### 新作品の開始
-1. キャラクター作成： `/character new`
-2. キャラクターの一貫性確認： `/character check [名前]`
-3. 物語構築： `/story plot "[タイトル]"`
-4. 重要シーン作成： `/scene [タイプ] [オプション]`
-5. 品質チェック： `/quality story "[タイトル]" --detail`
+### Starting a New Work
+1. Create character: `/character new`
+2. Check character consistency: `/character check [name]`
+3. Construct story: `/story plot "[title]"`
+4. Create important scenes: `/scene [type] [options]`
+5. Quality check: `/quality story "[title]" --detail`
 
-### 既存作品の改善
-1. 現状評価： `/quality story "[タイトル]"`
-2. 問題点の修正： `/quality scene "[シーン名]" --fix`
-3. キャラクター調整： `/character develop [名前]`
-4. 会話の改善： `/dialogue [タイプ] [キャラクター]`
+### Improving an Existing Work
+1. Evaluate current state: `/quality story "[title]"`
+2. Correct problems: `/quality scene "[scene_name]" --fix`
+3. Adjust character: `/character develop [name]`
+4. Improve conversation: `/dialogue [type] [character]`
 
 ---
 
-💡 **ヒント**: 
-- 作品フォルダは定期的に整理しましょう
-- 完成した作品は`archive`フォルダに移動
-- お気に入りのプロンプトは`personal-notes`に保存して再利用
-- Claude Codeのコマンド引数を活用して効率化
+💡 **Tips**:
+- Organize your work folders regularly
+- Move completed works to an `archive` folder
+- Save favorite prompts in `personal-notes` for reuse
+- Utilize Claude Code command arguments for efficiency

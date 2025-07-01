@@ -1,136 +1,136 @@
-# キャラクター設定書
+# Character Setting Sheet
 
-## 基本情報
-**名前**：  
-**年齢**：  
-**性別**：  
-**職業**：  
-**一言で表すと**：  
-
----
-
-## 身上調査書（キャラクターの輪郭）
-### 基本データ
-- **身長・体重**：  
-- **出身地**：  
-- **家族構成**：  
-- **学歴・経歴**：  
-
-### 内面的要素
-- **好きなもの**（音楽・食べ物・場所など）：  
-- **苦手なもの**：  
-- **尊敬する人**：  
-- **恐怖（何を怖いと思うか）**：  
-- **将来の夢**：  
-- **特技・趣味**：  
-
-### 生活習慣
-- **住んでいる場所**：  
-- **日課**：  
-- **口癖**：  
-- **服装の好み**：  
+## Basic Information
+**Name**:
+**Age**:
+**Gender**:
+**Occupation**:
+**In a nutshell**:
 
 ---
 
-## 第1層：不変コア（物語を通じて絶対に変わらない要素）
+## Personal History (Character Outline)
+### Basic Data
+- **Height/Weight**:
+- **Birthplace**:
+- **Family Structure**:
+- **Education/Career**:
 
-### 0. 行動の動機（最重要：これを最初に決める）
-**「何をしたい人なのか」**：  
+### Internal Elements
+- **Likes** (music, food, places, etc.):
+- **Dislikes**:
+- **Person they respect**:
+- **Fears (What do they find scary?)**:
+- **Future dreams**:
+- **Special skills/Hobbies**:
 
-この動機を選んだ理由：  
-- 読者の共感ポイント：  
-- この動機から生まれる行動：  
+### Lifestyle Habits
+- **Place of residence**:
+- **Daily routine**:
+- **Catchphrases**:
+- **Clothing preferences**:
 
-### 1. 核となる価値観（動機を支える信念）
-**「」**
+---
 
-なぜこれが最も大切なのか：  
+## Layer 1: Immutable Core (Elements that absolutely do not change throughout the story)
+
+### 0. Motivation for Action (Most important: Decide this first)
+**"What does this person want to do?"**:
+
+Reason for choosing this motivation:
+- Reader's empathy point:
+- Actions arising from this motivation:
+
+### 1. Core Value (Belief supporting the motivation)
+**" "**
+
+Why is this most important?:
 
 
-### 2. 最大の恐れ（価値観の裏返し）
-**「」**
+### 2. Greatest Fear (Flip side of the value)
+**" "**
 
-この恐れが行動にどう影響するか：  
+How does this fear affect behavior?:
 
 
-### 3. 根本的矛盾（人間らしさの源）
-**価値観「」 vs 内なる欲求「」**
+### 3. Fundamental Contradiction (Source of human-likeness)
+**Value " " vs. Inner Desire " "**
 
-この矛盾が生む葛藤：  
+Conflict arising from this contradiction:
 
 
 ---
 
-## 第2層：準安定層（状況で変化するが一定の範囲内）
+## Layer 2: Semi-stable Layer (Changes with the situation but within a certain range)
 
-### 1. 感情の基本パターン
-- **平常時**：  
-- **ストレス時**：  
-- **幸福時**：  
+### 1. Basic Emotional Patterns
+- **Normal state**:
+- **Under stress**:
+- **When happy**:
 
-### 2. 人間関係の型
-- **信頼する相手への態度**：  
-- **初対面の相手への態度**：  
-- **苦手な相手への態度**：  
+### 2. Types of Human Relationships
+- **Attitude towards trusted individuals**:
+- **Attitude towards new acquaintances**:
+- **Attitude towards disliked individuals**:
 
-### 3. 成長の方向性
-- **現在の段階**：  
-- **目指す方向**：  
-
----
-
-## 第3層：可変層（シーンに応じて柔軟に変更可能）
-
-### 1. 話し方の特徴
-**基本的なトーン**：  
-**よく使う言葉**：
-- 「」
-- 「」
-- 「」
-
-**使わない言葉**：  
-
-### 2. 行動パターン（上位3つ）
-1. ＿＿な状況では、＿＿する
-2. ＿＿な状況では、＿＿する  
-3. ＿＿な状況では、＿＿する
-
-### 3. 特徴的な仕草・癖
-- 考える時：  
-- 緊張した時：  
-- 嬉しい時：  
+### 3. Direction of Growth
+- **Current stage**:
+- **Aspired direction**:
 
 ---
 
-## キャラクターの「芯」（絶対にブレてはいけない部分）
+## Layer 3: Variable Layer (Can be flexibly changed according to the scene)
 
-### 守るべき「らしさ」
-- このキャラクターが絶対にしないこと：  
-- このキャラクターが必ずすること：  
-- 読者を裏切らないための約束：  
+### 1. Speech Characteristics
+**Basic tone**:
+**Frequently used words**:
+- " "
+- " "
+- " "
 
-### 変えていい部分
-- 状況に応じて調整可能な要素：  
-- ストーリーの展開で発展させられる部分：  
-- ライブ感覚で軌道修正できる範囲：  
+**Words not used**:
+
+### 2. Behavior Patterns (Top 3)
+1. In a ______ situation, they ______
+2. In a ______ situation, they ______
+3. In a ______ situation, they ______
+
+### 3. Characteristic Gestures/Habits
+- When thinking:
+- When nervous:
+- When happy:
 
 ---
 
-## 一貫性チェックポイント
-- [ ] すべての行動は「動機」から説明できるか？
-- [ ] 動機と価値観は矛盾していないか？
-- [ ] 矛盾は意図的で、人間味を生んでいるか？
-- [ ] キャラクターの「芯」は守られているか？
-- [ ] 成長・変化は自然で段階的か？
+## Character's "Core" (Parts that must not be blurred)
+
+### "Likeness" to be protected
+- Things this character will never do:
+- Things this character will always do:
+- Promises to the reader not to betray:
+
+### Parts that can be changed
+- Elements adjustable according to the situation:
+- Parts that can be developed with the story's progression:
+- Range for live adjustments:
 
 ---
 
-## メモ・補足
-（自由記述欄）
+## Consistency Checkpoints
+- [ ] Can all actions be explained by "motivation"?
+- [ ] Are motivation and values not contradictory?
+- [ ] Is the contradiction intentional and does it create human-likeness?
+- [ ] Is the character's "core" protected?
+- [ ] Is growth/change natural and gradual?
+
+---
+
+## Notes/Supplements
+(Free description field)
 
 
-## 作成のヒント
-1. **動機を最初に決める**：性格をあれこれ考える前に「何をしたい人なのか」を明確に
-2. **身上調査書は30分で**：あまり深く考えすぎず、直感的に埋める
-3. **既存キャラの真似は厳禁**：どんなに人気があっても真似をしない
-4. **動機リストを作る**：自分なりの動機パターンを蓄積していく
+## Creation Hints
+1. **Decide motivation first**: Clarify "What does this person want to do?" before thinking about personality details.
+2. **Personal history in 30 minutes**: Don't overthink it, fill it in intuitively.
+3. **Strictly no imitation of existing characters**: No matter how popular, do not imitate.
+4. **Create a motivation list**: Accumulate your own motivation patterns.

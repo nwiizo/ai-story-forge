@@ -1,278 +1,278 @@
 ---
-description: "作品の品質を5軸で客観的に評価・改善するコマンド"
+description: "Command to objectively evaluate and improve work quality on 5 axes"
 ---
 
-# quality - 作品の品質を5軸で評価する
+# quality - Evaluate work quality on 5 axes
 
-作成した物語やシーンを客観的に評価し、改善点を明確にします。
+Objectively evaluates created stories and scenes, clarifying areas for improvement.
 
-## 引数の処理
+## Argument Processing
 
-コマンド引数: $ARGUMENTS
+Command arguments: $ARGUMENTS
 
-引数形式: [対象] [オプション]
+Argument format: [target] [options]
 
-引数が与えられた場合、以下のように解釈します：
-- 第1引数（評価対象）:
-  - `scene [シーン名]` → 特定シーンの評価
-  - `story [タイトル]` → 物語全体の評価
-  - `character [名前]` → キャラクターの一貫性評価
-  - `dialogue [シーン]` → 会話の自然さ評価
-- 追加オプション:
-  - `--detail` → 詳細な評価レポート
-  - `--fix` → 問題点の修正案を提示
-  - `--compare` → 修正前後の比較
+If arguments are given, they are interpreted as follows:
+- 1st argument (evaluation target):
+  - `scene [scene_name]` → Evaluate a specific scene
+  - `story [title]` → Evaluate the entire story
+  - `character [name]` → Evaluate character consistency
+  - `dialogue [scene]` → Evaluate conversation naturalness
+- Additional options:
+  - `--detail` → Detailed evaluation report
+  - `--fix` → Suggest fixes for problems
+  - `--compare` → Compare before and after fixes
 
-例: `scene 手紙の発見 --detail`
+Example: `scene Discovery of the letter --detail`
 
-## 使い方
+## Usage
 
 ```
-/quality [対象] [オプション]
+/quality [target] [options]
 ```
 
-## 評価対象
+## Evaluation Targets
 
-- `scene <シーン名>` - 特定シーンの評価
-- `story <タイトル>` - 物語全体の評価
-- `character <名前>` - キャラクターの一貫性評価
-- `dialogue <シーン>` - 会話の自然さ評価
+- `scene <scene_name>` - Evaluate a specific scene
+- `story <title>` - Evaluate the entire story
+- `character <name>` - Evaluate character consistency
+- `dialogue <scene>` - Evaluate conversation naturalness
 
-## オプション
+## Options
 
-- `--detail` - 詳細な評価レポート
-- `--fix` - 問題点の修正案を提示
-- `--compare` - 修正前後の比較
+- `--detail` - Detailed evaluation report
+- `--fix` - Suggest fixes for problems
+- `--compare` - Compare before and after fixes
 
-## 5軸評価システム（各10点満点）
+## 5-Axis Evaluation System (Max 10 points each)
 
-### 1. キャラクター一貫性
+### 1. Character Consistency
 ```
-評価ポイント：
-✓ 核となる動機に沿った行動か
-✓ 話し方・口調の統一性
-✓ 設定された関係性の維持
-✓ 意図的な矛盾vs意図しないブレ
-```
-
-### 2. 物理的論理性
-```
-評価ポイント：
-✓ 時間経過の整合性
-✓ 空間配置の一貫性
-✓ 因果関係の明確さ
-✓ 不自然な偶然の有無
+Evaluation points:
+✓ Actions aligned with core motivation
+✓ Consistency of speech style and tone
+✓ Maintenance of established relationships
+✓ Intentional contradictions vs. unintentional blurring
 ```
 
-### 3. 心理的自然さ
+### 2. Physical Logic
 ```
-評価ポイント：
-✓ 感情変化の段階的描写
-✓ 動機づけの明確さ
-✓ 関係性の自然な発展
-✓ 内面描写の深さ
-```
-
-### 4. 読みやすさ
-```
-評価ポイント：
-✓ 文章のリズムとテンポ
-✓ 情報量の適切さ
-✓ 場面転換の滑らかさ
-✓ 構成の分かりやすさ
+Evaluation points:
+✓ Consistency of time progression
+✓ Consistency of spatial arrangement
+✓ Clarity of cause and effect
+✓ Absence of unnatural coincidences
 ```
 
-### 5. 感情的インパクト
+### 3. Psychological Naturalness
 ```
-評価ポイント：
-✓ 共感できる瞬間の有無
-✓ 予想外の展開
-✓ 印象的な場面・台詞
-✓ 読後の余韻
-```
-
-## 実行例
-
-### シーン評価
-```
-User: /quality scene "手紙の発見"
-Assistant: 【シーン評価：手紙の発見】
-
-総合評価：42/50点
-
-1. キャラクター一貫性：9/10 ⭐⭐⭐⭐⭐
-   ✓ 美咲の「知識共有」の価値観が行動に表れている
-   ✓ 丁寧な所作が一貫している
-   △ 感情の高ぶりでやや説明的になった箇所あり
-
-2. 物理的論理性：8/10 ⭐⭐⭐⭐
-   ✓ 手紙の保存状態の説明が自然
-   ✓ 時系列が明確
-   ✗ 書店内の配置がやや不明瞭
-
-3. 心理的自然さ：9/10 ⭐⭐⭐⭐⭐
-   ✓ 驚きから受容への変化が段階的
-   ✓ 20年の重みが伝わる描写
-   ✓ 老婦人との関係性が自然
-
-4. 読みやすさ：7/10 ⭐⭐⭐⭐
-   ✓ 場面転換がスムーズ
-   ✗ 手紙の内容がやや長い
-   △ 後半でテンポが落ちる
-
-5. 感情的インパクト：9/10 ⭐⭐⭐⭐⭐
-   ✓ 時を超えた繋がりに感動
-   ✓ 予想外の真実
-   ✓ 希望を感じる結末
-
-【改善提案】
-1. 手紙の内容を200字程度削減
-2. 書店の空間描写を1-2行追加
-3. 説明的な心理描写を行動で表現
+Evaluation points:
+✓ Phased depiction of emotional changes
+✓ Clarity of motivation
+✓ Natural development of relationships
+✓ Depth of internal portrayal
 ```
 
-### 問題修正
+### 4. Readability
 ```
-User: /quality scene "手紙の発見" --fix
-Assistant: 【問題点の修正案】
-
-問題1：説明的な心理描写
-❌ 原文：
-「美咲は驚きと懐かしさが入り混じった複雑な感情を覚えた」
-
-✅ 修正案：
-「美咲の手が止まった。『美咲へ』という見慣れた文字が、
-二十年の時を超えて語りかけてくる」
-
-問題2：書店の配置が不明瞭
-✅ 追加描写案：
-「カウンターの奥、文学全集が並ぶ棚の前で、
-老婦人は一冊の本を抱えていた」
-
-問題3：手紙が長すぎる
-✅ 要約案：
-手紙の要点のみ描写し、美咲の反応を増やす
-「母の文字が、大切なことだけを綴っていた。
-『本は人を繋ぐ——』
-読み進める美咲の頬を、一筋の涙が伝った」
+Evaluation points:
+✓ Rhythm and tempo of writing
+✓ Appropriateness of information volume
+✓ Smoothness of scene transitions
+✓ Clarity of structure
 ```
 
-### キャラクター評価
+### 5. Emotional Impact
 ```
-User: /quality character 佐藤明日香
-Assistant: 【キャラクター一貫性評価：佐藤明日香】
-
-総合評価：優秀（45/50点）
-
-✅ 強み
-1. 動機「知識共有で人々の可能性を広げたい」が全編で一貫
-2. 口癖「もしよろしければ」が自然に使用
-3. 眼鏡を押し上げる仕草が効果的
-
-⚠️ 要注意
-1. 第5章で本を雑に扱うシーンあり
-   → 動機と矛盾する可能性
-
-📊 詳細分析
-- 動機の一貫性：10/10
-- 価値観の表現：9/10
-- 行動パターン：8/10
-- 話し方：9/10
-- 成長の自然さ：9/10
-
-【提案】
-第5章の修正：感情的になっても本は丁寧に扱う
+Evaluation points:
+✓ Presence of relatable moments
+✓ Unexpected developments
+✓ Memorable scenes/lines
+✓ Lingering impression after reading
 ```
 
-## 評価結果の管理
+## Execution Examples
 
-### 品質チェック記録の保存
+### Scene Evaluation
 ```
-# 作品ごとに評価を記録
-my-stories/[作品名]/quality-checks/
-├── check-2025-06-15.md    # 日付付き評価
-├── check-draft.md         # 下書き段階の評価
-└── check-final.md         # 最終評価
+User: /quality scene "Discovery of the letter"
+Assistant: 【Scene Evaluation: Discovery of the letter】
 
-# 評価テンプレート
-cp quality-check/checklist.md my-stories/[作品名]/quality-checks/check-[日付].md
+Overall Evaluation: 42/50 points
+
+1. Character Consistency: 9/10 ⭐⭐⭐⭐⭐
+   ✓ Misaki's value of "knowledge sharing" is reflected in her actions
+   ✓ Polite demeanor is consistent
+   △ Became slightly explanatory due to heightened emotions
+
+2. Physical Logic: 8/10 ⭐⭐⭐⭐
+   ✓ Explanation of letter's preservation state is natural
+   ✓ Timeline is clear
+   ✗ Bookstore layout is somewhat unclear
+
+3. Psychological Naturalness: 9/10 ⭐⭐⭐⭐⭐
+   ✓ Change from surprise to acceptance is gradual
+   ✓ Portrayal conveys the weight of 20 years
+   ✓ Relationship with the old woman is natural
+
+4. Readability: 7/10 ⭐⭐⭐⭐
+   ✓ Scene transitions are smooth
+   ✗ Letter content is a bit long
+   △ Tempo drops in the latter half
+
+5. Emotional Impact: 9/10 ⭐⭐⭐⭐⭐
+   ✓ Moved by the connection across time
+   ✓ Unexpected truth
+   ✓ Ending evokes hope
+
+【Improvement Suggestions】
+1. Reduce letter content by about 200 characters
+2. Add 1-2 lines describing the bookstore's space
+3. Express explanatory psychological descriptions through actions
 ```
 
-### 改善の追跡
+### Problem Fixing
+```
+User: /quality scene "Discovery of the letter" --fix
+Assistant: 【Problem Fix Suggestions】
+
+Problem 1: Explanatory psychological description
+❌ Original:
+"Misaki felt a complex mix of surprise and nostalgia."
+
+✅ Revision:
+"Misaki's hand stopped. The familiar handwriting of 'To Misaki'
+spoke to her across twenty years."
+
+Problem 2: Bookstore layout is unclear
+✅ Additional description:
+"Behind the counter, in front of the shelf lined with literary collections,
+the old woman held a single book."
+
+Problem 3: Letter is too long
+✅ Summary suggestion:
+Describe only the main points of the letter and increase Misaki's reactions.
+"Her mother's handwriting spelled out only what was important.
+'Books connect people—'
+As Misaki read on, a single tear traced down her cheek."
+```
+
+### Character Evaluation
+```
+User: /quality character Asuka Sato
+Assistant: 【Character Consistency Evaluation: Asuka Sato】
+
+Overall Evaluation: Excellent (45/50 points)
+
+✅ Strengths
+1. Motivation "I want to expand people's potential by sharing knowledge" is consistent throughout
+2. Catchphrase "If you'd like" is used naturally
+3. Gesture of pushing up glasses is effective
+
+⚠️ Caution
+1. Scene in Chapter 5 where books are handled carelessly
+   → May contradict motivation
+
+📊 Detailed Analysis
+- Motivation Consistency: 10/10
+- Value Expression: 9/10
+- Behavior Patterns: 8/10
+- Speech Style: 9/10
+- Naturalness of Growth: 9/10
+
+【Suggestion】
+Revise Chapter 5: Handle books carefully even when emotional
+```
+
+## Evaluation Result Management
+
+### Saving Quality Check Records
+```
+# Record evaluations per work
+my-stories/[work-title]/quality-checks/
+├── check-2025-06-15.md    # Dated evaluation
+├── check-draft.md         # Draft stage evaluation
+└── check-final.md         # Final evaluation
+
+# Evaluation template
+cp quality-check/checklist.md my-stories/[work-title]/quality-checks/check-[date].md
+```
+
+### Tracking Improvements
 ```markdown
-## 評価履歴
+## Evaluation History
 
-### 2025-06-15 初稿
-- 総合: 35/50
-- 主な問題: キャラクターの一貫性
+### 2025-06-15 First Draft
+- Overall: 35/50
+- Main issue: Character consistency
 
-### 2025-06-20 第2稿
-- 総合: 42/50
-- 改善: キャラクター修正完了
-- 残課題: 感情描写の深化
+### 2025-06-20 Second Draft
+- Overall: 42/50
+- Improvement: Character revisions complete
+- Remaining issue: Deepen emotional portrayal
 
-### 2025-06-25 最終稿
-- 総合: 46/50
-- 完成度: 出版可能レベル
+### 2025-06-25 Final Draft
+- Overall: 46/50
+- Completeness: Publishable level
 ```
 
-### 作品間の比較
+### Comparing Works
 ```
-# 自分の成長を可視化
+# Visualize your own growth
 my-stories/quality-summary.md
 
-作品A: 35/50 → 42/50
-作品B: 38/50 → 45/50
-作品C: 41/50 → 47/50
+Work A: 35/50 → 42/50
+Work B: 38/50 → 45/50
+Work C: 41/50 → 47/50
 ```
 
-## 改善アクションプラン
+## Improvement Action Plan
 
-### 優先度：高
-1. キャラクターの動機に反する行動を修正
-2. 物理的矛盾の解消
-3. 不自然な感情変化の調整
+### High Priority
+1. Correct actions contradicting character motivation
+2. Resolve physical contradictions
+3. Adjust unnatural emotional changes
 
-### 優先度：中
-1. 冗長な描写の削減
-2. 説明的な文章を行動描写に変換
-3. 伏線の効果的な配置
+### Medium Priority
+1. Reduce redundant descriptions
+2. Convert explanatory sentences to action descriptions
+3. Effective placement of foreshadowing
 
-### 優先度：低
-1. 文体の統一
-2. 細かい言い回しの調整
-3. 誤字脱字の修正
+### Low Priority
+1. Standardize writing style
+2. Adjust minor phrasing
+3. Correct typos and omissions
 
-## よくある問題パターン
+## Common Problem Patterns
 
 ### Lost in the Middle
-- 症状：中盤で重要情報が抜ける
-- 対策：重要情報を冒頭/結末に移動
+- Symptom: Important information is missing in the middle part
+- Countermeasure: Move important information to the beginning/end
 
-### キャラクターブレ
-- 症状：性格が場面で変わる
-- 対策：動機に立ち返って修正
+### Character Inconsistency
+- Symptom: Personality changes depending on the scene
+- Countermeasure: Revisit motivation and revise
 
-### 説明過多
-- 症状：すべてを言葉で説明
-- 対策：行動と情景で表現
+### Excessive Explanation
+- Symptom: Everything is explained in words
+- Countermeasure: Express through actions and scenery
 
-## 品質向上のサイクル
+## Quality Improvement Cycle
 
 ```
-評価 → 問題特定 → 修正案作成 → 
-実装 → 再評価 → 微調整 → 完成
+Evaluate → Identify Problems → Create Revisions →
+Implement → Re-evaluate → Fine-tune → Complete
 ```
 
-## 関連コマンド
+## Related Commands
 
-- `/character` - キャラクターの一貫性強化
-- `/story` - 物語構造の改善
-- `/scene` - シーンの書き直し
-- `/revise` - 総合的な推敲
+- `/character` - Strengthen character consistency
+- `/story` - Improve story structure
+- `/scene` - Rewrite scenes
+- `/revise` - Comprehensive revision
 
 ## Remember
 
-📊 数値は目安。読者の心に響くかが最重要
-📊 完璧を求めすぎない。80点で十分良作
-📊 評価は成長のため。創作の楽しさを忘れずに
+📊 Numbers are guidelines. What matters most is resonating with readers' hearts.
+📊 Don't aim for perfection. 80 points is good enough for a quality work.
+📊 Evaluation is for growth. Don't forget the joy of creation.

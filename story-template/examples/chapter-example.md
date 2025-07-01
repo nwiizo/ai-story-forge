@@ -1,181 +1,181 @@
-# 物語構築シート - 章立て小説の例「デジタル・ゴースト」
+# Story Construction Sheet - Example of a Chaptered Novel "Digital Ghost"
 
-## 基本設定
-**タイトル**：デジタル・ゴースト  
-**ジャンル**：近未来SF × ミステリー  
-**想定文字数**：40,000字（10章構成）  
-**一言で表すと**：「AIに死者の記憶を移植した時、そこに宿るのは本人なのか」  
-
----
-
-## Phase 1: 骨組み（スケルトン）
-
-### コアとなる要素
-**主人公**：桜井葵（32歳・AI研究者）- 「テクノロジーで人の悲しみを癒したい」  
-**中心となるテーマ**：アイデンティティの本質と、手放すことの大切さ  
-**物語の始まりと終わり**：
-- 始まり：亡き恋人の記憶をAIに移植するプロジェクトが始動する  
-- 終わり：本物の愛とは、相手を手放す勇気を持つことだと悟る  
-
-### 3幕構成（各3行程度）
-**第1幕（設定）第1-3章**：  
-1. 事故で恋人・翔を失った葵は、彼の記憶をAIに移植する研究に没頭している
-2. ついに翔の記憶を持つAI「デジタル翔」が完成し、会話が可能になる
-3. しかし、デジタル翔は徐々に生前の翔とは異なる反応を示し始める
-
-**第2幕（展開）第4-8章**：  
-1. デジタル翔が、生前の翔が知らないはずの情報を話し始める
-2. 調査の結果、AIが複数の人物の記憶を混在させていることが判明
-3. さらに、翔の死に隠された真実が明らかになっていく
-
-**第3幕（解決）第9-10章**：  
-1. 葵は、本物の翔を取り戻すことは不可能だと受け入れる
-2. デジタル翔自身も、自分の存在の意味を問い始める
-3. 最後に葵は、デジタル翔を消去し、新たな人生を歩み始める
+## Basic Settings
+**Title**: Digital Ghost
+**Genre**: Near-Future Sci-Fi x Mystery
+**Estimated Character Count**: 40,000 characters (10-chapter structure)
+**In a nutshell**: "When a deceased person's memories are transplanted into an AI, is the entity that resides there the person themselves?"
 
 ---
 
-## Phase 2: 重要シーンの特定
+## Phase 1: Skeleton
 
-### 物語の3つの柱となるシーン
+### Core Elements
+**Protagonist**: Aoi Sakurai (32 years old, AI researcher) - "I want to heal people's sorrow with technology."
+**Central Theme**: The essence of identity and the importance of letting go.
+**Beginning and End of the Story**:
+- Beginning: A project to transplant her deceased lover's memories into an AI begins.
+- End: She realizes that true love means having the courage to let the other person go.
 
-#### 1. 転換点シーン「最初の違和感」（第3章）
-**場所・時間**：研究所のAIルーム・深夜2時  
-**何が起こるか**：デジタル翔が、生前の翔が嫌いだった音楽を「懐かしい」と言う  
-**主人公の変化**：完璧な再現への確信が、初めて揺らぐ  
+### 3-Act Structure (Approx. 3 lines each)
+**Act 1 (Setup) Chapters 1-3**:
+1. Aoi, who lost her lover Sho in an accident, immerses herself in research to transplant his memories into an AI.
+2. "Digital Sho," an AI possessing Sho's memories, is finally completed, enabling conversation.
+3. However, Digital Sho gradually begins to show reactions different from the Sho of when he was alive.
 
-#### 2. 感情のピークシーン「真実の告白」（第8章）  
-**場所・時間**：翔と最後に行った海辺・夕暮れ  
-**何が起こるか**：デジタル翔が、事故の真相と翔の最期の想いを語る  
-**読者に感じてほしいこと**：真実の重さと、それでも前に進む勇気  
+**Act 2 (Confrontation) Chapters 4-8**:
+1. Digital Sho starts talking about information that the living Sho shouldn't have known.
+2. Investigation reveals that the AI is mixing memories of multiple individuals.
+3. Furthermore, the hidden truth about Sho's death begins to come to light.
 
-#### 3. テーマ体現シーン「最後の別れ」（第10章）
-**場所・時間**：研究所・朝焼けの光が差し込む時間  
-**何が起こるか**：葵がデジタル翔のデータを消去する決断をする  
-**テーマとの関連**：本当の愛は、執着ではなく解放にある  
-
----
-
-## 章構成詳細
-
-### 第1章：「記憶の器」
-- 葵の日常と、翔を失った悲しみの描写
-- AI記憶移植プロジェクトの説明
-- チームメンバーの紹介と、それぞれの動機
-
-### 第2章：「覚醒」
-- デジタル翔の起動シーン
-- 最初の会話と、葵の感動
-- しかし、微妙な違和感も描写
-
-### 第3章：「ずれ」
-- デジタル翔との日常会話
-- 小さな記憶の食い違いが蓄積していく
-- 「最初の違和感」シーン
-
-### 第4章：「疑念」
-- 葵が違和感の原因を調査開始
-- AIのログ解析で異常なパターンを発見
-- 同僚の反対を押し切って深堀りを決意
-
-### 第5章：「混在」
-- 他人の記憶が混入している証拠を発見
-- デジタル翔自身も自分の記憶に疑問を持ち始める
-- 倫理委員会からの警告
-
-### 第6章：「過去の影」
-- 翔の事故について再調査を開始
-- 警察記録に不自然な点を発見
-- デジタル翔が見せる、説明のつかない感情
-
-### 第7章：「隠された真実」
-- 事故は単純な事故ではなかった可能性
-- 翔が死の直前に残したメッセージの発見
-- デジタル翔の記憶から浮かび上がる新事実
-
-### 第8章：「海辺の対話」
-- 「真実の告白」シーン
-- 翔の本当の想いと、葵への最後のメッセージ
-- デジタル翔が示す、AIとしての自我
-
-### 第9章：「選択」
-- プロジェクトの終了を決意する葵
-- チームメンバーとの対立と和解
-- デジタル翔との最後の一日
-
-### 第10章：「新しい朝」
-- 「最後の別れ」シーン
-- データ消去と、その瞬間の描写
-- 数ヶ月後、新たな研究を始める葵
+**Act 3 (Resolution) Chapters 9-10**:
+1. Aoi accepts that it is impossible to get the real Sho back.
+2. Digital Sho itself begins to question the meaning of its own existence.
+3. Finally, Aoi decides to erase Digital Sho and starts a new life.
 
 ---
 
-## キャラクター相関
+## Phase 2: Identify Important Scenes
 
-### 主要人物
-- **桜井葵**：主人公、AI研究者
-- **翔**（本物）：葵の恋人、1年前に事故死
-- **デジタル翔**：翔の記憶を持つAI
-- **北村教授**：葵の指導教官、プロジェクトリーダー
-- **白石ユナ**：同僚研究者、倫理的な懸念を持つ
+### Three Pillar Scenes of the Story
 
-### 関係性の変化
-- 葵 → デジタル翔：依存 → 疑念 → 理解 → 解放
-- デジタル翔 → 葵：プログラムされた愛 → 真の思いやり
-- ユナ → 葵：心配 → 対立 → 支援
+#### 1. Turning Point Scene "The First Discomfort" (Chapter 3)
+**Location/Time**: AI room at the research institute, 2:00 AM.
+**What happens**: Digital Sho says music that the living Sho disliked is "nostalgic."
+**Protagonist's change**: Her conviction of perfect replication wavers for the first time.
 
----
+#### 2. Emotional Peak Scene "Confession of Truth" (Chapter 8)
+**Location/Time**: The seaside where she last went with Sho, dusk.
+**What happens**: Digital Sho recounts the truth of the accident and Sho's final thoughts.
+**What you want the reader to feel**: The weight of truth and the courage to move forward despite it.
 
-## 品質チェック
-
-### ストーリー全体
-- [x] 主人公の価値観は一貫しているか？
-- [x] 物理的な矛盾はないか？（SF設定の範囲内で）
-- [x] 感情の流れは自然か？
-- [x] テーマは効果的に表現されているか？
-- [x] 読者を引き込む工夫はあるか？
-
-### 章ごとのチェック
-- [x] 各章に明確な役割があるか？
-- [x] 章の終わりに次を読みたくなる要素があるか？
-- [x] ペース配分は適切か？
+#### 3. Theme Embodiment Scene "The Final Farewell" (Chapter 10)
+**Location/Time**: Research institute, time when the morning glow shines in.
+**What happens**: Aoi decides to erase Digital Sho's data.
+**Relation to the theme**: True love lies not in attachment, but in liberation.
 
 ---
 
-## メモ・アイデア
+## Detailed Chapter Structure
 
-### 技術設定
-- 記憶移植は脳スキャンデータとSNS、デジタル記録を統合
-- AIは量子コンピュータ上で動作
-- 完全な人格再現は理論上不可能（不確定性原理）
+### Chapter 1: "Vessel of Memory"
+- Depiction of Aoi's daily life and her grief over losing Sho.
+- Explanation of the AI memory transplant project.
+- Introduction of team members and their respective motivations.
 
-### 伏線リスト
-1. 第2章：デジタル翔が知らないはずの子守唄を口ずさむ
-2. 第4章：翔の最後の通話記録が削除されている
-3. 第6章：事故現場の防犯カメラの不自然な故障
+### Chapter 2: "Awakening"
+- Digital Sho's activation scene.
+- First conversation and Aoi's emotional response.
+- However, subtle discomfort is also depicted.
 
-### 象徴的な小道具
-- 翔が葵に贈った万華鏡（記憶の多面性の象徴）
-- 未完成のジグソーパズル（完全な再現の不可能性）
-- 海辺で拾った貝殻（本物の思い出）
+### Chapter 3: "Discrepancy"
+- Daily conversations with Digital Sho.
+- Accumulation of small memory inconsistencies.
+- "The First Discomfort" scene.
 
-### 各章の文字数目安
-- 第1章：5,000字（世界観の説明含む）
-- 第2-9章：各4,000字
-- 第10章：3,000字（簡潔な結末）
+### Chapter 4: "Suspicion"
+- Aoi begins to investigate the cause of the discomfort.
+- Discovers abnormal patterns in AI log analysis.
+- Decides to dig deeper, overriding colleagues' objections.
 
-### AIプロンプト活用例
+### Chapter 5: "Admixture"
+- Discovery of evidence that other people's memories are mixed in.
+- Digital Sho itself begins to question its own memories.
+- Warning from the ethics committee.
+
+### Chapter 6: "Shadow of the Past"
+- Reinvestigation of Sho's accident begins.
+- Unnatural points discovered in police records.
+- Unexplainable emotions shown by Digital Sho.
+
+### Chapter 7: "Hidden Truth"
+- Possibility that the accident was not simple.
+- Discovery of a message Sho left just before his death.
+New facts emerging from Digital Sho's memories.
+
+### Chapter 8: "Dialogue by the Sea"
+- "Confession of Truth" scene.
+- Sho's true feelings and his final message to Aoi.
+- Digital Sho shows its ego as an AI.
+
+### Chapter 9: "Choice"
+- Aoi decides to terminate the project.
+- Conflict and reconciliation with team members.
+- Last day with Digital Sho.
+
+### Chapter 10: "A New Morning"
+- "The Final Farewell" scene.
+- Data erasure and the depiction of that moment.
+- A few months later, Aoi starts new research.
+
+---
+
+## Character Correlation
+
+### Main Characters
+- **Aoi Sakurai**: Protagonist, AI researcher
+- **Sho (real)**: Aoi's lover, died in an accident 1 year ago
+- **Digital Sho**: AI possessing Sho's memories
+- **Professor Kitamura**: Aoi's supervising professor, project leader
+- **Yuna Shiraishi**: Colleague researcher, has ethical concerns
+
+### Changes in Relationships
+- Aoi → Digital Sho: Dependence → Suspicion → Understanding → Liberation
+- Digital Sho → Aoi: Programmed love → True compassion
+- Yuna → Aoi: Worry → Conflict → Support
+
+---
+
+## Quality Check
+
+### Overall Story
+- [x] Is the protagonist's value consistent?
+- [x] Are there any physical contradictions? (Within the scope of SF settings)
+- [x] Is the flow of emotions natural?
+- [x] Is the theme effectively expressed?
+- [x] Are there devices to draw the reader in?
+
+### Per-Chapter Check
+- [x] Does each chapter have a clear role?
+- [x] Is there an element at the end of the chapter that makes one want to read on?
+- [x] Is the pacing appropriate?
+
+---
+
+## Memos/Ideas
+
+### Technical Settings
+- Memory transplant integrates brain scan data, SNS, and digital records.
+- AI operates on a quantum computer.
+- Perfect personality replication is theoretically impossible (uncertainty principle).
+
+### Foreshadowing List
+1. Chapter 2: Digital Sho hums a lullaby he shouldn't know.
+2. Chapter 4: Sho's last call record is deleted.
+3. Chapter 6: Unnatural malfunction of the security camera at the accident scene.
+
+### Symbolic Props
+- Kaleidoscope Sho gave to Aoi (symbol of the multifaceted nature of memory).
+- Unfinished jigsaw puzzle (impossibility of perfect replication).
+- Seashell picked up at the beach (real memories).
+
+### Estimated Character Count per Chapter
+- Chapter 1: 5,000 characters (including world-building explanation)
+- Chapters 2-9: 4,000 characters each
+- Chapter 10: 3,000 characters (concise ending)
+
+### AI Prompt Usage Example
 ```
-第3章の「最初の違和感」シーンを書いてください。
-設定：
-- 深夜の研究所、葵とデジタル翔が会話している
-- デジタル翔がショパンの曲を「懐かしい」と言う
-- 生前の翔はショパンが苦手だった
-- 葵の内面の動揺を抑制的に描写
-- 1,000字程度で
+Write the "first discomfort" scene from Chapter 3.
+Setting:
+- Late at night in the research lab, Aoi and Digital Sho are talking.
+- Digital Sho says a Chopin piece is "nostalgic."
+- The living Sho disliked Chopin.
+- Describe Aoi's inner turmoil with restraint.
+- Around 1,000 characters.
 ```
 
-### シリーズ化の可能性
-- 続編：他の記憶移植事例を扱う連作
-- スピンオフ：ユナ視点での倫理的葛藤
-- 前日譚：翔と葵の出会いから事故まで
+### Potential for Series
+- Sequel: Series dealing with other memory transplant cases.
+- Spin-off: Ethical dilemmas from Yuna's perspective.
+- Prequel: From Sho and Aoi's first meeting to the accident.

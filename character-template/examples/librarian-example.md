@@ -1,89 +1,89 @@
-# キャラクター設定書 - 図書館司書の例
+# Character Setting Sheet - Librarian Example
 
-## 基本情報
-**名前**：佐藤 明日香（さとう あすか）  
-**年齢**：28歳  
-**職業**：市立図書館司書  
-**一言で表すと**：「本を通じて人々の心を繋ぐ、静かな情熱家」  
-
----
-
-## 第1層：不変コア（物語を通じて絶対に変わらない要素）
-
-### 1. 核となる価値観（1つだけ）
-**「知識を共有することで、人々の可能性を広げたい」**
-
-なぜこれが最も大切なのか：  
-幼少期、引っ込み思案だった自分を変えてくれたのは一冊の冒険小説だった。本には人を変える力がある。その力を一人でも多くの人に届けることが、自分の存在意義だと信じている。
-
-### 2. 最大の恐れ（価値観の裏返し）
-**「必要な知識が届かず、誰かの可能性が閉ざされること」**
-
-この恐れが行動にどう影響するか：  
-来館者一人一人の様子を細かく観察し、その人に必要な本を見つけようと必死になる。時に押し付けがましくなることもある。
-
-### 3. 根本的矛盾（人間らしさの源）
-**価値観「知識の共有」 vs 内なる欲求「独占したい」**
-
-この矛盾が生む葛藤：  
-素晴らしい本を見つけると、まず自分だけの秘密にしたくなる。特に思い入れのある本は、誰かに貸すことに抵抗を感じる。この利己的な感情と戦いながら、それでも共有することを選ぶ。
+## Basic Information
+**Name**: Asuka Sato
+**Age**: 28
+**Occupation**: City Librarian
+**In a nutshell**: "A quiet enthusiast who connects people's hearts through books."
 
 ---
 
-## 第2層：準安定層（状況で変化するが一定の範囲内）
+## Layer 1: Immutable Core (Elements that absolutely do not change throughout the story)
 
-### 1. 感情の基本パターン
-- **平常時**：穏やかで控えめ、しかし内に情熱を秘めている  
-- **ストレス時**：無口になり、本の整理に没頭して現実逃避する  
-- **幸福時**：目が輝き、普段より饒舌になる。身振り手振りが大きくなる  
+### 1. Core Value (Only one)
+**"I want to expand people's potential by sharing knowledge."**
 
-### 2. 人間関係の型
-- **信頼する相手への態度**：本の話題になると距離が一気に縮まる。お薦めの本を贈り物にする  
-- **初対面の相手への態度**：丁寧だが一定の距離を保つ。相手の興味を探るような質問をする  
-- **苦手な相手への態度**：最低限の礼儀は守るが、視線を合わせない。早めに会話を切り上げようとする  
+Why is this most important?:
+In her childhood, an adventure novel changed her when she was withdrawn. Books have the power to change people. She believes that delivering that power to as many people as possible is her reason for being.
 
-### 3. 成長の方向性
-- **現在の段階**：本の知識は豊富だが、人との直接的な繋がりを作ることが苦手  
-- **目指す方向**：本を介してだけでなく、自分自身の言葉で人と繋がれるようになる  
+### 2. Greatest Fear (Flip side of the value)
+**"Someone's potential being closed off because necessary knowledge doesn't reach them."**
 
----
+How does this fear affect behavior?:
+She meticulously observes each visitor, desperately trying to find the books they need. Sometimes she can be a bit pushy.
 
-## 第3層：可変層（シーンに応じて柔軟に変更可能）
+### 3. Fundamental Contradiction (Source of human-likeness)
+**Value "Knowledge sharing" vs. Inner Desire "Wanting to monopolize."**
 
-### 1. 話し方の特徴
-**基本的なトーン**：丁寧で落ち着いているが、本の話になると早口になる  
-**よく使う言葉**：
-- 「その本でしたら、こちらにございます」
-- 「もしよろしければ、こちらもお薦めですが...」
-- 「きっとお気に召すと思います」
-
-**使わない言葉**：乱暴な言葉、否定的な表現（「つまらない」「くだらない」など）  
-
-### 2. 行動パターン（上位3つ）
-1. 困っている来館者を見つけると、声をかけずにはいられない
-2. 新刊が届くと、真っ先に目を通して分類を考える  
-3. 閉館後、一人で館内を歩き回りながら本と対話する
-
-### 3. 特徴的な仕草・癖
-- 考える時：眼鏡のブリッジを人差し指で押し上げる  
-- 緊張した時：持っている本の角を指でなぞる  
-- 嬉しい時：小さく鼻歌を歌いながら本を整理する  
+Conflict arising from this contradiction:
+When she finds a wonderful book, she first wants to keep it a secret. She feels reluctant to lend books she is particularly fond of. While battling this selfish emotion, she still chooses to share.
 
 ---
 
-## 一貫性チェックポイント
-- [x] すべての行動は「核となる価値観」で説明できるか？
-- [x] 矛盾は意図的で、人間味を生んでいるか？
-- [x] 話し方は場面が変わっても統一されているか？
-- [x] 成長・変化は自然で段階的か？
+## Layer 2: Semi-stable Layer (Changes with the situation but within a certain range)
+
+### 1. Basic Emotional Patterns
+- **Normal state**: Calm and modest, but harbors passion within.
+- **Under stress**: Becomes taciturn and escapes reality by immersing herself in organizing books.
+- **When happy**: Her eyes sparkle, and she becomes more talkative than usual. Her gestures become larger.
+
+### 2. Types of Human Relationships
+- **Attitude towards trusted individuals**: The distance closes quickly when discussing books. Gives recommended books as gifts.
+- **Attitude towards new acquaintances**: Polite but maintains a certain distance. Asks questions to gauge the other person's interests.
+- **Attitude towards disliked individuals**: Maintains minimal politeness but avoids eye contact. Tries to end conversations quickly.
+
+### 3. Direction of Growth
+- **Current stage**: Has extensive knowledge of books but struggles to make direct connections with people.
+- **Aspired direction**: To be able to connect with people not just through books, but with her own words.
 
 ---
 
-## メモ・補足
-- 愛読書：「銀河鉄道の夜」（宮沢賢治）- 自己犠牲と献身のテーマに共感
-- 苦手なジャンル：ホラー小説（人を怖がらせるだけの本は理解できない）
-- 特技：来館者の雰囲気から、求めている本のジャンルを言い当てる
-- 密かな楽しみ：返却された本に挟まっている栞や付箋を見ること（もちろん内容は見ない）
+## Layer 3: Variable Layer (Can be flexibly changed according to the scene)
 
-### AIプロンプト使用例
-「佐藤明日香は市立図書館の司書です。彼女の価値観は『知識を共有することで人々の可能性を広げたい』ですが、素晴らしい本は独占したいという矛盾も抱えています。来館者に本を薦める場面を描写してください。」
+### 1. Speech Characteristics
+**Basic tone**: Polite and calm, but speaks quickly when discussing books.
+**Frequently used words**:
+- "If it's that book, it's over here."
+- "If you'd like, I also recommend this one..."
+- "I'm sure you'll like it."
+
+**Words not used**: Rude language, negative expressions (e.g., "boring," "worthless").
+
+### 2. Behavior Patterns (Top 3)
+1. Can't help but speak to visitors who seem to be in trouble.
+2. When new books arrive, she reads them first and thinks about how to classify them.
+3. After closing, she walks around the library alone, conversing with the books.
+
+### 3. Characteristic Gestures/Habits
+- When thinking: Pushes up the bridge of her glasses with her index finger.
+- When nervous: Traces the corner of the book she's holding with her finger.
+- When happy: Hums softly while organizing books.
+
+---
+
+## Consistency Checkpoints
+- [x] Can all actions be explained by the "core value"?
+- [x] Is the contradiction intentional and does it create human-likeness?
+- [x] Is the speech style consistent even when the scene changes?
+- [x] Is growth/change natural and gradual?
+
+---
+
+## Notes/Supplements
+- Favorite book: "Night on the Galactic Railroad" (Kenji Miyazawa) - Empathizes with themes of self-sacrifice and devotion.
+- Disliked genre: Horror novels (cannot understand books that only aim to scare people).
+- Special skill: Guessing the genre of book a visitor is looking for based on their atmosphere.
+- Secret pleasure: Looking at bookmarks and sticky notes tucked into returned books (of course, without reading the content).
+
+### AI Prompt Usage Example
+"Asuka Sato is a city librarian. Her value is 'I want to expand people's potential by sharing knowledge,' but she also harbors the contradiction of wanting to monopolize wonderful books. Describe a scene where she recommends a book to a visitor."

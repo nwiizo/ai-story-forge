@@ -1,234 +1,234 @@
-# 物語作成プロンプト集
+# Story Creation Prompt Collection
 
-## 基本の段階的構築法
+## Basic Step-by-Step Construction Method
 
-### Step 1: テーマと骨組み
+### Step 1: Theme and Framework
 ```
-以下の要素で物語の骨組みを作ってください：
+Create a story framework with the following elements:
 
-主人公：[キャラクター設定の要約]
-テーマ：[例：自己犠牲と自己実現の葛藤]
-ジャンル：[例：現代ドラマ]
+Protagonist: [Summary of character settings]
+Theme: [Example: Conflict between self-sacrifice and self-realization]
+Genre: [Example: Contemporary Drama]
 
-求めるもの：
-- 始まりと終わりの状況（各2行）
-- 3幕構成の要約（各幕3行程度）
-- 主人公の内的変化
-```
-
-### Step 2: 重要シーンの選定
-```
-[Step1で作った骨組み]
-
-この物語で最も重要な3つのシーンを選び、その役割を説明してください：
-
-1. 物語の転換点となるシーン
-2. 感情が最も高まるシーン
-3. テーマが最も強く表現されるシーン
-
-各シーンについて：
-- いつ、どこで
-- 何が起こるか
-- なぜ重要か
+Requirements:
+- Beginning and ending situations (2 lines each)
+- Summary of 3-act structure (approx. 3 lines per act)
+- Protagonist's internal change
 ```
 
-### Step 3: シーンの具体化
+### Step 2: Selection of Important Scenes
 ```
-[選んだシーンの詳細]
+[Framework created in Step 1]
 
-このシーンを以下の構成で書いてください：
+Select the three most important scenes in this story and explain their roles:
 
-1. 状況設定（場所、時間、雰囲気）- 2行
-2. 人物の行動と対話 - 10行程度
-3. 内面描写 - 5行程度  
-4. シーンの締め - 2行
+1. Scene that serves as the story's turning point
+2. Scene where emotions are at their peak
+3. Scene where the theme is most strongly expressed
 
-重要：
-- 物理的な動きは最小限に
-- 感情と内面の変化を中心に
-- 読者が状況を理解しやすいように
-```
-
-## 応用テクニック
-
-### 逆算プロット法
-```
-最終シーン：[主人公がどうなっているか]
-
-この結末に至るために：
-1. 主人公に必要な変化は？
-2. その変化を起こす出来事は？
-3. 変化前の主人公の状態は？
-
-これらを踏まえて、3幕構成を作成してください。
+For each scene:
+- When and where
+- What happens
+- Why it's important
 ```
 
-### 感情曲線設計
+### Step 3: Scene Concretization
 ```
-物語全体の感情の流れを設計してください：
+[Details of selected scene]
 
-開始時の感情レベル：[1-10]
-クライマックスの感情レベル：[1-10]
+Write this scene with the following structure:
 
-各章/シーンでの感情レベルと、
-その感情を生む出来事を設定。
+1. Situation setting (location, time, atmosphere) - 2 lines
+2. Character actions and dialogue - approx. 10 lines
+3. Internal monologue/description - approx. 5 lines
+4. Scene conclusion - 2 lines
 
-グラフのように山谷を作ることを意識。
-```
-
-### 読者体験の最適化
-```
-[作成したプロット]
-
-以下の観点で改善点を3つ提案してください：
-
-1. 冒頭で読者を引き込む工夫
-2. 中だるみを防ぐ仕掛け
-3. 満足感のある結末への調整
-
-各提案には具体的な修正案を含める。
+Important:
+- Minimize physical movement.
+- Focus on emotions and internal changes.
+- Make it easy for the reader to understand the situation.
 ```
 
-## ジャンル別プロンプト
+## Applied Techniques
 
-### ミステリー
+### Reverse Plotting Method
 ```
-[基本設定]
+Final Scene: [What happens to the protagonist]
 
-ミステリーの要素を追加してください：
+To reach this conclusion:
+1. What change does the protagonist need?
+2. What event triggers that change?
+3. What is the protagonist's state before the change?
 
-1. 謎の提示方法
-2. 手がかりの配置（フェアプレイ）
-3. 真相が明かされる瞬間の演出
-4. 動機の説得力
-
-読者が推理を楽しめる構成に。
+Based on these, create a 3-act structure.
 ```
 
-### 恋愛小説
+### Emotional Curve Design
 ```
-[基本設定]
+Design the overall emotional flow of the story:
 
-恋愛要素を深めてください：
+Emotional level at the start: [1-10]
+Emotional level at the climax: [1-10]
 
-1. 二人が惹かれ合う理由
-2. 障害となる要素
-3. 関係が深まる瞬間
-4. クライマックスでの選択
+Set the emotional level for each chapter/scene and
+the events that generate those emotions.
 
-感情の機微を丁寧に描写。
-```
-
-### ファンタジー
-```
-[基本設定]
-
-ファンタジー世界を構築してください：
-
-1. 世界観の独自ルール（魔法など）
-2. 主人公の特別な能力/使命
-3. 世界観がストーリーに与える影響
-4. ルールの制限と代償
-
-設定に溺れず、人間ドラマを中心に。
+Be conscious of creating peaks and valleys like a graph.
 ```
 
-## 文体・視点の設定
-
-### 一人称視点
+### Optimizing Reader Experience
 ```
-[物語の概要]
+[Created plot]
 
-主人公の一人称視点で冒頭を書いてください：
+Please suggest three improvements from the following perspectives:
 
-- 主人公の性格が表れる語り口
-- 読者との距離感
-- 知っていることと知らないことの区別
+1. Ways to draw the reader in at the beginning
+2. Devices to prevent a sagging middle
+3. Adjustments for a satisfying conclusion
 
-200字程度で。
+Include specific revision suggestions for each proposal.
 ```
 
-### 三人称限定視点
+## Genre-Specific Prompts
+
+### Mystery
 ```
-[物語の概要]
+[Basic Settings]
 
-特定キャラクターの視点から三人称で書いてください：
+Please add mystery elements:
 
-- 視点人物の内面は描写可
-- 他者の内面は行動から推測
-- 視点の一貫性を保つ
+1. How the mystery is presented
+2. Placement of clues (fair play)
+3. Staging of the moment the truth is revealed
+4. Persuasiveness of the motive
 
-視点の利点を活かした描写を。
-```
-
-### 神視点
-```
-[物語の概要]
-
-全知の語り手として場面を描写してください：
-
-- 複数の人物の内面を描ける
-- 時間と空間を自由に移動
-- 情報の出し方に注意
-
-俯瞰的な視点の利点を活用。
+Structure it so readers can enjoy deducing.
 ```
 
-## シーン転換テクニック
-
-### 時間経過の表現
+### Romance Novel
 ```
-[前のシーン]→[次のシーン]
+[Basic Settings]
 
-この2つのシーンを自然につなぐ転換を書いてください：
+Please deepen the romance elements:
 
-- 時間経過の示し方
-- 場所の変化
-- 人物の心理的変化
+1. Reasons the two are attracted to each other
+2. Obstacles
+3. Moments when the relationship deepens
+4. Choices at the climax
 
-唐突にならないよう配慮。
-```
-
-### 緊張感の維持
-```
-[盛り上がったシーン]の後
-
-緊張感を維持したまま次のシーンに移る方法を提案してください：
-
-- クリフハンガー
-- 謎の提示
-- 新たな問題の予感
+Depict emotional subtleties carefully.
 ```
 
-## AIとの効果的な対話法
+### Fantasy
+```
+[Basic Settings]
 
-### 詳細な指示
-```
-悪い例：「感動的なシーンを書いて」
-良い例：「主人公が亡き母の手紙を見つけるシーン。
-        場所は実家の屋根裏。埃っぽい空気と
-        差し込む夕日。手紙には...」
-```
+Please construct a fantasy world:
 
-### 段階的な構築
-```
-1回目：プロット作成
-2回目：重要シーンの特定
-3回目：各シーンの詳細化
-4回目：つなぎの部分を補完
+1. Unique world rules (magic, etc.)
+2. Protagonist's special ability/mission
+3. Impact of the world view on the story
+4. Limitations and costs of rules
+
+Focus on human drama without getting bogged down in settings.
 ```
 
-### フィードバックループ
+## Setting Style and Viewpoint
+
+### First-Person Viewpoint
 ```
-生成されたテキストに対して：
+[Story Outline]
 
-「良かった点：[具体的に]
-改善してほしい点：[具体的に]
-追加してほしい要素：[具体的に]」
+Write the beginning from the protagonist's first-person viewpoint:
 
-これを繰り返して洗練させる。
+- Narrative style that reveals the protagonist's personality
+- Distance from the reader
+- Distinction between what is known and unknown
+
+Around 200 characters.
+```
+
+### Third-Person Limited Viewpoint
+```
+[Story Outline]
+
+Write from a specific character's third-person viewpoint:
+
+- Internal thoughts of the viewpoint character can be described.
+- Internal thoughts of others are inferred from actions.
+- Maintain consistency of viewpoint.
+
+Utilize the advantages of this viewpoint in the description.
+```
+
+### Omniscient Viewpoint
+```
+[Story Outline]
+
+Describe the scene as an omniscient narrator:
+
+- Can depict the internal thoughts of multiple characters.
+- Can move freely through time and space.
+- Be careful about how information is revealed.
+
+Utilize the advantages of an omniscient viewpoint.
+```
+
+## Scene Transition Techniques
+
+### Expressing Passage of Time
+```
+[Previous Scene] → [Next Scene]
+
+Write a transition that naturally connects these two scenes:
+
+- How to show time passage
+- Change of location
+- Character's psychological change
+
+Take care not to be abrupt.
+```
+
+### Maintaining Suspense
+```
+After [a climactic scene]
+
+Suggest ways to move to the next scene while maintaining suspense:
+
+- Cliffhanger
+- Presentation of a mystery
+- Foreshadowing of a new problem
+```
+
+## Effective Dialogue with AI
+
+### Detailed Instructions
+```
+Bad Example: "Write a moving scene."
+Good Example: "Scene where the protagonist finds their deceased mother's letter.
+        Location is the attic of their family home. Dusty air and
+        setting sunbeams. The letter contains..."
+```
+
+### Incremental Construction
+```
+1st time: Create plot
+2nd time: Identify important scenes
+3rd time: Detail each scene
+4th time: Supplement transitions
+```
+
+### Feedback Loop
+```
+For generated text:
+
+"Good points: [Specifically]
+Points to improve: [Specifically]
+Elements to add: [Specifically]"
+
+Repeat this to refine.
 ```
 
 ---
 
-💡 **プロンプトは道具です。** あなたの創造性を制限するものではなく、引き出すためのものです。自由にカスタマイズして、あなただけの物語を紡いでください。
+💡 **Prompts are tools.** They are not meant to limit your creativity, but to draw it out. Feel free to customize them and weave your own unique story.

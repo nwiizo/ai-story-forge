@@ -1,155 +1,155 @@
-# 5分で始めるAI Story Forge
+# Get Started with AI Story Forge in 5 Minutes
 
-このガイドでは、AI Story Forgeを使って最初のキャラクターと物語の骨組みを5分で作成する方法を説明します。
+This guide explains how to create your first character and story outline in 5 minutes using AI Story Forge.
 
-## 🚀 ステップ1: プロジェクトの準備（1分）
+## 🚀 Step 1: Project Setup (1 minute)
 
-### リポジトリのクローン
+### Clone the repository
 ```bash
 git clone https://github.com/nwiizo/ai-story-forge.git
 cd ai-story-forge
 ```
 
-### または、必要なファイルだけコピー
-最小限必要なファイル：
+### Or, copy only the necessary files
+Minimum required files:
 - `character-template/CHARACTER.md`
 - `character-template/character-prompts.md`
 
-## 📝 ステップ2: キャラクター作成（3分）
+## 📝 Step 2: Character Creation (3 minutes)
 
-### 2-1. CHARACTER.mdをコピー
+### 2-1. Copy CHARACTER.md
 ```bash
 cp character-template/CHARACTER.md my-character.md
 ```
 
-### 2-2. 基本情報を記入
-まず、以下の4項目だけ埋めてください：
-- 名前
-- 年齢
-- 職業
-- 一言で表すと
+### 2-2. Fill in basic information
+First, please fill in only the following 4 items:
+- Name
+- Age
+- Occupation
+- In a nutshell
 
-### 2-3. AIとの対話でキャラクターを深める
+### 2-3. Deepen the character through dialogue with AI
 
-#### Claude Codeをお使いの場合
+#### If you are using Claude Code
 ```bash
-# 新規キャラクター作成
+# Create a new character
 /character new
 
-# または特定のキャラクターを深化
-/character develop 佐藤明日香
+# Or develop a specific character
+/character develop Asuka Sato
 ```
 
-#### その他のAIツールの場合
-`character-prompts.md`のStep 1をコピーして、お使いのAI（Claude、ChatGPT等）に投げてください：
+#### For other AI tools
+Copy Step 1 from `character-prompts.md` and paste it into your AI tool (Claude, ChatGPT, etc.):
 
 ```
-次の人物の最も大切にしている価値観を1つだけ設定してください。
+Please set only one most important value for the following person.
 
-[基本設定]
-- 年齢: 28歳
-- 職業: 図書館司書
-- 環境: 地方都市の公立図書館
+[Basic Settings]
+- Age: 28
+- Occupation: Librarian
+- Environment: Public library in a regional city
 
-条件：
-- 具体的で行動の指針となるもの
-- その人の人生の軸となるもの
-- 「○○を通じて△△したい」の形式で
+Conditions:
+- Specific and action-guiding
+- Something that forms the axis of their life
+- In the format "I want to △△ through ○○"
 ```
 
-AIの回答を`CHARACTER.md`の「核となる価値観」欄に記入します。
+Enter the AI's response in the "Core Value" section of `CHARACTER.md`.
 
-## 🎯 ステップ3: 簡単な物語の骨組み作成（1分）
+## 🎯 Step 3: Create a simple story outline (1 minute)
 
-### Claude Codeをお使いの場合
+### If you are using Claude Code
 ```bash
-# タイトルを指定して物語構築
-/story plot "最後の手紙"
+# Construct a story by specifying the title
+/story plot "The Last Letter"
 
-# または対話形式で開始
+# Or start in interactive mode
 /story
 ```
 
-### その他のAIツールの場合
-AIに以下を聞いてください：
+### For other AI tools
+Ask the AI the following:
 
 ```
-キャラクター：[作成したキャラクターの要約]
+Character: [Summary of the created character]
 
-このキャラクターが主人公の短い物語を作りたいです。
-1. どんな日常から始まりますか？（1行）
-2. どんな出来事が起きますか？（1行）
-3. 最後にキャラクターはどう変化しますか？（1行）
+I want to create a short story with this character as the protagonist.
+1. What kind of daily life does it start from? (1 line)
+2. What kind of event will occur? (1 line)
+3. How will the character change in the end? (1 line)
 ```
 
-これで物語の骨組みが完成です！
+Now your story outline is complete!
 
-## 🎮 Claude Codeのコマンド活用例
+## 🎮 Claude Code Command Usage Examples
 
-### キャラクター関連
+### Character-related
 ```bash
-/character new                    # 新規作成（対話形式）
-/character develop 田中美咲       # 既存キャラクターを深化
-/character check 佐藤明日香       # 一貫性をチェック
-/character dialogue 山田太郎      # 対話シミュレーション
+/character new                    # Create new (interactive)
+/character develop Misaki Tanaka  # Develop existing character
+/character check Asuka Sato       # Check consistency
+/character dialogue Taro Yamada   # Dialogue simulation
 ```
 
-### シーン作成
+### Scene creation
 ```bash
-/scene dialogue 佐藤明日香 緊張   # 会話中心のシーン
-/scene emotion 田中美咲 懐かしさ 800  # 感情描写（800文字）
-/scene action 緊迫               # アクションシーン
+/scene dialogue Asuka Sato tense   # Dialogue-focused scene
+/scene emotion Misaki Tanaka nostalgia 800  # Emotional description (800 characters)
+/scene action tense                # Action scene
 ```
 
-### 品質チェック
+### Quality check
 ```bash
-/quality scene "手紙の発見" --detail    # 詳細評価
-/quality character 佐藤明日香           # キャラクター評価
-/quality story "最後の手紙" --fix       # 改善提案付き
+/quality scene "Discovery of the letter" --detail    # Detailed evaluation
+/quality character Asuka Sato           # Character evaluation
+/quality story "The Last Letter" --fix       # With improvement suggestions
 ```
 
-## 💡 次のステップ
+## 💡 Next Steps
 
-### もう少し時間がある場合（+10分）
+### If you have a little more time (+10 minutes)
 
-1. **キャラクターを深める**
-   - `character-prompts.md`のStep 2-5を順番に実行
-   - 各ステップの回答をCHARACTER.mdに記入
+1. **Deepen the character**
+   - Execute Steps 2-5 of `character-prompts.md` in order
+   - Enter the answers for each step in CHARACTER.md
 
-2. **物語を具体化する**
-   - `story-template/STORY.md`を使用
-   - 3幕構成を作成
-   - 重要シーン3つを特定
+2. **Flesh out the story**
+   - Use `story-template/STORY.md`
+   - Create a 3-act structure
+   - Identify 3 important scenes
 
-3. **品質チェック**
-   - `quality-check/checklist.md`で確認
-   - 特に「キャラクター一貫性」を重視
+3. **Quality check**
+   - Check with `quality-check/checklist.md`
+   - Especially focus on "Character Consistency"
 
-## ❓ よくある質問
+## ❓ Frequently Asked Questions
 
-### Q: どのAIツールがおすすめ？
-A: **Claude Code**なら専用コマンドで効率的に作業できます。その他、長文処理なら**Claude Opus 4**、短い対話なら**ChatGPT**がおすすめです。
+### Q: Which AI tool is recommended?
+A: **Claude Code** allows you to work efficiently with dedicated commands. Otherwise, **Claude Opus 4** is recommended for long text processing, and **ChatGPT** for short dialogues.
 
-### Q: キャラクターがぶれてきたら？
-A: CHARACTER.mdの「核となる価値観」に立ち返ってください。すべての行動はこの価値観から生まれます。
+### Q: What if the character becomes inconsistent?
+A: Return to the "Core Value" in CHARACTER.md. All actions stem from this value.
 
-### Q: 物語が進まなくなったら？
-A: 重要シーン3つ（転換点・感情のピーク・テーマ体現）だけに集中し、他は後回しにしましょう。
+### Q: What if the story gets stuck?
+A: Concentrate on only three important scenes (turning point, emotional peak, theme embodiment) and leave others for later.
 
-## 🎉 成功のコツ
+## 🎉 Tips for Success
 
-1. **完璧を求めない** - 後でいくらでも修正できます
-2. **小さく始める** - まず1シーンだけ書いてみる
-3. **AIとの対話を楽しむ** - 予想外の回答も創造性の源
-4. **定期的に振り返る** - うまくいったプロンプトは記録
-5. **コマンドを活用** - Claude Codeなら`/`で効率化
+1. **Don't aim for perfection** - You can always revise later
+2. **Start small** - Try writing just one scene first
+3. **Enjoy dialogues with AI** - Unexpected answers are also a source of creativity
+4. **Reflect periodically** - Record prompts that worked well
+5. **Utilize commands** - With Claude Code, use `/` for efficiency
 
-## 📚 もっと学びたい方へ
+## 📚 For Those Who Want to Learn More
 
-- **詳細なテクニック**: `story-template/techniques.md`
-- **トラブルシューティング**: `quality-check/common-problems.md`
-- **理論的背景**: `resources/principles.md`
+- **Detailed techniques**: `story-template/techniques.md`
+- **Troubleshooting**: `quality-check/common-problems.md`
+- **Theoretical background**: `resources/principles.md`
 
 ---
 
-**始める準備はできましたか？** まずは`CHARACTER.md`を開いて、あなたの物語の主人公を生み出しましょう！
+**Are you ready to start?** First, open `CHARACTER.md` and bring your story's protagonist to life!

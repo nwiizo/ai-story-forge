@@ -1,161 +1,156 @@
-# AI Story Forge - AIと共に物語を鍛える工房
+# AI Story Forge - A workshop for forging stories with AI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/nwiizo/ai-story-forge/releases)
-[![Language](https://img.shields.io/badge/language-Japanese-green.svg)](https://github.com/nwiizo/ai-story-forge)
+[![Language](https://img.shields.io/badge/language-English-green.svg)](https://github.com/nwiizo/ai-story-forge)
 
-生成AIを活用した小説創作のための実践的なテンプレート集。キャラクターの一貫性を保ちながら、魅力的な物語を効率的に創作するためのシステムです。
+A collection of practical templates for novel writing using generative AI. This system helps you efficiently create compelling stories while maintaining character consistency.
 
-## 📌 最新情報 (v0.0.3)
+## 📌 Latest Information (v0.0.3)
 
-- 🆕 **Claude Code v1.0.25対応**: スラッシュコマンドに引数を渡せるように改善
-- 🆕 **コマンド機能強化**: `/character new`、`/scene dialogue 佐藤明日香 緊張`など、引数付きコマンドに対応
-- 🆕 **ドキュメント更新**: QUICK_START.mdとWORKSPACE_GUIDE.mdにコマンド例を追加
+- 🆕 **Claude Code v1.0.25 Support**: Improved slash commands to accept arguments.
+- 🆕 **Enhanced Command Functionality**: Supports commands with arguments like `/character new`, `/scene dialogue Asuka Sato tense`.
+- 🆕 **Document Updates**: Added command examples to QUICK_START.md and WORKSPACE_GUIDE.md.
 
-### v0.0.2の機能
-- **ワークスペース管理機能**: 個人の作品を安全に管理できる`.gitignore`設定
-- **動機ベースのキャラクター作成**: 「何をしたい人なのか」から始める新しいアプローチ
-- **Claude統合コマンド**: `/character`、`/story`、`/scene`などの専用コマンド
+### v0.0.2 Features
+- **Workspace Management**: `.gitignore` settings to safely manage individual works.
+- **Motivation-Based Character Creation**: A new approach starting from "What does this person want to do?"
+- **Claude Integrated Commands**: Dedicated commands like `/character`, `/story`, `/scene`.
 
-## 🎯 このプロジェクトが解決する課題
+## 🎯 Problems This Project Solves
 
-- **キャラクターの一貫性崩壊**: AIが文脈を忘れ、キャラクターの性格が変わってしまう
-- **物理的な矛盾**: 場所や時間の整合性が取れなくなる
-- **感情の不自然な変化**: 唐突な心変わりや説明のない感情変化
-- **中だるみする物語**: 構成の甘さによる読者離れ
+- **Character Consistency Collapse**: AI forgets context, leading to changes in character personality.
+- **Physical Contradictions**: Loss of consistency in locations and timelines.
+- **Unnatural Emotional Changes**: Sudden changes of heart or unexplained emotional shifts.
+- **Saggy Middle Stories**: Reader disengagement due to weak plot structure.
 
-## 🚀 特徴
+## 🚀 Features
 
-### 1. 3層構造キャラクター設定
-- **不変コア**: 物語を通じて絶対に変わらない価値観
-- **準安定層**: 状況により変化するが一定範囲内の要素
-- **可変層**: シーンに応じて柔軟に変更可能な要素
+### 1. 3-Layer Character Structure
+- **Invariant Core**: Values that absolutely do not change throughout the story.
+- **Semi-Stable Layer**: Elements that change depending on the situation but within a certain range.
+- **Variable Layer**: Elements that can be flexibly changed according to the scene.
 
-### 2. 段階的物語構築
-- **Phase 1**: 骨組み（スケルトン）の作成
-- **Phase 2**: 重要シーンの特定
-- **Phase 3**: シーンの詳細設計
+### 2. Phased Story Construction
+- **Phase 1**: Skeleton creation.
+- **Phase 2**: Identification of important scenes.
+- **Phase 3**: Detailed scene design.
 
-### 3. 5軸品質評価
-- キャラクター一貫性
-- 物理的論理性
-- 心理的自然さ
-- 読みやすさ
-- 感情的インパクト
+### 3. 5-Axis Quality Evaluation
+- Character consistency
+- Physical logic
+- Psychological naturalness
+- Readability
+- Emotional impact
 
-## 📁 プロジェクト構造
+## 📁 Project Structure
 
 ```
 ai-story-forge/
-├── character-template/     # キャラクターテンプレート
-│   ├── CHARACTER.md       # メインテンプレート
+├── character-template/     # Character templates
+│   ├── CHARACTER.md       # Main template
 │   ├── character-prompts.md
 │   ├── examples/
 │   └── tips.md
-├── story-template/        # 物語作成テンプレート
+├── story-template/        # Story creation templates
 │   ├── STORY.md
 │   ├── story-prompts.md
 │   ├── examples/
 │   └── techniques.md
-├── quality-check/         # 品質チェック
+├── quality-check/         # Quality check
 │   ├── checklist.md
 │   └── common-problems.md
-└── resources/            # 参考資料
+└── resources/            # Reference materials
     ├── principles.md
     ├── constraints.md
     └── workflow.md
 ```
 
-## 🏃‍♂️ クイックスタート
+## 🏃‍♂️ Quick Start
 
-5分で始められます！詳細は[QUICK_START.md](./QUICK_START.md)をご覧ください。
+Get started in 5 minutes! See [QUICK_START.md](./QUICK_START.md) for details.
 
-1. リポジトリをクローン
-2. `character-template/CHARACTER.md`をコピー
-3. 基本情報を記入
-4. プロンプト集を使ってAIと対話
-5. 物語の執筆開始
+1. Clone the repository.
+2. Copy `character-template/CHARACTER.md`.
+3. Fill in basic information.
+4. Interact with AI using the prompt collection.
+5. Start writing your story.
 
-作品の管理方法については[WORKSPACE_GUIDE.md](./WORKSPACE_GUIDE.md)をご覧ください。
+For information on how to manage your work, please see [WORKSPACE_GUIDE.md](./WORKSPACE_GUIDE.md).
 
-## 💡 使用例
+## 💡 Usage Example
 
-### キャラクター作成の例
+### Character Creation Example
 
 ```markdown
-# キャラクター設定書
+# Character Setting Sheet
 
-## 基本情報
-**名前**: 佐藤 明日香
-**年齢**: 28歳
-**職業**: 図書館司書
-**一言で表すと**: 「本を通じて人々の心を繋ぐ、静かな情熱家」
+## Basic Information
+**Name**: Asuka Sato
+**Age**: 28
+**Occupation**: Librarian
+**In a nutshell**: "A quiet enthusiast who connects people's hearts through books."
 
-## 第1層：不変コア
-### 核となる価値観
-**「知識を共有することで、人々の可能性を広げたい」**
+## Layer 1: Invariant Core
+### Core Value
+**"I want to expand people's potential by sharing knowledge."**
 ```
 
-## 🎓 プロンプトエンジニアリング5原則
+## 🎓 5 Principles of Prompt Engineering
 
-本プロジェクトは以下の原則に基づいています：
+This project is based on the following principles:
 
-1. **明確性の原則**: 曖昧さを排除し、具体的な指示を与える
-2. **制約活用の原則**: LLMの限界を理解し、それを前提とした設計
-3. **段階的構築の原則**: 複雑なタスクを小さなステップに分解
-4. **文脈保持の原則**: 重要な情報を適切に配置し、一貫性を保つ
-5. **検証可能性の原則**: 出力の品質を客観的に評価できる仕組み
+1. **Principle of Clarity**: Eliminate ambiguity and give specific instructions.
+2. **Principle of Constraint Utilization**: Understand the limits of LLMs and design accordingly.
+3. **Principle of Incremental Construction**: Break down complex tasks into small steps.
+4. **Principle of Context Retention**: Place important information appropriately to maintain consistency.
+5. **Principle of Verifiability**: A mechanism to objectively evaluate the quality of output.
 
+## 📈 Effective Usage
 
-## 📈 効果的な使い方
+### Week 1: Character Establishment
+- Create CHARACTER.md (30 min)
+- Interact with AI in 5 steps (30 min)
+- Consistency check (15 min)
 
-### Week 1: キャラクター確立
-- CHARACTER.mdを作成（30分）
-- 5ステップでAIと対話（30分）
-- 一貫性チェック（15分）
+### Week 2: Story Construction
+- Create STORY.md Phase 1 (30 min)
+- Identify important scenes (30 min)
+- Detail one scene (45 min)
 
-### Week 2: 物語構築
-- STORY.md Phase1作成（30分）
-- 重要シーンの特定（30分）
-- 1シーンを詳細に（45分）
+### Week 3: Writing and Improvement
+- Write each scene (1 hour per scene)
+- Quality check (15 min each)
+- Final adjustments with a full read-through
 
-### Week 3: 執筆と改善
-- 各シーン執筆（1シーン1時間）
-- 品質チェック（各15分）
-- 通し読みで最終調整
+## 🤝 Contribution
 
-## 🤝 コントリビューション
+This project welcomes contributions from everyone exploring creative collaboration between AI and humans.
 
-このプロジェクトは、AIと人間の創造的な協働を探求する全ての方の貢献を歓迎します。
+- Bug reports/feature suggestions: [Issues](https://github.com/nwiizo/ai-story-forge/issues)
+- Pull requests: Template improvements, addition of new examples, etc.
 
-- バグ報告・機能提案: [Issues](https://github.com/nwiizo/ai-story-forge/issues)
-- プルリクエスト: テンプレートの改善、新しい例の追加など
-
-## 📋 更新履歴
+## 📋 Update History
 
 ### v0.0.2 (2025-06-29)
-- ワークスペース管理機能の追加
-- `.gitignore`による個人作品の保護
-- ワークスペースガイドの作成
+- Added workspace management function.
+- Protection of personal works with `.gitignore`.
+- Created workspace guide.
 
 ### v0.0.1 (2025-06-29)
-- 初回リリース
-- 基本テンプレートシステム
-- Claude統合コマンド
-- 動機ベースのキャラクター作成
+- Initial release.
+- Basic template system.
+- Claude integrated commands.
+- Motivation-based character creation.
 
-## 📜 ライセンス
+## 📜 License
 
-このプロジェクトはMITライセンスの下で公開されています。
+This project is released under the MIT License.
 
-## 🙏 謝辞
+## 🙏 Acknowledgements
 
-このプロジェクトは、プロンプトエンジニアリングと物語創作の分野で活躍する多くの先駆者たちの知見に深く影響を受けています。
-
-AI技術の可能性を探求し続ける研究者の皆様、物語構造やキャラクター造形の理論を体系化してきた作家・脚本家の皆様、そしてAIと人間の創造的な協働という新しい領域を開拓し続けるすべての実践者に心から感謝いたします。
-
-このプロジェクトが、次世代の物語創作者たちの一助となることを願っています。
+This project is influenced by pioneers in prompt engineering and story creation. We thank researchers, writers, and practitioners in AI and storytelling. We hope this project aids future story creators.
 
 ---
 
-**「制約を創造性に変える」** - それがAI Story Forgeの理念です。
+**"Turning constraints into creativity"** - That is the philosophy of AI Story Forge.

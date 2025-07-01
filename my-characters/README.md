@@ -1,20 +1,20 @@
-# 作成したキャラクター保存用ディレクトリ
+# Directory for Saving Created Characters
 
-このディレクトリは、AI Story Forgeを使って作成したキャラクターを保存するための場所です。
+This directory is for saving characters created using AI Story Forge.
 
-## 注意事項
-- このディレクトリ内のファイルは`.gitignore`により自動的にGitの追跡対象外となります
-- 個人的なキャラクター設定を安全に保管できます
-- バックアップは個別に行ってください
+## Important Notes
+- Files in this directory are automatically excluded from Git tracking by `.gitignore`.
+- You can safely store personal character settings here.
+- Please make individual backups.
 
-## 推奨ファイル名
-- `[キャラクター名].character.md`
-- 例: `tanaka-misaki.character.md`
+## Recommended File Name
+- `[character-name].character.md`
+- Example: `tanaka-misaki.character.md`
 
-## サブフォルダの作成例
+## Example Subfolder Creation
 ```
 my-characters/
-├── 2025-06-主人公/
-├── 2025-06-脇役/
-└── アーカイブ/
+├── 2025-06-Protagonist/
+├── 2025-06-Supporting/
+└── Archive/
 ```

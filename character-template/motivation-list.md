@@ -1,183 +1,183 @@
-# 動機リスト - キャラクター作成の出発点
+# Motivation List - Starting Point for Character Creation
 
-## なぜ動機が重要なのか
+## Why is Motivation Important?
 
-キャラクター作成において、「何をしたい人なのか」という動機は最も重要な要素です。
-- 動機は読者の共感を引き出す
-- 動機が行動の一貫性を保証する
-- 良い動機は「この物語を読んでみよう」と思わせる
+In character creation, the motivation of "what does this person want to do?" is the most crucial element.
+- Motivation elicits reader empathy.
+- Motivation ensures behavioral consistency.
+- A good motivation makes people think, "Let's read this story."
 
-性格や設定を考える前に、まず動機を決めましょう。
-
----
-
-## 基本的な動機カテゴリー
-
-### 1. 守護・保護系
-強い共感を呼ぶ、利他的な動機
-- 大切な人を守りたい
-- 故郷を守りたい
-- 弱い者を助けたい
-- 約束を守りたい
-- 伝統を守りたい
-
-### 2. 成長・達成系
-読者が応援したくなる動機
-- 強くなりたい
-- 認められたい
-- 夢を叶えたい
-- 限界を超えたい
-- 一人前になりたい
-
-### 3. 探求・発見系
-好奇心と冒険心に訴える動機
-- 真実を知りたい
-- 世界を見たい
-- 答えを見つけたい
-- 新しいものを作りたい
-- 謎を解きたい
-
-### 4. 関係・絆系
-人間関係の普遍的な動機
-- 仲間を作りたい
-- 愛する人と一緒にいたい
-- 信頼を取り戻したい
-- 孤独から抜け出したい
-- 誰かの役に立ちたい
-
-### 5. 回復・償い系
-過去と向き合う動機
-- 失敗を取り戻したい
-- 罪を償いたい
-- 過去を乗り越えたい
-- 名誉を回復したい
-- やり直したい
-
-### 6. 変革・革新系
-世界を変える大きな動機
-- 不正を正したい
-- 世界を変えたい
-- 新しい時代を作りたい
-- 因習を打ち破りたい
-- 自由を手に入れたい
+Decide on the motivation first, before considering personality or settings.
 
 ---
 
-## 特に強い共感を呼ぶ動機：「勇気」
+## Basic Motivation Categories
 
-### なぜ「勇気」が重要か
-- 誰もが勇気を必要とする瞬間がある
-- 恐怖を乗り越える姿は普遍的に感動を呼ぶ
-- 小さな勇気も大きな勇気も等しく尊い
+### 1. Guardian/Protection Type
+Altruistic motivations that strongly evoke empathy.
+- Want to protect someone important
+- Want to protect their hometown
+- Want to help the weak
+- Want to keep a promise
+- Want to protect tradition
 
-### 勇気を必要とする動機の例
-1. **恐怖と向き合う勇気**
-   - いじめっ子に立ち向かいたい
-   - 真実を告白したい
-   - 新しい世界に飛び込みたい
+### 2. Growth/Achievement Type
+Motivations that make readers want to cheer them on.
+- Want to become stronger
+- Want to be recognized
+- Want to fulfill a dream
+- Want to surpass their limits
+- Want to become independent/proficient
 
-2. **孤独を選ぶ勇気**
-   - 正しいことのために仲間と対立する
-   - 誰も信じない真実を追求する
-   - 理解されなくても信念を貫く
+### 3. Exploration/Discovery Type
+Motivations that appeal to curiosity and adventurous spirit.
+- Want to know the truth
+- Want to see the world
+- Want to find an answer
+- Want to create something new
+- Want to solve a mystery
 
-3. **変化を受け入れる勇気**
-   - 慣れ親しんだ場所を離れる
-   - 新しい自分になる
-   - 過去と決別する
+### 4. Relationship/Bond Type
+Universal motivations in human relationships.
+- Want to make friends/allies
+- Want to be with a loved one
+- Want to regain trust
+- Want to escape loneliness
+- Want to be useful to someone
 
----
+### 5. Recovery/Atonement Type
+Motivations for confronting the past.
+- Want to recover from a failure
+- Want to atone for a sin
+- Want to overcome the past
+- Want to restore honor
+- Want to start over
 
-## 動機の組み合わせパターン
-
-### 複層的な動機（より深いキャラクター）
-1. **表層の動機 + 深層の動機**
-   - 表：強くなりたい → 深：大切な人を守るため
-   - 表：真実を知りたい → 深：親の無実を証明するため
-
-2. **相反する動機の葛藤**
-   - 家族を守りたい vs 正義を貫きたい
-   - 平和に暮らしたい vs 使命を果たしたい
-
-3. **段階的な動機の変化**
-   - 復讐したい → 理解したい → 許したい
-   - 認められたい → 仲間を守りたい → 世界を救いたい
-
----
-
-## 媒体別の動機選択ガイド
-
-### 少年漫画向け
-- 友情を大切にしたい
-- 最強になりたい
-- 仲間を守りたい
-- 夢を叶えたい
-
-### 少女漫画向け
-- 本当の自分を見つけたい
-- 愛する人と結ばれたい
-- 自立したい
-- 人の心を癒したい
-
-### 青年漫画向け
-- 社会の不正を正したい
-- 過去の過ちを償いたい
-- 真実を世に知らしめたい
-- 生き残りたい
-
-### 文芸作品向け
-- 人生の意味を見つけたい
-- 失われたものを取り戻したい
-- 自己と向き合いたい
-- 誰かの記憶に残りたい
+### 6. Transformation/Innovation Type
+Grand motivations to change the world.
+- Want to correct injustice
+- Want to change the world
+- Want to create a new era
+- Want to break conventions
+- Want to obtain freedom
 
 ---
 
-## 動機からキャラクターを作る実践
+## Motivations That Particularly Evoke Strong Empathy: "Courage"
 
-### ワークシート
+### Why is "Courage" Important?
+- Everyone has moments when they need courage.
+- The sight of someone overcoming fear is universally moving.
+- Both small and great acts of courage are equally noble.
+
+### Examples of Motivations Requiring Courage
+1. **Courage to face fear**
+   - Want to stand up to a bully
+   - Want to confess the truth
+   - Want to dive into a new world
+
+2. **Courage to choose loneliness**
+   - To oppose allies for what is right
+   - To pursue a truth no one believes
+   - To stick to one's beliefs even without understanding
+
+3. **Courage to accept change**
+   - To leave a familiar place
+   - To become a new self
+   - To break with the past
+
+---
+
+## Motivation Combination Patterns
+
+### Multi-layered Motivations (For deeper characters)
+1. **Surface motivation + Deep motivation**
+   - Surface: Want to become stronger → Deep: To protect someone important
+   - Surface: Want to know the truth → Deep: To prove a parent's innocence
+
+2. **Conflict of opposing motivations**
+   - Want to protect family vs. Want to uphold justice
+   - Want to live peacefully vs. Want to fulfill a mission
+
+3. **Phased change in motivation**
+   - Want revenge → Want to understand → Want to forgive
+   - Want to be recognized → Want to protect allies → Want to save the world
+
+---
+
+## Motivation Selection Guide by Medium
+
+### For Shonen Manga (Boys' Comics)
+- Want to cherish friendship
+- Want to become the strongest
+- Want to protect allies
+- Want to fulfill a dream
+
+### For Shojo Manga (Girls' Comics)
+- Want to find their true self
+- Want to be with a loved one
+- Want to be independent
+- Want to heal people's hearts
+
+### For Seinen Manga (Young Men's Comics)
+- Want to correct social injustice
+- Want to atone for past mistakes
+- Want to make the truth known to the world
+- Want to survive
+
+### For Literary Works
+- Want to find the meaning of life
+- Want to regain something lost
+- Want to confront oneself
+- Want to remain in someone's memory
+
+---
+
+## Practice: Creating Characters from Motivation
+
+### Worksheet
 ```
-選んだ動機：＿＿＿＿＿＿＿＿＿＿
+Chosen motivation: _______________
 
-1. なぜこの動機を選んだか：
+1. Why did you choose this motivation?:
    
-2. この動機から生まれる行動：
+2. Actions arising from this motivation:
    ・
    ・
    ・
 
-3. この動機が試される場面：
+3. Scenes where this motivation is tested:
    ・
    ・
    ・
 
-4. この動機の限界：
+4. Limitations of this motivation:
    
-5. 読者の共感ポイント：
+5. Reader's empathy point:
 ```
 
-### 動機の強度テスト
-- [ ] この動機のために命を賭けられるか？
-- [ ] この動機は他者にも理解されるか？
-- [ ] この動機は物語全体を支えられるか？
-- [ ] この動機は成長の余地があるか？
+### Motivation Strength Test
+- [ ] Can they risk their life for this motivation?
+- [ ] Can others understand this motivation?
+- [ ] Can this motivation support the entire story?
+- [ ] Does this motivation have room for growth?
 
 ---
 
-## 注意事項
+## Important Notes
 
-### 避けるべき動機
-1. **あまりに利己的な動機**（共感を得にくい）
-2. **漠然としすぎた動機**（行動原理にならない）
-3. **既存作品の丸パクリ**（オリジナリティの欠如）
-4. **現実離れしすぎた動機**（リアリティの欠如）
+### Motivations to Avoid
+1. **Overly selfish motivations** (difficult to gain empathy)
+2. **Overly vague motivations** (do not become a principle of action)
+3. **Direct plagiarism from existing works** (lack of originality)
+4. **Overly unrealistic motivations** (lack of reality)
 
-### 動機設定のコツ
-- シンプルで分かりやすく
-- でも深みは持たせる
-- 普遍的でありながら個性的に
-- 読者の感情を動かすものを
+### Tips for Setting Motivation
+- Simple and easy to understand
+- But also have depth
+- Universal yet individual
+- Something that moves the reader's emotions
 
 ---
 
-💡 **Remember**: 動機はキャラクターの心臓部。ここから全てが始まります。
+💡 **Remember**: Motivation is the heart of a character. Everything starts from here.

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Project Overview
 
-AI Story Forge (AIと共に物語を鍛える工房) is a comprehensive Japanese-language framework for AI-assisted creative writing. It provides structured templates, methodologies, and command tools for creating consistent characters and compelling narratives using generative AI.
+AI Story Forge (AI Story Creation Workshop) is a comprehensive English-language framework for AI-assisted creative writing. It provides structured templates, methodologies, and command tools for creating consistent characters and compelling narratives using generative AI.
 
 **Key Features**:
 - Motivation-driven character development system
@@ -51,9 +51,9 @@ ai-story-forge/
 Characters are built starting from their core motivation ("What does this person want?"), ensuring all actions and behaviors stem from this central drive.
 
 ### 2. Three-Layer Character System
-- **第1層：不変コア (Immutable Core)**: Core motivation, values, fears, and contradictions
-- **第2層：準安定層 (Semi-stable Layer)**: Emotional patterns, relationships, growth direction
-- **第3層：可変層 (Variable Layer)**: Speech patterns, behaviors, mannerisms
+- **Layer 1: Immutable Core**: Core motivation, values, fears, and contradictions
+- **Layer 2: Semi-stable Layer**: Emotional patterns, relationships, growth direction
+- **Layer 3: Variable Layer**: Speech patterns, behaviors, mannerisms
 
 ### 3. Three-Phase Story Construction
 - **Phase 1**: Skeleton (basic plot structure)
@@ -62,16 +62,16 @@ Characters are built starting from their core motivation ("What does this person
 
 ### 4. Five-Axis Quality Evaluation
 Each scene/story is evaluated on:
-1. Character consistency (キャラクター一貫性)
-2. Physical logic (物理的論理性)
-3. Psychological naturalness (心理的自然さ)
-4. Readability (読みやすさ)
-5. Emotional impact (感情的インパクト)
+1. Character consistency
+2. Physical logic
+3. Psychological naturalness
+4. Readability
+5. Emotional impact
 
 ## Working with This Repository
 
 ### For Template Development
-- Maintain Japanese language throughout
+- Maintain English language throughout
 - Follow established naming conventions
 - Keep examples in designated directories
 - Ensure consistency with core methodologies
@@ -106,7 +106,7 @@ The `.claude/commands/` directory contains five specialized commands (compatible
 
 Each command now supports:
 - **Argument handling**: Commands accept `$ARGUMENTS` for flexible usage
-- **Clear usage instructions** in Japanese
+- **Clear usage instructions** in English
 - **Multiple options and parameters**
 - **Practical examples with argument patterns**
 - **Integration with project templates**
