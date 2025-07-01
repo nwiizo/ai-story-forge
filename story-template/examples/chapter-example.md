@@ -91,7 +91,7 @@
 ### Chapter 7: "Hidden Truth"
 - Possibility that the accident was not simple.
 - Discovery of a message Sho left just before his death.
-- New facts浮かび上がる (emerging) from Digital Sho's memories.
+New facts emerging from Digital Sho's memories.
 
 ### Chapter 8: "Dialogue by the Sea"
 - "Confession of Truth" scene.
