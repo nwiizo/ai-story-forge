@@ -1,103 +1,103 @@
-# 物語構築シート
+# Story Construction Sheet
 
-## 基本設定
-**タイトル**：  
-**ジャンル**：  
-**想定文字数**：  
-**一言で表すと**：  
+## Basic Settings
+**Title**:
+**Genre**:
+**Estimated Character Count**:
+**In a nutshell**:
 
 ---
 
-## Phase 1: 骨組み（スケルトン）
+## Phase 1: Skeleton
 
-### コアとなる要素
-**主人公**：[CHARACTER.mdから引用]  
-**中心となるテーマ**：  
-**物語の始まりと終わり**：
-- 始まり：  
-- 終わり：  
+### Core Elements
+**Protagonist**: [Quote from CHARACTER.md]
+**Central Theme**:
+**Beginning and End of the Story**:
+- Beginning:
+- End:
 
-### 3幕構成（各3行程度）
-**第1幕（設定）**：  
+### 3-Act Structure (Approx. 3 lines each)
+**Act 1 (Setup)**:
 1. 
 2. 
 3. 
 
-**第2幕（展開）**：  
+**Act 2 (Confrontation)**:
 1. 
 2. 
 3. 
 
-**第3幕（解決）**：  
+**Act 3 (Resolution)**:
 1. 
 2. 
 3. 
 
 ---
 
-## Phase 2: 重要シーンの特定
+## Phase 2: Identify Important Scenes
 
-### 物語の3つの柱となるシーン
+### Three Pillar Scenes of the Story
 
-#### 1. 転換点シーン
-**場所・時間**：  
-**何が起こるか**：  
-**主人公の変化**：  
+#### 1. Turning Point Scene
+**Location/Time**:
+**What happens**:
+**Protagonist's change**:
 
-#### 2. 感情のピークシーン  
-**場所・時間**：  
-**何が起こるか**：  
-**読者に感じてほしいこと**：  
+#### 2. Emotional Peak Scene
+**Location/Time**:
+**What happens**:
+**What you want the reader to feel**:
 
-#### 3. テーマ体現シーン
-**場所・時間**：  
-**何が起こるか**：  
-**テーマとの関連**：  
+#### 3. Theme Embodiment Scene
+**Location/Time**:
+**What happens**:
+**Relation to the theme**:
 
 ---
 
-## Phase 3: シーンの詳細設計
+## Phase 3: Detailed Scene Design
 
-### シーン1：[シーン名]
+### Scene 1: [Scene Name]
 
-**外的状況**：  
-- 場所：  
-- 時間：  
-- 登場人物：  
+**External Situation**:
+- Location:
+- Time:
+- Characters Present:
 
-**内的状況**：  
-- 主人公の感情：  
-- 望んでいること：  
-- 恐れていること：  
+**Internal Situation**:
+- Protagonist's emotion:
+- Desired outcome:
+- Feared outcome:
 
-**シーンの流れ**：
-1. 導入：  
-2. 展開：  
-3. 転換：  
-4. 締め：  
+**Scene Flow**:
+1. Introduction:
+2. Development:
+3. Turning Point:
+4. Conclusion:
 
-**このシーンで必ず描くこと**：  
+**Must-depict elements in this scene**:
 - [ ] 
 - [ ] 
 - [ ] 
 
 ---
 
-## 品質チェック
+## Quality Check
 
-### ストーリー全体
-- [ ] 主人公の価値観は一貫しているか？
-- [ ] 物理的な矛盾はないか？
-- [ ] 感情の流れは自然か？
-- [ ] テーマは効果的に表現されているか？
-- [ ] 読者を引き込む工夫はあるか？
+### Overall Story
+- [ ] Is the protagonist's value consistent?
+- [ ] Are there any physical contradictions?
+- [ ] Is the flow of emotions natural?
+- [ ] Is the theme effectively expressed?
+- [ ] Are there devices to draw the reader in?
 
-### 要注意ポイント
-- [ ] Lost in the Middle対策：重要情報は冒頭か結末に
-- [ ] 物理描写は最小限に、心理描写を重視
-- [ ] 各シーンに明確な役割があるか
+### Key Points to Watch
+- [ ] Lost in the Middle countermeasure: Important information at the beginning or end.
+- [ ] Minimize physical descriptions, emphasize psychological descriptions.
+- [ ] Does each scene have a clear role?
 
 ---
 
-## メモ・アイデア
-（自由記述欄）
+## Memos/Ideas
+(Free description field)

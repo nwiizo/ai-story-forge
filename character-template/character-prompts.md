@@ -1,225 +1,225 @@
-# キャラクター作成プロンプト集
+# Character Creation Prompt Collection
 
-## 動機ベースのキャラクター作成法
+## Motivation-Based Character Creation Method
 
-### Step 0: 動機リストの作成
+### Step 0: Create a Motivation List
 ```
-以下のカテゴリーで、読者の共感を呼ぶ動機を5つずつ挙げてください：
+For each of the following categories, list five motivations that resonate with readers:
 
-1. 個人的な成長に関する動機
-2. 他者との関係に関する動機
-3. 社会的な目標に関する動機
-4. 内面的な探求に関する動機
-5. 特別な使命に関する動機
+1. Motivations related to personal growth
+2. Motivations related to relationships with others
+3. Motivations related to social goals
+4. Motivations related to inner exploration
+5. Motivations related to a special mission
 
-特に「勇気」を必要とする動機を含めてください。
-```
-
-### 動機の深掘り
-```
-選んだ動機：[例：大切な人を守りたい]
-
-この動機について：
-1. なぜこれが強い共感を呼ぶのか
-2. この動機から生まれる具体的な行動3つ
-3. この動機が試される状況3つ
-4. この動機の裏にある恐れ
-5. この動機を持つに至った背景
+Please especially include motivations that require "courage."
 ```
 
-### 動機からキャラクターへ
+### Deep Dive into Motivation
 ```
-動機：[選んだ動機]
+Chosen motivation: [Example: I want to protect someone important]
 
-この動機を持つ人物の：
-1. 日常的な行動パターン
-2. 判断の基準
-3. 他者との関わり方
-4. 弱点と限界
-5. 成長の可能性
-```
-
-## 基本の5ステップ作成法
-
-### Step 1: 核となる価値観を決める
-```
-次の人物の最も大切にしている価値観を1つだけ設定してください。
-
-[基本設定]
-- 年齢：
-- 職業：
-- 環境：
-
-条件：
-- 具体的で行動の指針となるもの
-- その人の人生の軸となるもの
-- 「○○を通じて△△したい」の形式で
+Regarding this motivation:
+1. Why does this resonate strongly with people?
+2. Three specific actions arising from this motivation
+3. Three situations where this motivation is tested
+4. The fear behind this motivation
+5. The background leading to having this motivation
 ```
 
-### Step 2: 価値観から恐れを導く
+### From Motivation to Character
 ```
-「[Step1の価値観]」を最も大切にする人が、
-最も恐れることは何でしょうか？
+Motivation: [Chosen motivation]
 
-価値観が脅かされる状況を具体的に。
-```
-
-### Step 3: 人間的な矛盾を加える
-```
-価値観：[Step1の内容]
-恐れ：[Step2の内容]
-
-この人物に内在する、価値観と矛盾する欲求や性質を1つ加えてください。
-この矛盾が物語に深みを与えます。
+For a person with this motivation:
+1. Daily behavior patterns
+2. Criteria for judgment
+3. How they interact with others
+4. Weaknesses and limitations
+5. Potential for growth
 ```
 
-### Step 4: 具体的な行動パターン
+## Basic 5-Step Creation Method
+
+### Step 1: Determine the Core Value
 ```
-設定：
-- 価値観：[Step1]
-- 恐れ：[Step2]  
-- 矛盾：[Step3]
+Please set only one most important value for the following person.
 
-この人物の典型的な行動パターンを3つ挙げてください。
-「○○な時、××する」の形式で。
-```
+[Basic Settings]
+- Age:
+- Occupation:
+- Environment:
 
-### Step 5: 話し方と仕草
-```
-[これまでの設定まとめ]
-
-この人物の：
-1. 話し方の特徴
-2. よく使う口癖（2-3個）
-3. 特徴的な仕草
-
-を設定してください。内面が表れるように。
+Conditions:
+- Specific and action-guiding
+- Something that forms the axis of their life
+- In the format "I want to △△ through ○○"
 ```
 
-## 応用テクニック
-
-### 赤ずきん原則：ニュース記事形式
+### Step 2: Derive Fear from Value
 ```
-[キャラクター基本設定]について、
-地方新聞の人物紹介記事（300字程度）を書いてください。
+What would a person who cherishes "[Value from Step 1]" most,
+fear the most?
 
-【見出し】
-【本文】日常のエピソード、周囲の評判、本人の言葉を含める
+Describe a specific situation where this value is threatened.
 ```
 
-### 赤ずきん原則：インタビュー形式  
+### Step 3: Add a Human Contradiction
 ```
-[キャラクター名]への5問5答のインタビューを作成してください。
+Value: [Content of Step 1]
+Fear: [Content of Step 2]
 
-Q1: 今の仕事を選んだ理由は？
+Please add one desire or characteristic inherent in this person that contradicts their value.
+This contradiction will add depth to the story.
+```
+
+### Step 4: Specific Behavior Patterns
+```
+Settings:
+- Value: [Step 1]
+- Fear: [Step 2]
+- Contradiction: [Step 3]
+
+List three typical behavior patterns for this person.
+In the format "When ______, they ______."
+```
+
+### Step 5: Speech Style and Mannerisms
+```
+[Summary of settings so far]
+
+For this person:
+1. Characteristics of their speech style
+2. Frequently used catchphrases (2-3)
+3. Characteristic mannerisms
+
+Please set these. Make sure they reflect their inner self.
+```
+
+## Applied Techniques
+
+### Little Red Riding Hood Principle: News Article Format
+```
+Regarding [Basic Character Settings],
+please write a personality profile article (around 300 characters) for a local newspaper.
+
+【Headline】
+【Body】Include daily episodes, reputation among peers, and the person's own words.
+```
+
+### Little Red Riding Hood Principle: Interview Format
+```
+Please create a 5-question, 5-answer interview with [Character Name].
+
+Q1: Why did you choose your current job?
 A1: 
 
-Q2: 大切にしていることは？
+Q2: What do you cherish?
 A2:
 
-Q3: 休日の過ごし方は？
+Q3: How do you spend your holidays?
 A3:
 
-Q4: 最近嬉しかったことは？
+Q4: What made you happy recently?
 A4:
 
-Q5: 将来の夢は？
+Q5: What is your future dream?
 A5:
 
-（人物像が立体的に見える質問を選ぶ）
+(Choose questions that make the character appear three-dimensional)
 ```
 
-### 感情マッピング
+### Emotion Mapping
 ```
-[キャラクター設定]
+[Character Settings]
 
-この人物の感情反応をマッピングしてください：
+Please map this person's emotional responses:
 
-【喜び】→ どんな表現をするか
-【怒り】→ どんな行動を取るか
-【悲しみ】→ どう対処するか
-【恐れ】→ 何を最も恐れるか
-【驚き】→ どんな反応を示すか
+【Joy】→ How do they express it?
+【Anger】→ What actions do they take?
+【Sadness】→ How do they cope?
+【Fear】→ What do they fear most?
+【Surprise】→ How do they react?
 
-各感情での特徴的な言動を1つずつ。
-```
-
-### 関係性ダイナミクス
-```
-[キャラクターA]と[キャラクターB]の関係性を設定してください。
-
-1. 出会いのきっかけ
-2. 互いの第一印象
-3. 現在の関係性
-4. 相手に対する本音
-5. この関係が生む物語の可能性
-
-両者の価値観の違いが生む化学反応を重視。
+One characteristic behavior for each emotion.
 ```
 
-## プロンプトのカスタマイズ
-
-### ジャンル別調整
-
-**ミステリー向け**
+### Relationship Dynamics
 ```
-このキャラクターが持つ「秘密」を1つ設定してください。
-- 本人も気づいていない秘密
-- 物語の鍵となる秘密
-- 価値観と関連する秘密
-```
+Please set the relationship between [Character A] and [Character B].
 
-**恋愛小説向け**
-```
-このキャラクターの恋愛観を設定してください。
-- 理想の相手像
-- 恋愛における弱点
-- 過去の恋愛経験が与えた影響
+1. How they met
+2. Their first impressions of each other
+3. Current relationship
+4. True feelings towards the other person
+5. Story possibilities arising from this relationship
+
+Emphasize the chemical reaction created by the differences in their values.
 ```
 
-**ファンタジー向け**
-```
-このキャラクターの特殊能力を設定してください。
-- 能力の内容
-- 能力の制限・代償
-- 能力と価値観の関係
-```
+## Prompt Customization
 
-## トラブルシューティング
+### Genre-Specific Adjustments
 
-### キャラクターが平板な時
+**For Mystery**
 ```
-このキャラクターに「でも」を3つ加えてください。
-
-例：
-- 優しい、でも○○な時は冷酷
-- 臆病、でも○○のためなら勇敢
-- 論理的、でも○○には感情的
+Please set one "secret" this character has.
+- A secret the character themself is unaware of
+- A secret that is key to the story
+- A secret related to their values
 ```
 
-### 行動原理が不明確な時
+**For Romance Novels**
 ```
-このキャラクターが絶対にしないこと3つと、
-必ずすること3つを挙げてください。
-
-価値観に基づいて具体的に。
-```
-
-### 他キャラとの差別化
-```
-[既存キャラクターリスト]
-
-新キャラクターが既存キャラと被らないよう、
-独自の特徴を3つ設定してください。
+Please set this character's view on love.
+- Ideal partner image
+- Weaknesses in love
+- Impact of past romantic experiences
 ```
 
-## 効果的な使い方
+**For Fantasy**
+```
+Please set this character's special ability.
+- Details of the ability
+- Limitations/costs of the ability
+- Relationship between the ability and their values
+```
 
-1. **順番を守る**: Step 1から順に進むことで自然な深みが生まれる
-2. **具体例を求める**: 抽象的な回答には具体的なエピソードを追加で聞く
-3. **矛盾を恐れない**: 人間らしい矛盾はキャラクターを豊かにする
-4. **反復と洗練**: 一度で完璧を求めず、何度も対話して深める
+## Troubleshooting
+
+### When a Character is Flat
+```
+Please add three "buts" to this character.
+
+Example:
+- Kind, but ruthless when ______
+- Cowardly, but brave for the sake of ______
+- Logical, but emotional about ______
+```
+
+### When the Principle of Action is Unclear
+```
+List three things this character absolutely will not do,
+and three things they absolutely will do.
+
+Be specific, based on their values.
+```
+
+### Differentiating from Other Characters
+```
+[Existing Character List]
+
+Set three unique characteristics for the new character
+to ensure they don't overlap with existing characters.
+```
+
+## Effective Usage
+
+1. **Follow the order**: Proceeding sequentially from Step 1 creates natural depth.
+2. **Request specific examples**: For abstract answers, ask for additional specific episodes.
+3. **Don't fear contradictions**: Human-like contradictions enrich characters.
+4. **Iterate and refine**: Don't aim for perfection in one go; deepen through multiple dialogues.
 
 ---
 
-これらのプロンプトは出発点です。あなたの物語に合わせて自由にカスタマイズしてください。
+These prompts are a starting point. Feel free to customize them to fit your story.

@@ -1,223 +1,223 @@
-# キャラクター作成のコツ
+# Tips for Character Creation
 
-## 🎯 成功の秘訣
+## 🎯 Secrets to Success
 
-### 1. 核となる価値観は1つに絞る
-- 複数の価値観を持たせたくなるが、AIが混乱する原因に
-- 1つの強い価値観から、他の特徴を派生させる
-- 例：「知識の共有」→ 親切、忍耐強い、好奇心旺盛
+### 1. Narrow down to one core value
+- It's tempting to give multiple values, but this can confuse the AI.
+- Derive other characteristics from one strong value.
+- Example: "Sharing knowledge" → Kind, patient, curious.
 
-### 2. 矛盾は意図的に設計する
-- 完璧な人間は面白くない
-- 価値観と相反する欲求や弱点を1つ設定
-- この矛盾が物語の推進力になる
+### 2. Design contradictions intentionally
+- Perfect humans are not interesting.
+- Set one desire or weakness that conflicts with their values.
+- This contradiction becomes the driving force of the story.
 
-### 3. 具体的なディテールを大切に
-- 「優しい」より「捨て猫を見ると必ず餌をあげる」
-- 「頭が良い」より「会話の中で必ず例え話を使う」
-- 読者が「見える」レベルまで具体化
+### 3. Value specific details
+- Instead of "kind," say "always feeds stray cats when they see them."
+- Instead of "smart," say "always uses analogies in conversation."
+- Make it concrete enough for the reader to "see."
 
-## ⚠️ よくある失敗と対策
+## ⚠️ Common Mistakes and Countermeasures
 
-### 失敗1: 設定過多症候群
-**症状**: 設定を詰め込みすぎて、AIが処理しきれない
-**対策**: 
-- 3層構造を意識し、各層の役割を明確に
-- 不変コアは本当に必要最小限に
-- 詳細は物語の中で少しずつ明かす
+### Mistake 1: Setting Overload Syndrome
+**Symptom**: Too many settings, AI can't process them all.
+**Countermeasure**:
+- Be mindful of the 3-layer structure and clarify the role of each layer.
+- Keep the immutable core to the bare essentials.
+- Reveal details gradually within the story.
 
-### 失敗2: 一貫性の喪失
-**症状**: シーンごとに性格が変わってしまう
-**対策**:
-- 各シーン執筆前に CHARACTER.md を読み返す
-- 重要な会話の前に、キャラクターの価値観をプロンプトに含める
-- 定期的に一貫性チェックリストを使用
+### Mistake 2: Loss of Consistency
+**Symptom**: Personality changes from scene to scene.
+**Countermeasure**:
+- Reread CHARACTER.md before writing each scene.
+- Include the character's values in the prompt before important conversations.
+- Use the consistency checklist periodically.
 
-### 失敗3: 説明的なキャラクター
-**症状**: 行動より説明が多い
-**対策**:
-- 「見せる、語らない」の原則
-- キャラクターの性格は行動で示す
-- 内面の説明は最小限に
+### Mistake 3: Explanatory Character
+**Symptom**: More explanation than action.
+**Countermeasure**:
+- The principle of "show, don't tell."
+- Show character personality through actions.
+- Keep explanations of inner thoughts to a minimum.
 
-## 💡 実践的なテクニック
+## 💡 Practical Techniques
 
-### テクニック1: リバースエンジニアリング
-既存の魅力的なキャラクターを分析：
-1. 好きなキャラクターを1人選ぶ
-2. そのキャラクターの核となる価値観を特定
-3. どんな矛盾を抱えているか分析
-4. 自分のキャラクターに応用
+### Technique 1: Reverse Engineering
+Analyze existing compelling characters:
+1. Choose one character you like.
+2. Identify that character's core value.
+3. Analyze what contradictions they possess.
+4. Apply it to your own character.
 
-### テクニック2: 制約の活用
-あえて制約を設ける：
-- 「絶対に嘘をつかない」キャラクター
-- 「3語以上続けて話せない」キャラクター
-- 制約が個性とドラマを生む
+### Technique 2: Utilizing Constraints
+Intentionally set constraints:
+- A character who "never lies."
+- A character who "cannot speak more than three words consecutively."
+- Constraints create personality and drama.
 
-### テクニック3: キャラクターボイスの確立
-1. そのキャラクター専用の語彙リストを作る
-2. 絶対に使わない言葉リストも作る
-3. 特徴的な言い回しを3つ決める
-4. すべてのセリフでこれらを意識
+### Technique 3: Establishing Character Voice
+1. Create a vocabulary list specific to that character.
+2. Also create a list of words they absolutely never use.
+3. Decide on three characteristic phrases.
+4. Be mindful of these in all their dialogue.
 
-## 🎭 変えていいこと、ブレてはいけないこと
+## 🎭 What Can Change, What Must Not Be Blurred
 
-### ブレてはいけない「芯」
-キャラクターの本質的な部分は物語を通じて一貫させる必要があります。
+### The "Core" That Must Not Be Blurred
+The essential parts of a character need to be consistent throughout the story.
 
-#### 絶対に守るべき要素
-1. **行動の動機**
-   - なぜそのキャラクターが行動するのか
-   - 読者との約束事
-   - 共感の基盤
+#### Elements to Absolutely Protect
+1. **Motivation for Action**
+   - Why the character acts
+   - Agreement with the reader
+   - Basis for empathy
 
-2. **核となる価値観**
-   - 判断の基準
-   - 「らしさ」の源泉
-   - アイデンティティの中心
+2. **Core Value**
+   - Basis for judgment
+   - Source of "likeness"
+   - Center of identity
 
-3. **根本的な性質**
-   - そのキャラクターが「絶対にしないこと」
-   - そのキャラクターが「必ずすること」
-   - 読者の期待を裏切らない範囲
+3. **Fundamental Nature**
+   - Things the character "will never do"
+   - Things the character "will always do"
+   - Within the range of not betraying reader expectations
 
-#### なぜ「芯」を守るのか
-- 読者の信頼を維持するため
-- キャラクターの説得力を保つため
-- 物語の一貫性を確保するため
+#### Why Protect the "Core"?
+- To maintain reader trust
+- To maintain character persuasiveness
+- To ensure story consistency
 
-### 変えていい部分（ライブ感覚で調整）
-ストーリーの展開に応じて柔軟に変更可能な要素があります。
+### Parts That Can Be Changed (Adjust with a live feel)
+There are elements that can be flexibly changed according to the story's development.
 
-#### 状況に応じて変更可能
-1. **表面的な特徴**
-   - 服装やヘアスタイル
-   - 口調の強さ（基本は維持）
-   - 趣味嗜好の詳細
+#### Changeable According to Situation
+1. **Superficial Characteristics**
+   - Clothing and hairstyle
+   - Strength of tone (basic tone maintained)
+   - Details of hobbies and preferences
 
-2. **関係性の発展**
-   - 他キャラクターとの距離感
-   - 信頼度の変化
-   - 新しい絆の形成
+2. **Relationship Development**
+   - Distance with other characters
+   - Changes in trust level
+   - Formation of new bonds
 
-3. **能力や知識**
-   - 成長による能力向上
-   - 経験から得た知恵
-   - 新しいスキルの獲得
+3. **Abilities and Knowledge**
+   - Ability improvement through growth
+   - Wisdom gained from experience
+   - Acquisition of new skills
 
-#### 変更の指針
+#### Guidelines for Change
 ```
-良い変更：動機に基づいた自然な発展
-悪い変更：動機に反する都合の良い変化
-```
-
-### 実践例：キャラクターの成長と一貫性
-
-#### ケース1：臆病なキャラクターが勇敢に
-**❌ 悪い例**
-```
-第1章：極度の臆病者
-第2章：突然、勇敢になる（説明なし）
+Good change: Natural development based on motivation
+Bad change: Convenient change contradicting motivation
 ```
 
-**✅ 良い例**
-```
-第1章：臆病だが「友達を守りたい」という動機
-第2章：恐怖と戦いながら、友達のために一歩踏み出す
-第3章：小さな成功体験を積み重ねる
-第4章：まだ怖いが、行動できるようになる
-```
+### Practical Example: Character Growth and Consistency
 
-#### ケース2：身上調査書からの発展
-**初期設定（身上調査書）**
-- 恐怖：高所恐怖症
-- 趣味：読書
-
-**ストーリーでの展開**
+#### Case 1: A cowardly character becomes brave
+**❌ Bad Example**
 ```
-問題：クライマックスで高い場所での戦闘が必要
-解決：高所恐怖症は維持しつつ、動機（大切な人を守る）が恐怖を上回る瞬間を描く
-→ キャラクターの「芯」を守りながら、感動的な場面を作る
+Chapter 1: Extremely cowardly
+Chapter 2: Suddenly becomes brave (no explanation)
 ```
 
-### チェックリスト：変更の判断基準
-- [ ] この変更は動機から説明できるか？
-- [ ] 読者の期待を裏切らないか？
-- [ ] キャラクターの成長として自然か？
-- [ ] 「らしさ」は保たれているか？
-- [ ] 物語上の必然性があるか？
+**✅ Good Example**
+```
+Chapter 1: Cowardly, but motivated by "wanting to protect friends"
+Chapter 2: Fights fear and takes a step forward for friends
+Chapter 3: Accumulates small successful experiences
+Chapter 4: Still scared, but able to act
+```
 
-### 編集者との調整
-「最近はこういうキャラクターが人気」という意見を受けた時：
+#### Case 2: Development from Personal History
+**Initial Setting (Personal History)**
+- Fear: Acrophobia
+- Hobby: Reading
 
-1. **まず動機を確認**：提案が動機と矛盾しないか
-2. **部分的に取り入れる**：表層的な要素から試す
-3. **段階的に調整**：急激な変化は避ける
-4. **読者テスト**：反応を見ながら微調整
+**Development in Story**
+```
+Problem: Combat at a high place is necessary for the climax
+Solution: Maintain acrophobia, but depict a moment where motivation (protecting someone important) overcomes fear
+→ Create a moving scene while protecting the character's "core"
+```
+
+### Checklist: Criteria for Change
+- [ ] Can this change be explained by motivation?
+- [ ] Does it not betray reader expectations?
+- [ ] Is it natural as character growth?
+- [ ] Is "likeness" maintained?
+- [ ] Is there a narrative necessity?
+
+### Adjusting with Editors
+When receiving feedback like "this type of character is popular recently":
+
+1. **First, check motivation**: Does the suggestion contradict the motivation?
+2. **Incorporate partially**: Try with superficial elements first.
+3. **Adjust gradually**: Avoid sudden changes.
+4. **Reader test**: Fine-tune while observing reactions.
 
 ### 💡 Remember
-> キャラクターに情が湧いても、「こういうヤツ」という「らしさ」を貫く勇気が必要。それが読者への誠実さです。
+> Even if you grow attached to a character, you need the courage to stick to their "likeness" as "this kind of person." That is sincerity towards the reader.
 
-## 🔄 改善のサイクル
+## 🔄 Improvement Cycle
 
-### 毎回のセッション後に：
-1. **うまくいった点を記録**
-   - どのプロンプトが効果的だったか
-   - キャラクターが生き生きとした瞬間
+### After each session:
+1. **Record what went well**
+   - Which prompts were effective
+   - Moments when the character came to life
 
-2. **改善点を特定**
-   - 一貫性が崩れた箇所
-   - 不自然に感じた行動や発言
+2. **Identify areas for improvement**
+   - Where consistency broke down
+   - Actions or statements that felt unnatural
 
-3. **CHARACTER.mdを更新**
-   - 新しく発見した特徴を追加
-   - 不要な設定を削除
-   - より明確な表現に修正
+3. **Update CHARACTER.md**
+   - Add newly discovered characteristics
+   - Remove unnecessary settings
+   - Revise for clearer expression
 
-## 🎭 キャラクター相関図の作成
+## 🎭 Creating Character Correlation Diagrams
 
-複数のキャラクターを扱う場合：
+When handling multiple characters:
 
-### 相関図テンプレート
+### Correlation Diagram Template
 ```
-[キャラクターA] 
+[Character A]
     ↓ 
-「関係性：具体的な感情」
+"Relationship: Specific emotion"
     ↓
-[キャラクターB]
+[Character B]
 ```
 
-### 関係性の深め方
-1. 各キャラクターの価値観を比較
-2. 合致する点と対立する点を明確に
-3. その違いが生む化学反応を設計
+### Deepening Relationships
+1. Compare the values of each character.
+2. Clarify points of agreement and conflict.
+3. Design the chemical reaction created by these differences.
 
-## 📊 効果測定
+## 📊 Measuring Effectiveness
 
-### キャラクターの完成度チェック
-- [ ] 10の質問に即答できるか
-- [ ] 予想外の状況でも行動を予測できるか
-- [ ] 他の人に説明して理解してもらえるか
-- [ ] 1ヶ月後に見ても同じキャラクターを書けるか
+### Character Completeness Check
+- [ ] Can you answer 10 questions about them instantly?
+- [ ] Can you predict their actions even in unexpected situations?
+- [ ] Can you explain them to others and be understood?
+- [ ] Can you write the same character even after a month?
 
-### 読者テスト
-- キャラクターの特徴を3つ挙げてもらう
-- 印象に残ったセリフや行動を聞く
-- 共感できたかどうか確認
+### Reader Test
+- Ask them to list three characteristics of the character.
+- Ask about memorable lines or actions.
+- Confirm whether they could empathize.
 
-## 🚀 次のレベルへ
+## 🚀 To the Next Level
 
-### 上級テクニック
-1. **サブペルソナ**: 状況に応じて見せる別の顔
-2. **成長アーク**: 価値観は維持しつつ、表現方法が変化
-3. **関係性による変化**: 特定の人物といる時だけ見せる面
+### Advanced Techniques
+1. **Sub-persona**: A different face shown depending on the situation.
+2. **Growth arc**: Values are maintained, but expression methods change.
+3. **Change due to relationships**: Aspects shown only when with a specific person.
 
-### マスターレベル
-- キャラクターの夢を描写できる
-- 10年後、20年後の姿を描ける
-- そのキャラクターで即興の会話ができる
+### Master Level
+- Can describe the character's dreams.
+- Can depict their appearance 10 or 20 years later.
+- Can have an improvised conversation as that character.
 
 ---
 
-💭 **Remember**: キャラクターは設定の集合体ではなく、生きた人間。完璧な設定より、人間らしい不完全さを大切に。
+💭 **Remember**: A character is not a collection of settings, but a living human. Value human-like imperfection over perfect settings.

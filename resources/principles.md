@@ -1,280 +1,279 @@
-# プロンプトエンジニアリング5原則
+# 5 Principles of Prompt Engineering
 
-## 📐 原則1：明確性の原則
-**曖昧さを排除し、具体的な指示を与える**
+## 📐 Principle 1: Principle of Clarity
+**Eliminate ambiguity and give specific instructions.**
 
-### なぜ重要か
-AIは文脈を推測することが苦手です。明確な指示により、意図した出力を得やすくなります。
+### Why is it important?
+AI struggles to infer context. Clear instructions make it easier to obtain the intended output.
 
-### 実践方法
+### Practical Methods
 
-**❌ 悪い例：曖昧な指示**
+**❌ Bad Example: Ambiguous instruction**
 ```
-いい感じのキャラクターを作って
-```
-
-**✅ 良い例：具体的な指示**
-```
-以下の条件でキャラクターを作成してください：
-- 年齢：28歳
-- 職業：図書館司書
-- 性格：内向的だが、本の話になると情熱的
-- 価値観：知識を通じて人々を繋ぎたい
+Create a cool character.
 ```
 
-### チェックリスト
-- [ ] 5W1Hが明確か
-- [ ] 数値や範囲が具体的か
-- [ ] 期待する形式を示したか
-- [ ] 避けたいことも明示したか
+**✅ Good Example: Specific instruction**
+```
+Please create a character with the following conditions:
+- Age: 28
+- Occupation: Librarian
+- Personality: Introverted, but passionate when talking about books
+- Values: Wants to connect people through knowledge
+```
+
+### Checklist
+- [ ] Are the 5W1H (Who, What, When, Where, Why, How) clear?
+- [ ] Are numbers and ranges specific?
+- [ ] Did you indicate the expected format?
+- [ ] Did you also specify what to avoid?
 
 ---
 
-## 🧩 原則2：制約活用の原則
-**LLMの限界を理解し、それを前提とした設計**
+## 🧩 Principle 2: Principle of Utilizing Constraints
+**Understand the limitations of LLMs and design based on them.**
 
-### 主な制約と対策
+### Major Constraints and Countermeasures
 
-#### 1. コンテキストウィンドウの限界
-**制約**：一度に処理できる文字数に上限がある
-**対策**：
-- 重要情報を冒頭と結末に配置
-- 長い文章は分割して処理
-- 要約を活用
+#### 1. Context Window Limitation
+**Constraint**: There is an upper limit to the number of characters that can be processed at once.
+**Countermeasure**:
+- Place important information at the beginning and end.
+- Process long texts in segments.
+- Utilize summaries.
 
-#### 2. Lost in the Middle現象
-**制約**：長文の中央部分を忘れやすい
-**対策**：
-- 3-5段落ごとに要点を繰り返す
-- 重要な設定は複数箇所で言及
-- 構造化されたフォーマットを使用
+#### 2. Lost in the Middle Phenomenon
+**Constraint**: Tends to forget information in the middle of long texts.
+**Countermeasure**:
+- Repeat key points every 3-5 paragraphs.
+- Mention important settings in multiple places.
+- Use a structured format.
 
-#### 3. 時系列の混乱
-**制約**：複雑な時間軸を追跡しにくい
-**対策**：
-- 明確なタイムスタンプを使用
-- 時系列を単純化
-- 章ごとに時間を明示
+#### 3. Timeline Confusion
+**Constraint**: Difficult to track complex timelines.
+**Countermeasure**:
+- Use clear timestamps.
+- Simplify the timeline.
+- Specify the time for each chapter.
 
-### 制約を強みに変える
+### Turning Constraints into Strengths
 ```
-制約：キャラクターの一貫性維持が困難
-　↓
-対策：3層構造（不変・準安定・可変）で管理
-　↓
-結果：より体系的なキャラクター設計が可能に
+Constraint: Difficulty maintaining character consistency
+  ↓
+Countermeasure: Manage with a 3-layer structure (Immutable, Semi-stable, Variable)
+  ↓
+Result: Enables more systematic character design.
 ```
 
 ---
 
-## 🔄 原則3：段階的構築の原則
-**複雑なタスクを小さなステップに分解**
+## 🔄 Principle 3: Principle of Incremental Construction
+**Break down complex tasks into small steps.**
 
-### ステップ分解の例
+### Example of Step Decomposition
 
-#### キャラクター作成
+#### Character Creation
 ```
-Step 1: 基本属性（名前、年齢、職業）
-　↓
-Step 2: 核となる価値観
-　↓
-Step 3: 価値観から派生する恐れ
-　↓
-Step 4: 人間的な矛盾
-　↓
-Step 5: 具体的な行動パターン
-```
-
-#### 物語構築
-```
-Step 1: 一文でのあらすじ
-　↓
-Step 2: 3幕構成の概要
-　↓
-Step 3: 重要シーンの選定
-　↓
-Step 4: 各シーンの詳細設計
-　↓
-Step 5: シーン間の繋ぎ
+Step 1: Basic attributes (name, age, occupation)
+  ↓
+Step 2: Core value
+  ↓
+Step 3: Fear derived from value
+  ↓
+Step 4: Human contradiction
+  ↓
+Step 5: Specific behavior patterns
 ```
 
-### 段階的構築のメリット
-1. **品質管理**：各段階で確認・修正が可能
-2. **柔軟性**：途中での方向転換が容易
-3. **理解度向上**：AIが文脈を保持しやすい
-4. **再利用性**：各段階の成果を他に応用可能
+#### Story Construction
+```
+Step 1: One-sentence synopsis
+  ↓
+Step 2: Overview of 3-act structure
+  ↓
+Step 3: Selection of important scenes
+  ↓
+Step 4: Detailed design of each scene
+  ↓
+Step 5: Transitions between scenes
+```
+
+### Advantages of Incremental Construction
+1. **Quality Control**: Allows for confirmation and correction at each stage.
+2. **Flexibility**: Easy to change direction midway.
+3. **Improved Understanding**: Easier for AI to maintain context.
+4. **Reusability**: Results from each stage can be applied elsewhere.
 
 ---
 
-## 📌 原則4：文脈保持の原則
-**重要な情報を適切に配置し、一貫性を保つ**
+## 📌 Principle 4: Principle of Context Retention
+**Place important information appropriately and maintain consistency.**
 
-### 文脈保持のテクニック
+### Context Retention Techniques
 
-#### 1. サンドイッチ構造
+#### 1. Sandwich Structure
 ```
-[重要な設定・ルール]
-　　　↓
-[詳細な内容・展開]
-　　　↓
-[重要な設定の再確認]
+[Important settings/rules]
+      ↓
+[Detailed content/development]
+      ↓
+[Reconfirmation of important settings]
 ```
 
-#### 2. アンカーポイント設置
-各セクションの冒頭に、以下を配置：
-- キャラクターの核となる価値観
-- 現在の場所と時間
-- 直前の出来事の要約
+#### 2. Setting Anchor Points
+At the beginning of each section, place:
+- Character's core value
+- Current location and time
+- Summary of immediately preceding events
 
-#### 3. 構造化フォーマット
+#### 3. Structured Format
 ```markdown
-## シーン情報
-- 場所：[具体的な場所]
-- 時間：[時刻・天候]
-- 登場人物：[誰がいるか]
+## Scene Information
+- Location: [Specific location]
+- Time: [Time of day/Weather]
+- Characters: [Who is present]
 
-## 前シーンからの流れ
-[簡潔な要約]
+## Flow from Previous Scene
+[Concise summary]
 
-## このシーンの目的
-[何を達成するか]
+## Purpose of This Scene
+[What to achieve]
 ```
 
-### 実装例
+### Implementation Example
 ```
-プロンプト構成：
-1. キャラクター設定（200字）
-2. 現在の状況（100字）
-3. 書いてほしいシーン（本文）
-4. 注意事項（50字）
-5. キャラクター設定の再掲（100字）
+Prompt Structure:
+1. Character settings (200 characters)
+2. Current situation (100 characters)
+3. Scene to be written (main text)
+4. Important notes (50 characters)
+5. Restatement of character settings (100 characters)
 ```
 
 ---
 
-## ✅ 原則5：検証可能性の原則
-**出力の品質を客観的に評価できる仕組み**
+## ✅ Principle 5: Principle of Verifiability
+**A mechanism to objectively evaluate the quality of output.**
 
-### 評価基準の設定
+### Setting Evaluation Criteria
 
-#### 定量的評価
-1. **文字数**：指定範囲内か
-2. **構成要素**：必須要素が含まれているか
-3. **一貫性スコア**：矛盾の数をカウント
-4. **可読性指標**：文の長さ、段落構成
+#### Quantitative Evaluation
+1. **Character Count**: Within the specified range?
+2. **Structural Elements**: Are essential elements included?
+3. **Consistency Score**: Count the number of contradictions.
+4. **Readability Index**: Sentence length, paragraph structure.
 
-#### 定性的評価
-1. **感情曲線**：意図した感情変化があるか
-2. **キャラクター性**：らしさが出ているか
-3. **テーマ性**：主題が表現されているか
-4. **完成度**：物語として成立しているか
+#### Qualitative Evaluation
+1. **Emotional Curve**: Is the intended emotional change present?
+2. **Characterization**: Is the "likeness" evident?
+3. **Thematic Relevance**: Is the main theme expressed?
+4. **Completeness**: Does it work as a story?
 
-### チェックリストの活用
+### Utilizing Checklists
 ```markdown
-シーン評価：
-- [ ] 主人公の価値観に沿った行動か
-- [ ] 時間・場所の整合性は取れているか
-- [ ] 感情の変化は自然か
-- [ ] 次のシーンへの橋渡しはあるか
-- [ ] 読者が状況を理解できるか
+Scene Evaluation:
+- [ ] Actions aligned with the protagonist's values?
+- [ ] Consistency of time and place?
+- [ ] Are emotional changes natural?
+- [ ] Is there a bridge to the next scene?
+- [ ] Can the reader understand the situation?
 ```
 
-### 反復改善プロセス
+### Iterative Improvement Process
 ```
-1. 初稿生成
-　↓
-2. チェックリスト評価
-　↓
-3. 問題点の特定
-　↓
-4. 修正プロンプト作成
-　↓
-5. 再生成
-　↓
-6. 比較評価
-```
-
----
-
-## 🎯 5原則の統合的活用
-
-### 実践例：短編小説の作成
-
-**Step 1：明確な指示**（原則1）
-```
-5000字の短編小説を書いてください。
-ジャンル：ヒューマンドラマ
-テーマ：過去との和解
-```
-
-**Step 2：制約の考慮**（原則2）
-```
-重要な設定は冒頭に配置
-複雑な時系列は避ける
-場所は3箇所以内に限定
-```
-
-**Step 3：段階的作成**（原則3）
-```
-Phase 1: プロット作成（500字）
-Phase 2: 重要シーン3つの詳細（各300字）
-Phase 3: 全体の執筆（5000字）
-```
-
-**Step 4：文脈の維持**（原則4）
-```
-各シーンの冒頭で：
-- 主人公の現在の感情
-- 場所と時間
-- 直前の出来事
-を明示
-```
-
-**Step 5：品質検証**（原則5）
-```
-評価項目：
-✓ 文字数：4800字（目標の96%）
-✓ キャラクター一貫性：8/10
-✓ 感情の流れ：自然
-✓ テーマの表現：明確
+1. Generate first draft
+  ↓
+2. Evaluate with checklist
+  ↓
+3. Identify problem areas
+  ↓
+4. Create revised prompt
+  ↓
+5. Regenerate
+  ↓
+6. Comparative evaluation
 ```
 
 ---
 
-## 📚 原則の深い理解のために
+## 🎯 Integrated Application of the 5 Principles
 
-### 練習問題
+### Practical Example: Creating a Short Story
 
-#### 練習1：明確性の向上
-以下のプロンプトを改善してください：
-「悲しい話を書いて」
+**Step 1: Clear Instructions** (Principle 1)
+```
+Please write a 5000-character short story.
+Genre: Human Drama
+Theme: Reconciliation with the past
+```
 
-#### 練習2：制約の活用
-10,000字の物語を、Lost in the Middle現象を考慮して構成してください。
+**Step 2: Consideration of Constraints** (Principle 2)
+```
+Place important settings at the beginning.
+Avoid complex timelines.
+Limit locations to three or fewer.
+```
 
-#### 練習3：段階的構築
-「宇宙船での殺人事件」を5つのステップで構築してください。
+**Step 3: Incremental Creation** (Principle 3)
+```
+Phase 1: Plot creation (500 characters)
+Phase 2: Details of 3 important scenes (300 characters each)
+Phase 3: Writing the whole story (5000 characters)
+```
 
-#### 練習4：文脈保持
-3つのシーンを跨いで、主人公の価値観を一貫させる方法を設計してください。
+**Step 4: Context Retention** (Principle 4)
+```
+At the beginning of each scene, specify:
+- Protagonist's current emotion
+- Location and time
+- Immediately preceding events
+```
 
-#### 練習5：検証可能性
-ミステリー小説の品質を評価する5つの客観的指標を設定してください。
+**Step 5: Quality Verification** (Principle 5)
+```
+Evaluation Items:
+✓ Character count: 4800 characters (96% of target)
+✓ Character consistency: 8/10
+✓ Flow of emotions: Natural
+✓ Expression of theme: Clear
+```
 
 ---
 
-## 🔮 今後の展望
+## 📚 For a Deeper Understanding of the Principles
 
-### AIの進化と原則の関係
-- モデルが進化しても、5原則は有効
-- 制約が変わっても、考え方は応用可能
-- より高度な創作への適用
+### Practice Exercises
 
-### 新しい可能性
-1. **マルチモーダル**：画像＋文章での物語創作
-2. **インタラクティブ**：読者の選択で変化する物語
-3. **協調創作**：複数のAIとの共同作業
+#### Exercise 1: Improving Clarity
+Improve the following prompt:
+"Write a sad story."
+
+#### Exercise 2: Utilizing Constraints
+Structure a 10,000-character story considering the Lost in the Middle phenomenon.
+
+#### Exercise 3: Incremental Construction
+Construct "a murder case on a spaceship" in 5 steps.
+
+#### Exercise 4: Context Retention
+Design a method to maintain the protagonist's values consistently across three scenes.
+
+#### Exercise 5: Verifiability
+Set five objective indicators for evaluating the quality of a mystery novel.
 
 ---
 
-💡 **Remember**: これらの原則は道具です。創造性を制限するものではなく、より良い作品を生み出すための指針として活用してください。
+## 🔮 Future Outlook
+
+### Relationship between AI Evolution and Principles
+- The 5 principles remain valid even as models evolve.
+- Even if constraints change, the way of thinking can be applied.
+- Application to more advanced creation.
+
+### New Possibilities
+1. **Multimodal**: Story creation with images + text.
+2. **Interactive**: Stories that change based on reader choices.
+3. **Collaborative Creation**: Joint work with multiple AIs.
+
+---
+
+💡 **Remember**: These principles are tools. Use them as guidelines for creating better works, not to limit creativity.

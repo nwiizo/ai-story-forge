@@ -1,36 +1,36 @@
 ---
-description: "印象的なシーンを五感に訴える描写で作成するコマンド"
+description: "Command to create impressive scenes with descriptions that appeal to the five senses"
 ---
 
-# scene - 印象的なシーンを作成する
+# scene - Create impressive scenes
 
-物語の中の一場面を、五感に訴える豊かな描写で作成します。
+Creates a scene in a story with rich descriptions that appeal to the five senses.
 
-## 引数の処理
+## Argument Processing
 
-コマンド引数: $ARGUMENTS
+Command arguments: $ARGUMENTS
 
-引数形式: [タイプ] [オプション]
+Argument format: [type] [options]
 
-引数が与えられた場合、以下のように解釈します：
-- `dialogue` → 会話中心のシーン作成
-- `action` → アクション中心のシーン作成
-- `emotion` → 感情描写中心のシーン作成
-- `transition` → 場面転換シーン作成
-- `climax` → クライマックスシーン作成
+If arguments are given, they are interpreted as follows:
+- `dialogue` → Create a dialogue-centered scene
+- `action` → Create an action-centered scene
+- `emotion` → Create an emotion-centered scene
+- `transition` → Create a scene transition
+- `climax` → Create a climax scene
 
-追加オプション（スペース区切りで指定）：
-- キャラクター名
-- 雰囲気（緊張、穏やか、etc）
-- 文字数
-- シーンの目的
+Additional options (specified space-separated):
+- Character name
+- Atmosphere (tense, calm, etc.)
+- Character count
+- Scene purpose
 
-例: `dialogue 佐藤明日香 緊張`
+Example: `dialogue Asuka Sato tense`
 
-## 引数解析の実装
+## Argument Parsing Implementation
 
 ```javascript
-// $ARGUMENTSを解析
+// Parse $ARGUMENTS
 const args = '$ARGUMENTS'.trim().split(/\s+/);
 let sceneType = args[0] || 'general';
 let character = '';
@@ -38,57 +38,57 @@ let mood = '';
 let length = '';
 let purpose = '';
 
-// 引数を解析
+// Parse arguments
 for (let i = 1; i < args.length; i++) {
     const arg = args[i];
     
-    // 数字なら文字数として扱う
+    // If it's a number, treat as character count
     if (/^\d+$/.test(arg)) {
         length = arg;
     }
-    // 雰囲気を表す単語
-    else if (['緊張', '穏やか', '静寂', '混沌', '喜び', '悲しみ', '懐かしさ', '緊迫'].includes(arg)) {
+    // Words representing atmosphere
+    else if (['tense', 'calm', 'quiet', 'chaotic', 'joyful', 'sad', 'nostalgic', 'suspenseful'].includes(arg)) {
         mood = arg;
     }
-    // その他はキャラクター名として扱う
+    // Otherwise, treat as character name
     else if (!character) {
         character = arg;
     }
-    // 2つ目以降の文字列は目的として結合
+    // Concatenate second and subsequent strings as purpose
     else {
         purpose += (purpose ? ' ' : '') + arg;
     }
 }
 ```
 
-## 解析結果の使用
+## Using Parsed Results
 
 ```javascript
-// 解析結果を表示
+// Display parsed results
 if (args.length > 0 && args[0] !== '') {
-    console.log('【引数を解析しました】');
-    console.log(`- シーンタイプ: ${sceneType}${getSceneTypeDescription(sceneType)}`);
-    if (character) console.log(`- キャラクター: ${character}`);
-    if (mood) console.log(`- 雰囲気: ${mood}`);
-    if (length) console.log(`- 文字数: ${length}文字`);
-    if (purpose) console.log(`- 目的: ${purpose}`);
+    console.log('【Arguments Parsed】');
+    console.log(`- Scene Type: ${sceneType}${getSceneTypeDescription(sceneType)}`);
+    if (character) console.log(`- Character: ${character}`);
+    if (mood) console.log(`- Atmosphere: ${mood}`);
+    if (length) console.log(`- Character Count: ${length} characters`);
+    if (purpose) console.log(`- Purpose: ${purpose}`);
     console.log('');
 }
 
-// シーンタイプの説明を取得
+// Get scene type description
 function getSceneTypeDescription(type) {
     const descriptions = {
-        'dialogue': '（会話中心）',
-        'action': '（アクション中心）',
-        'emotion': '（感情描写中心）',
-        'transition': '（場面転換）',
-        'climax': '（クライマックス）',
-        'general': '（汎用シーン）'
+        'dialogue': ' (Dialogue-centered)',
+        'action': ' (Action-centered)',
+        'emotion': ' (Emotion-centered)',
+        'transition': ' (Scene transition)',
+        'climax': ' (Climax)',
+        'general': ' (General scene)'
     };
     return descriptions[type] || '';
 }
 
-// 引数に基づいてシーンを生成
+// Generate scene based on arguments
 if (sceneType && sceneType !== 'general') {
     generateScene(sceneType, character, mood, length, purpose);
 } else {
@@ -96,254 +96,254 @@ if (sceneType && sceneType !== 'general') {
 }
 ```
 
-## シーン作成の基本構造
+## Basic Scene Structure
 
-### 1. 状況設定（セットアップ）
+### 1. Situation Setting (Setup)
 ```
-【外的要素】
-- 場所：具体的に、読者が想像できるように
-- 時間：時刻、季節、天候
-- 登場人物：誰がいて、どんな位置関係か
+【External Elements】
+- Location: Specific enough for the reader to imagine
+- Time: Time of day, season, weather
+- Characters: Who is there, and what is their positioning
 
-【内的要素】
-- 視点人物の心理状態
-- このシーンに入る前の出来事
-- 期待と不安
-```
-
-### 2. シーンの展開
-```
-導入（フック）：読者を引き込む最初の一文
-　↓
-展開（ビルドアップ）：緊張や期待を高める
-　↓
-転換（ターニングポイント）：何かが変わる瞬間
-　↓
-締め（余韻）：次への橋渡し
+【Internal Elements】
+- Psychological state of the point-of-view character
+- Events before this scene
+- Expectations and anxieties
 ```
 
-### 3. 描写のバランス
+### 2. Scene Development
 ```
-視覚：40%（見えるもの）
-聴覚：20%（聞こえるもの）
-心理：30%（感じること）
-その他：10%（触覚、嗅覚、味覚）
+Introduction (Hook): The first sentence that draws the reader in
+  ↓
+Development (Buildup): Increases tension or anticipation
+  ↓
+Turning Point: The moment something changes
+  ↓
+Conclusion (Lingering Effect): Bridge to the next scene
 ```
 
-## 実行例
-
-### 会話シーン（引数解析版）
+### 3. Description Balance
 ```
-User: /scene dialogue 佐藤明日香 緊張
-Assistant: 【引数を解析しました】
-- シーンタイプ: dialogue（会話中心）
-- キャラクター: 佐藤明日香
-- 雰囲気: 緊張
+Visual: 40% (What can be seen)
+Auditory: 20% (What can be heard)
+Psychological: 30% (What is felt)
+Other: 10% (Tactile, olfactory, gustatory)
+```
 
-【会話シーンを作成します】
+## Execution Examples
 
-設定：
-- キャラクター：佐藤明日香（図書館司書）
-- 雰囲気：緊張
-- 場所：図書館のカウンター
+### Dialogue Scene (Parsed Arguments Version)
+```
+User: /scene dialogue Asuka Sato tense
+Assistant: 【Arguments Parsed】
+- Scene Type: dialogue (Dialogue-centered)
+- Character: Asuka Sato
+- Atmosphere: tense
+
+【Creating Dialogue Scene】
+
+Settings:
+- Character: Asuka Sato (Librarian)
+- Atmosphere: tense
+- Location: Library counter
 
 ---
 
-明日香は返却された本の山を前に、手を止めた。見覚えのない革表紙の手帳が、その中に混じっている。
+Asuka stopped her hands in front of a pile of returned books. A leather-bound notebook she didn't recognize was mixed in.
 
-「あの...」
+"Um..."
 
-カウンターの向こうで、青年が落ち着きなく指を組んでいた。
+Across the counter, a young man was restlessly fidgeting with his fingers.
 
-「これ、お客様のものですか？」
+"Is this yours?"
 
-明日香が手帳を掲げると、青年の顔が見る間に赤くなった。
+When Asuka held up the notebook, the young man's face turned red in an instant.
 
-「それは...その...」
+"That's... well..."
 
-[心理：何か大切なものらしい。でも、なぜ本に紛れて？]
+[Psychological: It seems important. But why was it mixed with the books?]
 
-続けますか？
+Continue?
 ```
 
-### 感情シーン（複数オプション付き）
+### Emotion Scene (With Multiple Options)
 ```
-User: /scene emotion 田中美咲 懐かしさ 800
-Assistant: 【引数を解析しました】
-- シーンタイプ: emotion（感情描写中心）
-- キャラクター: 田中美咲
-- 雰囲気: 懐かしさ
-- 文字数: 800文字
+User: /scene emotion Misaki Tanaka nostalgic 800
+Assistant: 【Arguments Parsed】
+- Scene Type: emotion (Emotion-centered)
+- Character: Misaki Tanaka
+- Atmosphere: nostalgic
+- Character Count: 800 characters
 
-【感情描写シーンを作成します】
+【Creating Emotion Scene】
 
-設定：
-- キャラクター：田中美咲（書店店主）
-- 感情：懐かしさ
-- きっかけ：母の愛読書を見つける
-- 目標文字数：約800文字
+Settings:
+- Character: Misaki Tanaka (Bookstore owner)
+- Emotion: Nostalgia
+- Trigger: Finding her mother's favorite book
+- Target character count: Approx. 800 characters
 
 ---
 
-埃をかぶった『銀河鉄道の夜』を手に取った瞬間、美咲の指が止まった。
+The moment Misaki picked up the dusty "Night on the Galactic Railroad," her fingers paused.
 
-ページの間から、かすかにラベンダーの香りが漂う。母の香水だ。二十年経った今でも、この香りは美咲を別の時代へと運んでいく。
+A faint scent of lavender wafted from between the pages. Her mother's perfume. Even now, twenty years later, this scent transported Misaki to another era.
 
-「また宮沢賢治？」と笑いながら、母はよくこの本を抱えていた。病室のベッドサイドにも、最後までこの本があった。
+"Miyazawa Kenji again?" her mother would often say with a laugh, holding this book. This book was also by her bedside in the hospital room until the very end.
 
-美咲は本を胸に抱いた。固い表紙越しに、母の温もりを探すように。
+Misaki hugged the book to her chest, as if searching for her mother's warmth through the hard cover.
 
-[内面：涙は出ない。でも、胸の奥が静かに熱い]
+[Internal: No tears. But a quiet warmth deep inside her chest.]
 
-（文字数を調整して800文字程度に展開）
+(Expand to about 800 characters, adjusting character count)
 ```
 
-### アクションシーン（雰囲気のみ指定）
+### Action Scene (Atmosphere Only)
 ```
-User: /scene action 緊迫
-Assistant: 【引数を解析しました】
-- シーンタイプ: action（アクション中心）
-- 雰囲気: 緊迫
-- キャラクター: （自動生成）
+User: /scene action suspenseful
+Assistant: 【Arguments Parsed】
+- Scene Type: action (Action-centered)
+- Atmosphere: suspenseful
+- Character: (Auto-generated)
 
-【アクションシーンを作成します】
+【Creating Action Scene】
 
-雰囲気：緊迫
-シーンの目的：危機的状況での決断
+Atmosphere: Suspenseful
+Scene Purpose: Decision in a critical situation
 
 ---
 
-階段を駆け上がる足音が、古い建物全体に響いた。
+The sound of footsteps rushing up the stairs echoed throughout the old building.
 
-三段飛ばしで上がりながら、翔は肩越しに振り返る。追手の影はまだ見えない。だが、時間の問題だ。
+Taking three steps at a time, Sho glanced over his shoulder. No sign of pursuers yet. But it was only a matter of time.
 
-最上階のドアが目前に迫る。鍵は掛かっているはずだ。体当たりするか、それとも—
+The door to the top floor loomed ahead. It should be locked. Ram it, or—
 
-「待て！」
+"Wait!"
 
-下から声が響いた。立ち止まれば終わりだ。
+A voice echoed from below. Stopping meant the end.
 
-翔は全体重を込めて、ドアに肩をぶつけた。
+Sho threw his entire weight against the door.
 
-[判断：今しかない]
+[Judgment: It's now or never.]
 ```
 
-### 引数なしの場合
+### No Arguments Case
 ```
 User: /scene
-Assistant: 【引数が指定されていません】
+Assistant: 【No Arguments Specified】
 
-シーンタイプを選択してください：
-1. dialogue - 会話中心のシーン
-2. action - アクション中心のシーン
-3. emotion - 感情描写中心のシーン
-4. transition - 場面転換シーン
-5. climax - クライマックスシーン
+Please select a scene type:
+1. dialogue - Dialogue-centered scene
+2. action - Action-centered scene
+3. emotion - Emotion-centered scene
+4. transition - Scene transition
+5. climax - Climax scene
 
-または、以下の形式で直接指定できます：
-/scene [タイプ] [キャラクター名] [雰囲気] [文字数]
+Alternatively, you can specify directly in the following format:
+/scene [type] [character_name] [atmosphere] [character_count]
 
-例：
-- /scene dialogue 山田太郎 緊張
-- /scene emotion 田中花子 喜び 500
-- /scene action 緊迫
+Examples:
+- /scene dialogue Taro Yamada tense
+- /scene emotion Hanako Tanaka joyful 500
+- /scene action suspenseful
 ```
 
-## ワークスペースでのシーン管理
+## Workspace Scene Management
 
-### シーンファイルの保存
+### Saving Scene Files
 ```
-# 個別シーンとして保存
-my-stories/[作品名]/scenes/scene-[番号]-[内容].md
+# Save as individual scenes
+my-stories/[work-title]/scenes/scene-[number]-[content].md
 
-# 例
+# Example
 my-stories/last-letter/scenes/scene-01-bookstore.md
 my-stories/last-letter/scenes/scene-02-letter-discovery.md
 my-stories/last-letter/scenes/scene-03-revelation.md
 ```
 
-### シーンの命名規則
-- `scene-[番号]-[内容].md` 形式を推奨
-- 番号は2桁（01, 02...）で統一
-- 内容は英語またはローマ字で簡潔に
+### Scene Naming Conventions
+- Recommend `scene-[number]-[content].md` format
+- Standardize numbers to two digits (01, 02...)
+- Content should be concise in English or Romaji
 
-### 下書きの管理
+### Draft Management
 ```
-# 実験的なシーンは drafts/ に
+# Experimental scenes in drafts/
 drafts/experimental-dialogue.draft.md
 drafts/alternative-ending.wip.md
 
-# 採用が決まったら正式な場所へ移動
+# Move to official location once adopted
 mv drafts/experimental-dialogue.draft.md my-stories/story-name/scenes/scene-04-dialogue.md
 ```
 
-### シーンの品質管理
-各シーンを作成したら：
-1. `/quality scene [シーン名]` で評価
-2. 問題点を修正
-3. 本編に組み込み
+### Scene Quality Control
+After creating each scene:
+1. Evaluate with `/quality scene [scene_name]`
+2. Correct any problems
+3. Incorporate into the main story
 
-## シーンタイプ別テクニック
+## Scene Type Specific Techniques
 
-### 会話シーン
-- 台詞の間に仕草を挟む
-- 沈黙も効果的に使う
-- サブテキスト（言外の意味）を意識
+### Dialogue Scene
+- Insert gestures between lines
+- Use silence effectively
+- Be aware of subtext (implicit meaning)
 
-### 感情シーン
-- 直接的な感情表現を避ける
-- 行動や情景で感情を表現
-- 五感を通じた記憶の描写
+### Emotion Scene
+- Avoid direct emotional expressions
+- Express emotions through actions and scenery
+- Describe memories through the five senses
 
-### アクションシーン
-- 短い文で緊迫感を演出
-- 動詞を効果的に使用
-- 時間の流れを明確に
+### Action Scene
+- Create tension with short sentences
+- Use verbs effectively
+- Clearly define the flow of time
 
-### 場面転換
-- 時間経過を自然に示す
-- 前シーンとの対比を活用
-- 新しい情報を少しずつ開示
+### Scene Transition
+- Naturally indicate the passage of time
+- Utilize contrast with the previous scene
+- Gradually disclose new information
 
-## 効果的な描写のコツ
+## Tips for Effective Description
 
 ### Show, Don't Tell
 ```
-❌ 彼は怒っていた。
-✅ 拳を握りしめ、顎の筋肉がぴくりと動いた。
+❌ He was angry.
+✅ He clenched his fists, and a muscle twitched in his jaw.
 ```
 
-### 比喩の活用
+### Utilize Metaphors
 ```
-❌ とても静かだった。
-✅ 図書館は、時が止まったように静まり返っていた。
-```
-
-### 感覚的描写
-```
-❌ 古い本がたくさんあった。
-✅ カビと埃の匂いが鼻をつき、革装丁の背表紙が薄暗い光を吸い込んでいた。
+❌ It was very quiet.
+✅ The library was as still as if time had stopped.
 ```
 
-## チェックリスト
+### Sensory Description
+```
+❌ There were many old books.
+✅ The smell of mold and dust stung the nostrils, and the leather-bound spines absorbed the dim light.
+```
 
-- [ ] シーンの目的は明確か
-- [ ] キャラクターらしさは出ているか
-- [ ] 五感に訴える描写があるか
-- [ ] 前後のシーンとの繋がりは自然か
-- [ ] 読者の感情を動かせるか
+## Checklist
 
-## 関連コマンド
+- [ ] Is the purpose of the scene clear?
+- [ ] Is the character's personality evident?
+- [ ] Are there descriptions that appeal to the five senses?
+- [ ] Is the connection with the preceding and succeeding scenes natural?
+- [ ] Can it move the reader's emotions?
 
-- `/character` - シーンで使うキャラクター作成
-- `/story` - シーンを組み込む物語構築
-- `/dialogue` - 会話に特化した作成
-- `/quality` - シーンの品質チェック
+## Related Commands
+
+- `/character` - Create characters to use in the scene
+- `/story` - Construct the story to incorporate the scene
+- `/dialogue` - Specialized creation for conversations
+- `/quality` - Check the quality of the scene
 
 ## Tips
 
-💡 最初の一文で読者を掴む
-💡 シーンの終わりは次への期待を残す
-💡 キャラクターの内面と外面のバランスを取る
-💡 長すぎるシーンは分割を検討
+💡 Grab the reader with the first sentence
+💡 End the scene leaving anticipation for what's next
+💡 Balance the character's internal and external aspects
+💡 Consider splitting scenes that are too long
 ```

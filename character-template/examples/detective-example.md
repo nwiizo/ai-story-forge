@@ -1,99 +1,99 @@
-# キャラクター設定書 - 探偵の例
+# Character Setting Sheet - Detective Example
 
-## 基本情報
-**名前**：黒川 誠（くろかわ まこと）  
-**年齢**：42歳  
-**職業**：私立探偵（元警視庁捜査一課）  
-**一言で表すと**：「真実のためなら泥をかぶる、孤高の真実追求者」  
-
----
-
-## 第1層：不変コア（物語を通じて絶対に変わらない要素）
-
-### 1. 核となる価値観（1つだけ）
-**「真実を明らかにすることで、犠牲者に正義をもたらす」**
-
-なぜこれが最も大切なのか：  
-15年前、冤罪で服役した親友が獄中で自殺した。自分が真実を突き止められなかったせいだ。二度と同じ過ちは繰り返さない。たとえ世界を敵に回しても、真実だけは曲げない。
-
-### 2. 最大の恐れ（価値観の裏返し）
-**「自分の過ちで無実の人を傷つけること」**
-
-この恐れが行動にどう影響するか：  
-証拠を何度も検証し、決して早急な結論を出さない。確信が持てるまで、誰も犯人扱いしない。この慎重さが時に事件解決を遅らせることもある。
-
-### 3. 根本的矛盾（人間らしさの源）
-**価値観「真実の追求」 vs 内なる欲求「優しい嘘で人を守りたい」**
-
-この矛盾が生む葛藤：  
-真実が誰かを深く傷つけると分かっていても、それを隠すことはできない。しかし、真実を告げる瞬間、相手の顔を直視できない自分がいる。
+## Basic Information
+**Name**: Makoto Kurokawa
+**Age**: 42
+**Occupation**: Private Detective (Former Metropolitan Police Department First Investigation Division)
+**In a nutshell**: "A solitary seeker of truth who will bear any burden for the sake of truth."
 
 ---
 
-## 第2層：準安定層（状況で変化するが一定の範囲内）
+## Layer 1: Immutable Core (Elements that absolutely do not change throughout the story)
 
-### 1. 感情の基本パターン
-- **平常時**：冷静で観察眼が鋭い。感情を表に出さない  
-- **ストレス時**：煙草の本数が増え、独り言が多くなる  
-- **幸福時**：かすかに口角が上がる程度。幸福を素直に表現できない  
+### 1. Core Value (Only one)
+**"To bring justice to victims by revealing the truth."**
 
-### 2. 人間関係の型
-- **信頼する相手への態度**：多くを語らないが、行動で信頼を示す。危険から守ろうとする  
-- **初対面の相手への態度**：礼儀正しいが距離を置く。相手の嘘を見抜こうとする癖が出る  
-- **苦手な相手への態度**：最小限の接触に留める。できるだけ一人で行動しようとする  
+Why is this most important?:
+15 years ago, his best friend, who was imprisoned for a crime he didn't commit, committed suicide in jail. He blames himself for not being able to uncover the truth. He will not repeat the same mistake. Even if the whole world turns against him, he will not bend the truth.
 
-### 3. 成長の方向性
-- **現在の段階**：真実を追求するあまり、人の感情を軽視しがち  
-- **目指す方向**：真実と共に、人の心も大切にできる探偵になる  
+### 2. Greatest Fear (Flip side of the value)
+**"Hurting an innocent person due to his own mistake."**
 
----
+How does this fear affect behavior?:
+He verifies evidence repeatedly and never rushes to conclusions. He doesn't treat anyone as a criminal until he is certain. This caution sometimes delays case resolution.
 
-## 第3層：可変層（シーンに応じて柔軟に変更可能）
+### 3. Fundamental Contradiction (Source of human-likeness)
+**Value "Pursuit of truth" vs. Inner Desire "Wanting to protect people with kind lies."**
 
-### 1. 話し方の特徴
-**基本的なトーン**：低い声で簡潔に話す。無駄な言葉を使わない  
-**よく使う言葉**：
-- 「事実だけを話してください」
-- 「...そういうことか」
-- 「真実は一つしかない」
-
-**使わない言葉**：感情的な表現、推測に基づく断定（「きっと」「たぶん」）  
-
-### 2. 行動パターン（上位3つ）
-1. 現場では必ず全体を見渡してから細部を観察する
-2. 重要な考察をする時は、煙草を吸いながら窓の外を眺める  
-3. 事件が解決すると、一人で犠牲者の墓参りをする
-
-### 3. 特徴的な仕草・癖
-- 考える時：右手の親指で顎を撫でる  
-- 緊張した時：ポケットの中で古い警察手帳を握る  
-- 嬉しい時：わずかに眉が動く程度で、すぐに表情を戻す  
+Conflict arising from this contradiction:
+Even if he knows the truth will deeply hurt someone, he cannot hide it. However, at the moment of revealing the truth, he finds himself unable to look the other person in the eye.
 
 ---
 
-## 一貫性チェックポイント
-- [x] すべての行動は「核となる価値観」で説明できるか？
-- [x] 矛盾は意図的で、人間味を生んでいるか？
-- [x] 話し方は場面が変わっても統一されているか？
-- [x] 成長・変化は自然で段階的か？
+## Layer 2: Semi-stable Layer (Changes with the situation but within a certain range)
+
+### 1. Basic Emotional Patterns
+- **Normal state**: Calm and observant. Does not show emotions openly.
+- **Under stress**: Smokes more cigarettes, talks to himself more often.
+- **When happy**: Corners of his mouth lift slightly. Cannot express happiness openly.
+
+### 2. Types of Human Relationships
+- **Attitude towards trusted individuals**: Doesn't say much, but shows trust through actions. Tries to protect them from danger.
+- **Attitude towards new acquaintances**: Polite but keeps a distance. Has a habit of trying to see through their lies.
+- **Attitude towards disliked individuals**: Keeps contact to a minimum. Tries to act alone as much as possible.
+
+### 3. Direction of Growth
+- **Current stage**: Tends to disregard people's feelings in his pursuit of truth.
+- **Aspired direction**: To become a detective who can value people's hearts along with the truth.
 
 ---
 
-## メモ・補足
-- 愛用品：亡き親友の形見のライター（禁煙しようとするが、このライターを手放せない）
-- 特技：相手の嘘を見抜く（視線、仕草、声のトーンから）
-- 弱点：子供に対して甘い（亡くなった親友に幼い娘がいた）
-- 日課：毎朝5時に起きて、1時間のランニング（頭を整理する時間）
+## Layer 3: Variable Layer (Can be flexibly changed according to the scene)
 
-### 物語での使用例
-**シーン設定**：依頼人が嘘をついていることに気づいた場面
+### 1. Speech Characteristics
+**Basic tone**: Speaks concisely in a low voice. Avoids unnecessary words.
+**Frequently used words**:
+- "Please state only the facts."
+- "...So that's it."
+- "There is only one truth."
+
+**Words not used**: Emotional expressions, assertions based on speculation ("surely," "probably").
+
+### 2. Behavior Patterns (Top 3)
+1. Always surveys the entire scene before observing details.
+2. When making important considerations, he smokes a cigarette while looking out the window.
+3. When a case is solved, he visits the victim's grave alone.
+
+### 3. Characteristic Gestures/Habits
+- When thinking: Strokes his chin with his right thumb.
+- When nervous: Grips his old police notebook in his pocket.
+- When happy: Eyebrows move slightly, then quickly returns to a neutral expression.
+
+---
+
+## Consistency Checkpoints
+- [x] Can all actions be explained by the "core value"?
+- [x] Is the contradiction intentional and does it create human-likeness?
+- [x] Is the speech style consistent even when the scene changes?
+- [x] Is growth/change natural and gradual?
+
+---
+
+## Notes/Supplements
+- Cherished item: Lighter, a memento from his deceased best friend (tries to quit smoking but can't let go of this lighter).
+- Special skill: Detecting lies (from gaze, gestures, tone of voice).
+- Weakness: Soft spot for children (his deceased best friend had a young daughter).
+- Daily routine: Wakes up at 5 AM every morning for a 1-hour run (time to clear his head).
+
+### Usage Example in Story
+**Scene setting**: A scene where he realizes the client is lying.
 ```
-黒川は煙草に火をつけることなく、フィルターを唇に挟んだまま依頼人を見つめた。右手の親指が、無意識に顎を撫でている。
+Kurokawa stared at the client with an unlit cigarette filter pressed between his lips. His right thumb unconsciously stroked his chin.
 
-「奥さん」低い声が、静かな事務所に響いた。「事実だけを話してください」
+"Ma'am," his low voice echoed in the quiet office. "Please state only the facts."
 
-依頼人の視線が一瞬、左下に流れた。黒川は何も言わず、ただ待った。真実が語られるまで、彼には時間はいくらでもあった。
+The client's gaze flickered downwards to the left for a moment. Kurokawa said nothing, just waited. He had all the time in the world until the truth was spoken.
 ```
 
-### AIプロンプト使用例
-「黒川誠は元刑事の私立探偵で、『真実を明らかにすることで犠牲者に正義をもたらす』ことを信条としていますが、優しい嘘で人を守りたいという矛盾も抱えています。依頼人の嘘を見抜いた時の反応を描写してください。」
+### AI Prompt Usage Example
+"Makoto Kurokawa is a private detective, formerly a police detective, who believes in 'bringing justice to victims by revealing the truth,' but also harbors the contradiction of wanting to protect people with kind lies. Describe his reaction when he detects a client's lie."

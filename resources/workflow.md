@@ -1,295 +1,295 @@
-# 推奨ワークフロー
+# Recommended Workflow
 
-## 🗓️ 3週間集中創作プログラム
+## 🗓️ 3-Week Intensive Creation Program
 
-### Week 1: キャラクター確立
+### Week 1: Character Establishment
 
-#### Day 1-2: 主人公の創造
-**目標**：魅力的で一貫性のある主人公を作る
+#### Day 1-2: Protagonist Creation
+**Goal**: Create a compelling and consistent protagonist.
 
 ```
-タイムテーブル：
-09:00-09:30 CHARACTER.mdを読み込み、理解
-09:30-10:30 基本情報記入とブレインストーミング
-10:30-11:30 AIとの対話（5ステップ法）
-11:30-12:00 一貫性チェックと修正
+Timetable:
+09:00-09:30 Read and understand CHARACTER.md
+09:30-10:30 Fill in basic information and brainstorm
+10:30-11:30 Dialogue with AI (5-step method)
+11:30-12:00 Consistency check and revisions
 ```
 
-**使用ツール**：
+**Tools to use**:
 - `character-template/CHARACTER.md`
 - `character-template/character-prompts.md`
-- お好みのAI（Claude, ChatGPT等）
+- Your preferred AI (Claude, ChatGPT, etc.)
 
-#### Day 3-4: サブキャラクターの設計
-**目標**：主人公を引き立てる脇役を作る
+#### Day 3-4: Design of Sub-characters
+**Goal**: Create supporting characters that complement the protagonist.
 
-チェックリスト：
-- [ ] 主人公との関係性を明確に
-- [ ] それぞれ異なる価値観を設定
-- [ ] 役割分担を明確に
+Checklist:
+- [ ] Clarify relationship with the protagonist
+- [ ] Set different values for each
+- [ ] Clarify role division
 
-#### Day 5-6: キャラクター相関図
-**目標**：人間関係のダイナミクスを設計
+#### Day 5-6: Character Correlation Diagram
+**Goal**: Design the dynamics of human relationships.
 
 ```mermaid
 graph TD
-    A[主人公] -->|信頼| B[親友]
-    A -->|対立| C[ライバル]
-    A -->|憧れ| D[メンター]
-    B -->|嫉妬| C
+    A[Protagonist] -->|Trust| B[Best Friend]
+    A -->|Conflict| C[Rival]
+    A -->|Admiration| D[Mentor]
+    B -->|Jealousy| C
 ```
 
-#### Day 7: 週次レビュー
-- キャラクターの魅力度評価
-- 設定の整合性確認
-- 次週への準備
+#### Day 7: Weekly Review
+- Evaluate character appeal
+- Confirm setting consistency
+- Prepare for the next week
 
 ---
 
-### Week 2: 物語構築
+### Week 2: Story Construction
 
-#### Day 8-9: プロット作成
-**目標**：骨太な物語の骨組みを作る
+#### Day 8-9: Plot Creation
+**Goal**: Create a solid story framework.
 
 ```
-作業手順：
-1. STORY.md Phase 1を完成
-2. テーマを明確に言語化
-3. 3幕構成を詳細化
-4. 起承転結の確認
+Work Procedure:
+1. Complete STORY.md Phase 1
+2. Clearly verbalize the theme
+3. Detail the 3-act structure
+4. Confirm the story arc (beginning, development, turn, conclusion)
 ```
 
-#### Day 10-11: 重要シーンの特定
-**目標**：物語の山場を明確にする
+#### Day 10-11: Identification of Important Scenes
+**Goal**: Clarify the story's high points.
 
-重要シーンの基準：
-- 🎭 感情が大きく動く
-- 🔄 物語が転換する
-- 💡 テーマが表現される
-- 🎯 読者の期待に応える
+Criteria for important scenes:
+- 🎭 Emotions run high
+- 🔄 The story takes a turn
+- 💡 The theme is expressed
+- 🎯 Meets reader expectations
 
-#### Day 12-13: シーン詳細設計
-**目標**：各シーンを映像的に構築
+#### Day 12-13: Detailed Scene Design
+**Goal**: Construct each scene visually.
 
 ```yaml
-シーン設計シート:
-  外的要素:
-    場所: 具体的に
-    時間: 明確に
-    天候: 雰囲気作り
-  内的要素:
-    感情: 変化を追う
-    葛藤: 明確に
-    決断: 具体的に
+Scene Design Sheet:
+  External Elements:
+    Location: Specific
+    Time: Clear
+    Weather: Atmosphere creation
+  Internal Elements:
+    Emotion: Track changes
+    Conflict: Clear
+    Decision: Specific
 ```
 
-#### Day 14: 週次レビュー
-- プロットの完成度確認
-- ペース配分の検証
-- 執筆準備の最終確認
+#### Day 14: Weekly Review
+- Confirm plot completeness
+- Verify pacing
+- Final check of writing preparations
 
 ---
 
-### Week 3: 執筆と改善
+### Week 3: Writing and Improvement
 
-#### Day 15-17: 第一稿執筆
-**目標**：完璧を求めず、最後まで書き切る
+#### Day 15-17: First Draft Writing
+**Goal**: Write to the end without aiming for perfection.
 
 ```
-執筆リズム:
+Writing Rhythm:
 ━━━━━━━━━━━━━━━━━━━
-09:00-11:00 執筆（2時間）
-11:00-11:15 休憩
-11:15-12:15 執筆（1時間）
+09:00-11:00 Writing (2 hours)
+11:00-11:15 Break
+11:15-12:15 Writing (1 hour)
 ━━━━━━━━━━━━━━━━━━━
-目標: 1日1,500-2,000字
+Goal: 1,500-2,000 characters per day
 ```
 
-**執筆のコツ**：
-- 編集しながら書かない
-- 疑問点はメモして進む
-- リズムを大切に
+**Writing Tips**:
+- Don't edit while writing.
+- Note down questions and move on.
+- Value rhythm.
 
-#### Day 18-19: 品質チェック
-**目標**：客観的に作品を評価
+#### Day 18-19: Quality Check
+**Goal**: Evaluate the work objectively.
 
-使用ツール：
+Tools to use:
 - `quality-check/checklist.md`
-- 5軸評価（各10点満点）
-- 改善点の優先順位付け
+- 5-axis evaluation (max 10 points each)
+- Prioritize areas for improvement.
 
-#### Day 20: 修正と仕上げ
-**目標**：重要な問題を解決
+#### Day 20: Revision and Finishing
+**Goal**: Solve important problems.
 
-修正の優先順位：
-1. ❗ キャラクターの一貫性
-2. ❗ 物語の論理性
-3. ⚠️ 文章の読みやすさ
-4. 💭 細部の調整
+Revision Priority:
+1. ❗ Character consistency
+2. ❗ Story logic
+3. ⚠️ Readability of text
+4. 💭 Fine-tuning details
 
-#### Day 21: 最終確認
-- 通し読みで全体確認
-- タイトルの最終決定
-- 完成の喜びを味わう
+#### Day 21: Final Confirmation
+- Read through the entire work for a final check.
+- Finalize the title.
+- Savor the joy of completion.
 
 ---
 
-## 🔄 継続的改善サイクル
+## 🔄 Continuous Improvement Cycle
 
-### 日次ルーティン（執筆期）
+### Daily Routine (During Writing Phase)
 
 ```
-朝のルーティン（30分）:
-1. 前日の内容を読み返す
-2. 今日の目標を設定
-3. キャラクター設定を確認
-4. 執筆開始
+Morning Routine (30 minutes):
+1. Reread the previous day's content.
+2. Set today's goals.
+3. Review character settings.
+4. Start writing.
 
-夜のルーティン（30分）:
-1. 今日書いた分を読み返す
-2. 良かった点を3つ記録
-3. 改善点を1つメモ
-4. 明日の準備
+Evening Routine (30 minutes):
+1. Reread what was written today.
+2. Record 3 things that went well.
+3. Note down 1 point for improvement.
+4. Prepare for tomorrow.
 ```
 
-### 週次レビューテンプレート
+### Weekly Review Template
 
 ```markdown
-## Week [N] レビュー
+## Week [N] Review
 
-### 達成したこと
+### Accomplishments
 - 
-- 
-- 
-
-### うまくいったこと
 - 
 - 
 
-### 課題と対策
-| 課題 | 原因 | 対策 |
-|------|------|------|
-|      |      |      |
+### What Went Well
+- 
+- 
 
-### 来週の目標
+### Challenges and Countermeasures
+| Challenge | Cause | Countermeasure |
+|-----------|-------|----------------|
+|           |       |                |
+
+### Goals for Next Week
 1. 
 2. 
 3. 
 
-### 気づきとメモ
+### Insights and Memos
 ```
 
 ---
 
-## 🛠️ ツール活用ガイド
+## 🛠️ Tool Usage Guide
 
-### Phase別推奨ツール
+### Recommended Tools by Phase
 
-#### 構想期
-- **マインドマップ**: アイデア整理
-- **Pinterest**: ビジュアルイメージ
-- **音楽**: 雰囲気作り
+#### Conceptualization Phase
+- **Mind Map**: Idea organization
+- **Pinterest**: Visual inspiration
+- **Music**: Atmosphere creation
 
-#### 執筆期
-- **ポモドーロタイマー**: 集中力維持
-- **Character.ai**: 対話シミュレーション
-- **DeepL Write**: 文章推敲
+#### Writing Phase
+- **Pomodoro Timer**: Maintain focus
+- **Character.ai**: Dialogue simulation
+- **DeepL Write**: Text revision
 
-#### 推敲期
-- **読み上げソフト**: 客観的確認
-- **印刷**: 紙での確認
-- **共有**: フィードバック収集
+#### Revision Phase
+- **Text-to-speech software**: Objective review
+- **Printing**: Review on paper
+- **Sharing**: Feedback collection
 
 ---
 
-## 💡 創作のコツ
+## 💡 Creation Tips
 
-### 行き詰まった時の対処法
+### How to Deal with Writer's Block
 
-#### 1. キャラクターと対話
+#### 1. Converse with the Character
 ```
-プロンプト例：
-「あなたは[キャラクター名]です。
-今、[状況]にいます。
-何を考えていますか？」
-```
-
-#### 2. 視点を変える
-- 別キャラクターの視点で見る
-- 読者の立場で読み返す
-- 1週間寝かせる
-
-#### 3. 制約を加える
-- 文字数を半分に
-- 別ジャンルで書き直す
-- 5分で要約する
-
-### モチベーション維持
-
-#### 進捗の可視化
-```
-執筆カレンダー:
-月 火 水 木 金 土 日
-✓  ✓  ✓  ✓  ✓  ✓  ✓
-↑毎日少しでも書いたら✓
+Example Prompt:
+"You are [Character Name].
+You are currently in [situation].
+What are you thinking?"
 ```
 
-#### 小さな報酬
-- 1,000字書いたら好きな飲み物
-- 1章完成したら映画鑑賞
-- 完成したら自分へのご褒美
+#### 2. Change Perspective
+- See from another character's point of view.
+- Reread from the reader's standpoint.
+- Let it sit for a week.
+
+#### 3. Add Constraints
+- Halve the character count.
+- Rewrite in a different genre.
+- Summarize in 5 minutes.
+
+### Maintaining Motivation
+
+#### Visualize Progress
+```
+Writing Calendar:
+Mon Tue Wed Thu Fri Sat Sun
+✓   ✓   ✓   ✓   ✓   ✓   ✓
+↑ Check if you wrote even a little each day
+```
+
+#### Small Rewards
+- Favorite drink after writing 1,000 characters.
+- Watch a movie after completing a chapter.
+- Treat yourself upon completion.
 
 ---
 
-## 📈 スキルアップの道
+## 📈 Path to Skill Improvement
 
-### Level 1: 基礎固め（1-3作品目）
-- テンプレートに従って書く
-- 短編から始める
-- 完成を最優先
+### Level 1: Solidifying Basics (1st-3rd work)
+- Write according to the template.
+- Start with short stories.
+- Prioritize completion.
 
-### Level 2: 応用展開（4-10作品目）
-- テンプレートをカスタマイズ
-- 中編に挑戦
-- 複数キャラクターの管理
+### Level 2: Applied Development (4th-10th work)
+- Customize templates.
+- Try writing medium-length stories.
+- Manage multiple characters.
 
-### Level 3: 独自スタイル（11作品目以降）
-- 自分だけのテンプレート作成
-- 長編への挑戦
-- ジャンルの融合
-
----
-
-## 🎯 成功指標
-
-### 定量的指標
-- [ ] 予定通り完成したか
-- [ ] 目標文字数を達成したか
-- [ ] 品質スコア40点以上か
-
-### 定性的指標
-- [ ] 書いていて楽しかったか
-- [ ] キャラクターが生きていたか
-- [ ] 伝えたいことが伝わったか
-- [ ] また書きたいと思うか
+### Level 3: Unique Style (11th work onwards)
+- Create your own templates.
+- Challenge yourself with long-form stories.
+- Fuse genres.
 
 ---
 
-## 🚀 次のステップ
+## 🎯 Success Indicators
 
-### 作品完成後のアクション
-1. **1週間寝かせる** - 客観性を取り戻す
-2. **推敲と修正** - 品質向上
-3. **共有** - フィードバックを得る
-4. **振り返り** - 学びを記録
-5. **次回作の構想** - 継続が力
+### Quantitative Indicators
+- [ ] Was it completed on schedule?
+- [ ] Was the target character count achieved?
+- [ ] Is the quality score 40 points or higher?
 
-### コミュニティ活用
-- 作品を共有する勇気
-- 他者の作品から学ぶ
-- 創作仲間を見つける
-- 切磋琢磨する環境
+### Qualitative Indicators
+- [ ] Was it enjoyable to write?
+- [ ] Did the characters feel alive?
+- [ ] Was the intended message conveyed?
+- [ ] Do you want to write again?
 
 ---
 
-🌟 **Remember**: 完璧な第一稿はありません。大切なのは、書き始め、書き続け、書き終えること。そして、次へ進むことです。
+## 🚀 Next Steps
+
+### Actions After Completing a Work
+1. **Let it sit for 1 week** - To regain objectivity.
+2. **Revise and correct** - Improve quality.
+3. **Share** - Get feedback.
+4. **Reflect** - Record learnings.
+5. **Plan next work** - Continuation is power.
+
+### Utilizing the Community
+- Courage to share your work.
+- Learn from others' works.
+- Find creative companions.
+- An environment for friendly competition.
+
+---
+
+🌟 **Remember**: There is no perfect first draft. What's important is to start writing, keep writing, and finish writing. And then, to move on to the next thing.

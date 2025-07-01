@@ -1,222 +1,222 @@
 ---
-description: "段階的に物語を構築するためのコマンド"
+description: "Command for constructing a story step-by-step"
 ---
 
-# story - 段階的に物語を構築する
+# story - Construct a story step-by-step
 
-キャラクターから物語を紡ぎ出す、3段階の構築プロセスをガイドします。
+Guides a 3-phase construction process to weave a story from characters.
 
-## 引数の処理
+## Argument Processing
 
-コマンド引数: $ARGUMENTS
+Command arguments: $ARGUMENTS
 
-引数が与えられた場合、以下のように解釈します：
-- 引数なし → 対話形式でオプションを選択
-- `new` → 新しい物語を構築開始
-- `plot [タイトル]` → 指定タイトルの物語のプロット展開
-- `scene [タイトル] [シーン番号]` → 特定シーンの詳細作成
-- `expand [タイトル]` → 短編を長編に展開
-- `analyze [タイトル]` → 物語構造の分析
+If arguments are given, they are interpreted as follows:
+- No arguments → Select options interactively
+- `new` → Start constructing a new story
+- `plot [title]` → Plot development for the specified story title
+- `scene [title] [scene_number]` → Detailed creation of a specific scene
+- `expand [title]` → Expand a short story into a long one
+- `analyze [title]` → Analysis of story structure
 
-## 段階的構築プロセス
+## Phased Construction Process
 
-### Phase 1: 骨組み（スケルトン）
+### Phase 1: Skeleton
 ```
-1. 主人公の設定確認
-2. 中心テーマの決定
-3. 始まりと終わりの設定
-4. 3幕構成の作成
-```
-
-### Phase 2: 重要シーンの特定
-```
-1. 転換点シーン（物語が動く瞬間）
-2. 感情のピークシーン（最も盛り上がる場面）
-3. テーマ体現シーン（主題が最も表れる場面）
+1. Confirm protagonist settings
+2. Determine central theme
+3. Set beginning and end
+4. Create 3-act structure
 ```
 
-### Phase 3: シーンの詳細設計
+### Phase 2: Identify Important Scenes
 ```
-1. 外的状況（場所、時間、登場人物）
-2. 内的状況（感情、欲求、恐れ）
-3. シーンの流れ（導入→展開→転換→締め）
-4. 必ず描くことチェックリスト
+1. Turning point scene (moment the story moves)
+2. Emotional peak scene (most exciting part)
+3. Theme embodiment scene (part where the theme is most expressed)
 ```
 
-## 実行例
+### Phase 3: Detailed Scene Design
+```
+1. External situation (location, time, characters)
+2. Internal situation (emotions, desires, fears)
+3. Scene flow (introduction → development → turning point → conclusion)
+4. Checklist of things to always depict
+```
 
-### 新規作成
+## Execution Examples
+
+### New Creation
 ```
 User: /story new
-Assistant: 新しい物語を構築しましょう！
+Assistant: Let's construct a new story!
 
-まず基本設定から始めます：
-- タイトル（仮でOK）：
-- ジャンル：
-- 想定文字数：
-- 主人公（作成済みキャラクターor新規）：
+First, let's start with basic settings:
+- Title (can be temporary):
+- Genre:
+- Estimated character count:
+- Protagonist (existing character or new):
 
-どれから決めていきましょうか？
+Which one shall we decide first?
 ```
 
-### プロット展開
+### Plot Development
 ```
-User: /story plot "最後の手紙"
-Assistant: 「最後の手紙」のプロット展開を行います。
+User: /story plot "The Last Letter"
+Assistant: Proceeding with plot development for "The Last Letter".
 
-現在の設定：
-- 主人公：田中美咲（45歳・書店店主）
-- テーマ：過去との和解と新たな一歩
+Current settings:
+- Protagonist: Misaki Tanaka (45 years old, bookstore owner)
+- Theme: Reconciliation with the past and a new step forward
 
-【3幕構成の詳細化】
+【Detailed 3-Act Structure】
 
-第1幕（設定）：
-1. 経営難の書店、美咲の日常描写（1,000字）
-2. 老婦人の来訪、本を探す（800字）
-3. 母の思い出の本との遭遇（700字）
+Act 1 (Setup):
+1. Struggling bookstore, depiction of Misaki's daily life (1,000 characters)
+2. Visit from an old woman, searching for a book (800 characters)
+3. Encounter with a book of her mother's memories (700 characters)
 
-続けて第2幕を展開しますか？
-```
-
-### シーン作成
-```
-User: /story scene "最後の手紙" 2
-Assistant: 「最後の手紙」第2シーン：老婦人との出会い
-
-【外的状況】
-場所：薄暗い書店の入り口付近
-時間：閉店間際の夕方6時、外は既に暗い
-天候：小雨が降り始めている
-
-【描写開始】
-カウンターで売上帳簿を閉じかけた美咲の耳に、扉の鈴の音が響いた。
-「申し訳ございません、もう閉店の時間で...」
-振り返った美咲の言葉が、途中で止まった。
-
-杖をついた老婦人が、雨に濡れた肩を小さく震わせながら立っていた。
-
-「少しだけ...本を探させていただけませんか」
-
-[続きを書きますか？]
+Shall we continue developing Act 2?
 ```
 
-## ワークスペース管理
+### Scene Creation
+```
+User: /story scene "The Last Letter" 2
+Assistant: "The Last Letter" Scene 2: Encounter with the old woman
 
-### 物語プロジェクトの構造
+【External Situation】
+Location: Near the entrance of a dimly lit bookstore
+Time: 6 PM, just before closing, already dark outside
+Weather: Light rain starting to fall
+
+【Begin Description】
+As Misaki was about to close the sales ledger at the counter, the sound of the door's bell echoed in her ears.
+"I'm sorry, we're already closed..."
+Misaki's words trailed off as she turned around.
+
+An old woman leaning on a cane stood there, her rain-soaked shoulders trembling slightly.
+
+"Could I just... look for a book for a little while?"
+
+[Continue writing?]
+```
+
+## Workspace Management
+
+### Story Project Structure
 ```
 my-stories/
-└── [作品名]/
-    ├── story.md          # メインストーリー
-    ├── outline.md        # プロット・構成
-    ├── characters/       # この作品のキャラクター
-    ├── scenes/          # 個別シーンファイル
+└── [work-title]/
+    ├── story.md          # Main story
+    ├── outline.md        # Plot/structure
+    ├── characters/       # Characters in this work
+    ├── scenes/          # Individual scene files
     │   ├── scene-01-opening.md
     │   ├── scene-02-meeting.md
     │   └── scene-03-climax.md
-    ├── chapters/        # 章ごとのファイル（長編の場合）
-    └── notes/          # メモ・アイデア
+    ├── chapters/        # Files per chapter (for long works)
+    └── notes/          # Memos/ideas
 ```
 
-### 新規プロジェクトの開始
+### Starting a New Project
 ```bash
-# 物語用のディレクトリを作成
+# Create a directory for the story
 mkdir -p my-stories/new-story/scenes
 
-# テンプレートをコピー
+# Copy the template
 cp story-template/STORY.md my-stories/new-story/story.md
 
-# キャラクターも関連付け
+# Also associate characters
 cp my-characters/protagonist.character.md my-stories/new-story/characters/
 ```
 
-### バージョン管理
-重要な作品は個別のGitリポジトリで管理：
+### Version Control
+Manage important works in individual Git repositories:
 ```bash
 cd my-stories/important-novel
 git init
 git add .
-git commit -m "第1稿完成"
+git commit -m "First draft complete"
 ```
 
-### 自動除外設定
-- `my-stories/`内のすべてのファイルは`.gitignore`で自動除外
-- テンプレートリポジトリに個人作品が混入する心配なし
+### Automatic Exclusion Settings
+- All files in `my-stories/` are automatically excluded by `.gitignore`
+- No need to worry about personal works getting mixed into the template repository
 
-## ストーリー構築のコツ
+## Story Construction Tips
 
-### Lost in the Middle対策
-- 重要情報は冒頭と結末に配置
-- 中盤は雰囲気と感情に集中
-- 定期的なリマインダーを挿入
+### Lost in the Middle Countermeasures
+- Place important information at the beginning and end
+- Focus on atmosphere and emotion in the middle
+- Insert periodic reminders
 
-### 感情曲線の設計
+### Designing the Emotional Curve
 ```
-高 |    ★ピーク
-   |   /  \
-   |  /    \★小さな山
-低 |★/      \★
-   |開始     結末
+High |    ★Peak
+     |   /  \
+     |  /    \★Small hill
+Low  |★/      \★
+     |Start     End
 ```
 
-### シーン転換テクニック
-1. 時間経過を明示
-2. 場所の変化を描写
-3. 視点人物の心理変化を追う
+### Scene Transition Techniques
+1. Clearly indicate time passage
+2. Describe changes in location
+3. Follow the psychological changes of the point-of-view character
 
-## 品質チェックポイント
+## Quality Checkpoints
 
-- [ ] 主人公の動機は一貫しているか
-- [ ] 物理的な矛盾はないか
-- [ ] 感情の流れは自然か
-- [ ] テーマは効果的に表現されているか
-- [ ] 各シーンに明確な役割があるか
+- [ ] Is the protagonist's motivation consistent?
+- [ ] Are there any physical contradictions?
+- [ ] Is the flow of emotions natural?
+- [ ] Is the theme effectively expressed?
+- [ ] Does each scene have a clear role?
 
-## ジャンル別アドバイス
+## Genre-Specific Advice
 
-### ミステリー
-- 手がかりはフェアに配置
-- 読者が推理可能な範囲で
-- 論理的な解決を重視
+### Mystery
+- Place clues fairly
+- Within a range the reader can deduce
+- Emphasize logical solutions
 
-### 恋愛小説
-- 感情の機微を丁寧に
-- 障害は現実的に設定
-- 関係性の変化を段階的に
+### Romance Novel
+- Carefully depict emotional subtleties
+- Set obstacles realistically
+- Show changes in relationships step-by-step
 
-### ファンタジー
-- 世界観のルールを明確に
-- でも説明過多は避ける
-- 人間ドラマを中心に
+### Fantasy
+- Clearly define world-building rules
+- But avoid excessive explanation
+- Focus on human drama
 
-## プロンプトチェーン
+## Prompt Chain
 
-1. **構想段階**
+1. **Conceptualization Phase**
    ```
-   キャラクター確認 → テーマ設定 → 
-   プロット作成 → 重要シーン選定
-   ```
-
-2. **執筆段階**
-   ```
-   シーン設計 → 下書き作成 → 
-   推敲 → 品質チェック
+   Character confirmation → Theme setting →
+   Plot creation → Important scene selection
    ```
 
-3. **仕上げ段階**
+2. **Writing Phase**
    ```
-   全体通読 → 不整合修正 → 
-   最終調整 → 完成
+   Scene design → Draft creation →
+   Revision → Quality check
    ```
 
-## 関連コマンド
+3. **Finishing Phase**
+   ```
+   Full read-through → Inconsistency correction →
+   Final adjustments → Completion
+   ```
 
-- `/character` - 物語の主人公を作成
-- `/scene` - 個別シーンの詳細作成
-- `/quality` - 物語の品質評価
-- `/dialogue` - 会話シーンの作成
+## Related Commands
+
+- `/character` - Create the protagonist of the story
+- `/scene` - Detailed creation of individual scenes
+- `/quality` - Evaluate the quality of the story
+- `/dialogue` - Create conversation scenes
 
 ## Remember
 
-📝 物語は段階的に育てるもの。最初から完璧を求めない。
-📝 キャラクターの動機がすべての原動力。
-📝 読者の感情を第一に考える。
+📝 Stories are nurtured step-by-step. Don't aim for perfection from the start.
+📝 Character motivation is the driving force behind everything.
+📝 Consider the reader's emotions first.

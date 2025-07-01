@@ -1,194 +1,194 @@
-# 品質チェックリスト
+# Quality Checklist
 
-## シーン評価（各10点満点）
+## Scene Evaluation (Max 10 points each)
 
-### 1. キャラクター一貫性 [ ]/10
-- [ ] 核となる価値観に沿った行動
-- [ ] 話し方の統一
-- [ ] 設定された関係性の維持
-- [ ] 矛盾は意図的かつ人間的
+### 1. Character Consistency [ ]/10
+- [ ] Actions aligned with core values
+- [ ] Consistency of speech style
+- [ ] Maintenance of established relationships
+- [ ] Contradictions are intentional and human-like
 
-### 2. 物理的論理性 [ ]/10
-- [ ] 時間経過の整合性
-- [ ] 空間配置の一貫性
-- [ ] 因果関係の明確さ
-- [ ] 不自然な偶然の排除
+### 2. Physical Logic [ ]/10
+- [ ] Consistency of time progression
+- [ ] Consistency of spatial arrangement
+- [ ] Clarity of cause and effect
+- [ ] Elimination of unnatural coincidences
 
-### 3. 心理的自然さ [ ]/10
-- [ ] 感情変化の段階的描写
-- [ ] 動機の明確さ
-- [ ] 関係性の自然な発展
-- [ ] 内面描写の深さ
+### 3. Psychological Naturalness [ ]/10
+- [ ] Phased depiction of emotional changes
+- [ ] Clarity of motivation
+- [ ] Natural development of relationships
+- [ ] Depth of internal portrayal
 
-### 4. 読みやすさ [ ]/10
-- [ ] 文章のリズム
-- [ ] 適切な情報量
-- [ ] 場面転換の滑らかさ
-- [ ] 理解しやすい構成
+### 4. Readability [ ]/10
+- [ ] Rhythm of writing
+- [ ] Appropriate amount of information
+- [ ] Smoothness of scene transitions
+- [ ] Easy-to-understand structure
 
-### 5. 感情的インパクト [ ]/10
-- [ ] 共感できる瞬間
-- [ ] 予想外の展開
-- [ ] 印象的な場面
-- [ ] 読後の余韻
+### 5. Emotional Impact [ ]/10
+- [ ] Relatable moments
+- [ ] Unexpected developments
+- [ ] Memorable scenes
+- [ ] Lingering impression after reading
 
-**総合： [ ]/50点**
+**Overall: [ ]/50 points**
 
-## 改善アクション
-1. 最優先：
-2. 次点：
-3. 将来的に：
-
----
-
-## 使い方
-
-### ステップ1：シーンの選定
-- 重要なシーン3つを選ぶ
-- 転換点、クライマックス、象徴的な場面など
-
-### ステップ2：評価の実施
-- 各項目を客観的に採点
-- できるだけ具体的な理由を記録
-- 改善点を明確にする
-
-### ステップ3：改善の実行
-- 最優先項目から着手
-- 1つずつ確実に改善
-- 再評価で効果を確認
+## Improvement Actions
+1. Highest priority:
+2. Next priority:
+3. In the future:
 
 ---
 
-## 詳細評価項目
+## How to Use
 
-### キャラクター一貫性の詳細
-1. **価値観の反映**
-   - 行動の動機が価値観から説明できる
-   - 決断の基準が一貫している
-   - 成長しても核は変わらない
+### Step 1: Scene Selection
+- Choose 3 important scenes
+- Turning points, climax, symbolic scenes, etc.
 
-2. **話し方の特徴**
-   - 口癖の自然な使用
-   - 語彙レベルの統一
-   - 感情による変化の範囲
+### Step 2: Conduct Evaluation
+- Score each item objectively
+- Record specific reasons as much as possible
+- Clarify areas for improvement
 
-3. **関係性の描写**
-   - 相手によって態度が変わる
-   - 関係の深まりが段階的
-   - 過去の経験が反映される
-
-### 物理的論理性の詳細
-1. **時系列の整合性**
-   - 出来事の順序が明確
-   - 移動時間が現実的
-   - 日付や曜日の矛盾なし
-
-2. **空間的整合性**
-   - 場所の位置関係が明確
-   - 移動経路が合理的
-   - 描写の視点が一貫
-
-3. **因果関係**
-   - 原因と結果が明確
-   - 伏線の適切な回収
-   - 偶然の最小化
-
-### 心理的自然さの詳細
-1. **感情の流れ**
-   - 急激な変化に理由がある
-   - 前後の文脈と整合
-   - 人間らしい複雑さ
-
-2. **動機づけ**
-   - 行動の理由が明確
-   - キャラクターの背景と一致
-   - 読者が納得できる
-
-3. **関係性の変化**
-   - 段階的な発展
-   - 相互作用が自然
-   - 過去の影響が見える
-
-### 読みやすさの詳細
-1. **文章のリズム**
-   - 長短のバランス
-   - 段落の適切な区切り
-   - テンポの緩急
-
-2. **情報提示**
-   - 必要十分な説明
-   - タイミングの適切さ
-   - 繰り返しの回避
-
-3. **構成の明確さ**
-   - 場面転換がスムーズ
-   - 時間経過が分かりやすい
-   - 視点の一貫性
-
-### 感情的インパクトの詳細
-1. **共感ポイント**
-   - 普遍的な感情への訴求
-   - 具体的な状況設定
-   - キャラクターの魅力
-
-2. **サプライズ要素**
-   - 予想を裏切る展開
-   - でも納得できる理由
-   - 伏線の効果的な使用
-
-3. **印象的な描写**
-   - 五感に訴える表現
-   - 象徴的な場面
-   - 記憶に残る台詞
+### Step 3: Implement Improvements
+- Start with the highest priority items
+- Improve one by one reliably
+- Confirm effectiveness with re-evaluation
 
 ---
 
-## 評価例
+## Detailed Evaluation Items
 
-### サンプル評価：「最後の手紙」第8章
+### Details of Character Consistency
+1. **Reflection of Values**
+   - Motivation for actions can be explained by values
+   - Decision-making criteria are consistent
+   - Core does not change even with growth
 
-**1. キャラクター一貫性 [8]/10**
-- ✓ 美咲の「人に寄り添いたい」価値観が一貫
-- ✓ 老婦人の丁寧な話し方が維持されている
-- △ 感情の高まりで少し説明的になった箇所あり
+2. **Speech Characteristics**
+   - Natural use of catchphrases
+   - Consistent vocabulary level
+   - Range of change due to emotion
 
-**2. 物理的論理性 [9]/10**
-- ✓ 手紙の保管状態の説明が自然
-- ✓ 時間経過が明確
-- △ 書店の配置がやや不明瞭
+3. **Portrayal of Relationships**
+   - Attitude changes depending on the other person
+   - Deepening of relationships is gradual
+   - Past experiences are reflected
 
-**3. 心理的自然さ [9]/10**
-- ✓ 美咲の驚きから受容への変化が段階的
-- ✓ 老婦人の感情の機微が繊細
-- ✓ 20年の重みが伝わる
+### Details of Physical Logic
+1. **Timeline Consistency**
+   - Order of events is clear
+   - Travel time is realistic
+   - No contradictions in dates or days of the week
 
-**4. 読みやすさ [8]/10**
-- ✓ 場面転換がスムーズ
-- △ 手紙の内容がやや長い
-- ✓ 感情の起伏でメリハリあり
+2. **Spatial Consistency**
+   - Positional relationships of places are clear
+   - Travel routes are rational
+   - Viewpoint of description is consistent
 
-**5. 感情的インパクト [10]/10**
-- ✓ 時を超えた繋がりに感動
-- ✓ 予想外の真実
-- ✓ 希望を感じる結末
+3. **Cause and Effect**
+   - Cause and result are clear
+   - Appropriate resolution of foreshadowing
+   - Minimization of coincidences
 
-**総合：44/50点**
+### Details of Psychological Naturalness
+1. **Flow of Emotions**
+   - Reasons for sudden changes
+   - Consistency with preceding and succeeding context
+   - Human-like complexity
 
-**改善アクション**
-1. 最優先：手紙の内容を少し削って、リアクションを増やす
-2. 次点：書店の空間描写を1-2行追加
-3. 将来的に：より抑制的な感情表現を研究
+2. **Motivation**
+   - Clear reasons for actions
+   - Alignment with character background
+   - Believable for the reader
+
+3. **Changes in Relationships**
+   - Gradual development
+   - Natural interactions
+   - Visible influence of the past
+
+### Details of Readability
+1. **Rhythm of Writing**
+   - Balance of long and short sentences
+   - Appropriate paragraph breaks
+   - Variation in tempo
+
+2. **Information Presentation**
+   - Necessary and sufficient explanation
+   - Appropriate timing
+   - Avoidance of repetition
+
+3. **Clarity of Structure**
+   - Smooth scene transitions
+   - Easy-to-understand time progression
+   - Consistency of viewpoint
+
+### Details of Emotional Impact
+1. **Empathy Points**
+   - Appeal to universal emotions
+   - Specific situation settings
+   - Character appeal
+
+2. **Surprise Elements**
+   - Developments that defy expectations
+   - But with believable reasons
+   - Effective use of foreshadowing
+
+3. **Memorable Descriptions**
+   - Expressions that appeal to the five senses
+   - Symbolic scenes
+   - Lines that stick in the memory
 
 ---
 
-## チェックリストのカスタマイズ
+## Evaluation Example
 
-### ジャンル別の調整
-- **ミステリー**：論理性と伏線を重視
-- **恋愛小説**：心理描写と感情を重視
-- **アクション**：テンポと視覚的描写を重視
+### Sample Evaluation: "The Last Letter" Chapter 8
 
-### 目的別の使用
-- **初稿チェック**：大きな問題の発見
-- **推敲時**：細部の調整
-- **最終確認**：全体のバランス
+**1. Character Consistency [8]/10**
+- ✓ Misaki's value of "wanting to be there for people" is consistent
+- ✓ The old woman's polite speech style is maintained
+- △ Became slightly explanatory in a moment of heightened emotion
+
+**2. Physical Logic [9]/10**
+- ✓ Explanation of the letter's storage condition is natural
+- ✓ Time progression is clear
+- △ Bookstore layout is somewhat unclear
+
+**3. Psychological Naturalness [9]/10**
+- ✓ Misaki's change from surprise to acceptance is gradual
+- ✓ The old woman's emotional subtleties are delicate
+- ✓ The weight of 20 years is conveyed
+
+**4. Readability [8]/10**
+- ✓ Scene transitions are smooth
+- △ Letter content is slightly long
+- ✓ Emotional ups and downs provide good contrast
+
+**5. Emotional Impact [10]/10**
+- ✓ Moved by the connection across time
+- ✓ Unexpected truth
+- ✓ Ending evokes hope
+
+**Overall: 44/50 points**
+
+**Improvement Actions**
+1. Highest priority: Slightly reduce letter content and increase reactions
+2. Next priority: Add 1-2 lines of bookstore spatial description
+3. In the future: Research more subdued emotional expressions
+
+---
+
+## Checklist Customization
+
+### Genre-Specific Adjustments
+- **Mystery**: Emphasize logic and foreshadowing
+- **Romance Novel**: Emphasize psychological portrayal and emotions
+- **Action**: Emphasize tempo and visual descriptions
+
+### Usage by Purpose
+- **First Draft Check**: Discover major problems
+- **During Revision**: Adjust details
+- **Final Confirmation**: Overall balance

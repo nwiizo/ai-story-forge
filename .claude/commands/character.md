@@ -1,184 +1,184 @@
 ---
-description: "キャラクター作成・管理・対話シミュレーションを行うコマンド"
+description: "Command to create, manage, and simulate dialogue with characters"
 ---
 
-# character - AIと共にキャラクターを創造する
+# character - Create characters with AI
 
-キャラクター作成の全プロセスをガイドします。動機から始まり、身上調査書を経て、生きたキャラクターを生み出します。
+Guides the entire character creation process. Starting from motivation, through a personal history, to create a living character.
 
-## 引数の処理
+## Argument Processing
 
-コマンド引数: $ARGUMENTS
+Command arguments: $ARGUMENTS
 
-引数が与えられた場合、以下のように解釈します：
-- 引数なし → 対話形式でオプションを選択
-- `new` → 新規キャラクター作成
-- `develop [名前]` → 指定キャラクターの深化
-- `check [名前]` → 指定キャラクターの一貫性チェック
-- `dialogue [名前]` → 指定キャラクターとの対話シミュレーション
-- `motivate` → 動機リストから選択してキャラクター作成
+If arguments are given, they are interpreted as follows:
+- No arguments → Select options interactively
+- `new` → Create a new character
+- `develop [name]` → Develop the specified character
+- `check [name]` → Check consistency of the specified character
+- `dialogue [name]` → Simulate dialogue with the specified character
+- `motivate` → Create a character by selecting from a motivation list
 
-## 基本フロー
+## Basic Flow
 
-### 1. 動機の決定（最重要）
+### 1. Determine Motivation (Most Important)
 ```
-まず、このキャラクターの「何をしたい人なのか」を決めましょう。
-以下から選ぶか、オリジナルの動機を教えてください：
+First, let's decide "what this character wants to do."
+Please choose from the list below or provide an original motivation:
 
-【守護・保護系】
-- 大切な人を守りたい
-- 故郷を守りたい
-- 弱い者を助けたい
+【Guardian/Protection Type】
+- I want to protect someone important
+- I want to protect my hometown
+- I want to help the weak
 
-【成長・達成系】
-- 強くなりたい
-- 認められたい
-- 夢を叶えたい
+【Growth/Achievement Type】
+- I want to become stronger
+- I want to be recognized
+- I want to fulfill my dream
 
-【探求・発見系】
-- 真実を知りたい
-- 世界を見たい
-- 謎を解きたい
+【Exploration/Discovery Type】
+- I want to know the truth
+- I want to see the world
+- I want to solve a mystery
 
-あなたの選択：
+Your choice:
 ```
 
-### 2. 身上調査書の作成（30分）
-動機が決まったら、キャラクターの輪郭を作ります：
-- 基本データ（名前、年齢、職業など）
-- 内面的要素（好きなもの、恐れ、夢など）
-- 生活習慣（住居、日課、口癖など）
+### 2. Create Personal History (30 minutes)
+Once the motivation is decided, create the character's outline:
+- Basic data (name, age, occupation, etc.)
+- Internal elements (likes, fears, dreams, etc.)
+- Lifestyle habits (residence, daily routine, catchphrases, etc.)
 
-### 3. 3層構造の設定
-- **第1層（不変）**：動機、価値観、恐れ、矛盾
-- **第2層（準安定）**：感情パターン、関係性、成長方向
-- **第3層（可変）**：話し方、行動パターン、仕草
+### 3. Set 3-Layer Structure
+- **Layer 1 (Invariant)**: Motivation, values, fears, contradictions
+- **Layer 2 (Semi-stable)**: Emotional patterns, relationships, growth direction
+- **Layer 3 (Variable)**: Speech style, behavior patterns, gestures
 
-### 4. キャラクターの「芯」の確認
-- 絶対にしないこと
-- 必ずすること
-- 読者への約束
+### 4. Confirm Character "Core"
+- Things they absolutely will not do
+- Things they will always do
+- Promises to the reader
 
-## 実行例
+## Execution Examples
 
-### 新規作成の場合（$ARGUMENTS = "new"）
+### For New Creation ($ARGUMENTS = "new")
 ```
 User: /character new
-Assistant: 新しいキャラクターを作成しましょう！
+Assistant: Let's create a new character!
 
-まず最も重要な「動機」から決めていきます。
-このキャラクターは「何をしたい人」ですか？
+First, let's decide on the most important "motivation."
+What does this character "want to do"?
 
-1. 用意された動機リストから選ぶ
-2. オリジナルの動機を設定する
+1. Choose from a prepared motivation list
+2. Set an original motivation
 
-どちらにしますか？
+Which do you choose?
 ```
 
-### 一貫性チェックの場合（$ARGUMENTS = "check 佐藤明日香"）
+### For Consistency Check ($ARGUMENTS = "check Asuka Sato")
 ```
-User: /character check 佐藤明日香
-Assistant: 佐藤明日香の一貫性をチェックします。
+User: /character check Asuka Sato
+Assistant: Checking Asuka Sato's consistency.
 
-✅ 動機「知識を共有することで人々の可能性を広げたい」
-✅ すべての行動が動機から説明可能
-⚠️ 第3章で本を乱暴に扱うシーンあり → 要修正
-✅ 話し方の統一性は保たれている
-```
-
-### 対話シミュレーションの場合（$ARGUMENTS = "dialogue 佐藤明日香"）
-```
-User: /character dialogue 佐藤明日香
-Assistant: 佐藤明日香として対話します。設定を読み込みました。
-
-こんにちは。市立図書館の佐藤です。
-今日はどのような本をお探しですか？
-もしよろしければ、お手伝いさせていただきます。
-
-[内面：新しい来館者。どんな本が好きなのか興味深い]
+✅ Motivation "I want to expand people's potential by sharing knowledge."
+✅ All actions can be explained by motivation
+⚠️ Scene in Chapter 3 where books are handled roughly → Needs correction
+✅ Consistency of speech style is maintained
 ```
 
-### 引数なしの場合（$ARGUMENTS = ""）
+### For Dialogue Simulation ($ARGUMENTS = "dialogue Asuka Sato")
+```
+User: /character dialogue Asuka Sato
+Assistant: I will converse as Asuka Sato. Settings loaded.
+
+Hello. I'm Sato from the市立図書館 (City Library).
+What kind of book are you looking for today?
+If you'd like, I can help you.
+
+[Internal thought: A new visitor. I'm curious what kind of books they like.]
+```
+
+### For No Arguments ($ARGUMENTS = "")
 ```
 User: /character
-Assistant: キャラクター管理コマンドです。何をしますか？
+Assistant: This is the character management command. What would you like to do?
 
-1. new - 新しいキャラクターを作成
-2. develop [名前] - 既存キャラクターを深化
-3. check [名前] - 一貫性をチェック
-4. dialogue [名前] - 対話シミュレーション
-5. motivate - 動機リストから作成
+1. new - Create a new character
+2. develop [name] - Develop an existing character
+3. check [name] - Check consistency
+4. dialogue [name] - Simulate dialogue
+5. motivate - Create from motivation list
 
-選択してください（1-5）：
+Please select (1-5):
 ```
 
-## ワークスペース管理
+## Workspace Management
 
-### 作成したキャラクターの保存
+### Saving Created Characters
 ```
-# 推奨保存先
-my-characters/[キャラクター名].character.md
+# Recommended save location
+my-characters/[character-name].character.md
 
-# 例
+# Examples
 my-characters/tanaka-misaki.character.md
 my-characters/2025-06-protagonist/hero.character.md
 ```
 
-### ファイル管理のベストプラクティス
-1. **命名規則を統一**
-   - `[名前].character.md` 形式を推奨
-   - 日本語名の場合はローマ字化
+### File Management Best Practices
+1. **Standardize Naming Conventions**
+   - Recommend `[name].character.md` format
+   - Romanize Japanese names
 
-2. **フォルダで整理**
-   - 作品ごと: `my-characters/last-letter/`
-   - 時期ごと: `my-characters/2025-06/`
-   - 役割ごと: `my-characters/protagonists/`
+2. **Organize with Folders**
+   - By work: `my-characters/last-letter/`
+   - By period: `my-characters/2025-06/`
+   - By role: `my-characters/protagonists/`
 
-3. **自動的にGitから除外**
-   - `my-characters/`内のファイルは自動的に`.gitignore`で除外
-   - 安心して個人的なキャラクターを作成可能
+3. **Automatically Exclude from Git**
+   - Files in `my-characters/` are automatically excluded by `.gitignore`
+   - Create personal characters with peace of mind
 
-### テンプレートからの開始
+### Starting from a Template
 ```bash
-# テンプレートをコピーして開始
+# Copy template to start
 cp character-template/CHARACTER.md my-characters/new-character.character.md
 
-# CLaudeで編集
+# Edit with Claude
 /character develop new-character
 ```
 
-## プロンプトチェーン
+## Prompt Chain
 
-1. **動機決定フェーズ**
-   - 動機の選択/作成
-   - 共感ポイントの確認
-   - 動機から生まれる行動の予測
+1. **Motivation Determination Phase**
+   - Select/create motivation
+   - Confirm empathy points
+   - Predict actions arising from motivation
 
-2. **詳細設定フェーズ**
-   - 身上調査書の記入
-   - 3層構造への落とし込み
-   - 矛盾の意図的設計
+2. **Detailed Setting Phase**
+   - Fill in personal history
+   - Incorporate into 3-layer structure
+   - Intentionally design contradictions
 
-3. **検証フェーズ**
-   - 一貫性チェック
-   - サンプルシーン作成
-   - 必要に応じて調整
+3. **Verification Phase**
+   - Consistency check
+   - Create sample scenes
+   - Adjust as necessary
 
-## 注意事項
+## Important Notes
 
-- 既存の人気キャラクターの真似は厳禁
-- 動機は明確で共感を呼ぶものを
-- 矛盾は人間味のために意図的に設計
-- 「芯」の部分は絶対にブレさせない
+- Strictly avoid imitating existing popular characters
+- Motivations should be clear and evoke empathy
+- Contradictions should be intentionally designed for human-likeness
+- Never let the "core" part become blurred
 
-## 関連コマンド
+## Related Commands
 
-- `/story` - 作成したキャラクターで物語を構築
-- `/scene` - キャラクターを活かしたシーン作成
-- `/quality` - キャラクターの品質評価
+- `/story` - Construct a story with the created character
+- `/scene` - Create scenes that utilize the character
+- `/quality` - Evaluate character quality
 
-## ヒント
+## Hints
 
-💡 キャラクターは設定の集まりではなく、生きた人間として扱いましょう。
-💡 迷ったら動機に立ち返りましょう。
-💡 完璧を求めすぎず、まずは作ってみることが大切です。
+💡 Treat characters not as a collection of settings, but as living humans.
+💡 If you get lost, return to the motivation.
+💡 It's important to try creating first, without aiming for perfection too much.

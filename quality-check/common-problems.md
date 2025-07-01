@@ -1,254 +1,254 @@
-# よくある問題と対策
+# Common Problems and Countermeasures
 
-## 1. キャラクターの一貫性崩壊
-**症状**：価値観に反する行動、性格の急変
-**原因**：複数の制約を同時に処理できない
-**対策**：
-- 核となる価値観を1つに絞る
-- 変化は段階的に描写
-- 各シーン後に一貫性チェック
+## 1. Character Consistency Collapse
+**Symptom**: Actions contradicting values, sudden personality changes.
+**Cause**: Inability to process multiple constraints simultaneously.
+**Countermeasure**:
+- Narrow down to one core value.
+- Depict changes gradually.
+- Perform consistency checks after each scene.
 
-### 具体例と修正
+### Specific Example and Correction
 
-**❌ 悪い例**
+**❌ Bad Example**
 ```
-美咲は本を大切にする司書だ。
-→ 次のシーンで本を乱暴に扱う
-```
-
-**✅ 良い例**
-```
-美咲は本を大切にする司書だ。
-→ 感情的になっても、本を置く時は丁寧
-→ その後で自分の行動を後悔する
+Misaki is a librarian who cherishes books.
+→ In the next scene, she handles books roughly.
 ```
 
-### プロンプトでの対策
+**✅ Good Example**
 ```
-このキャラクターの核となる価値観は「知識の共有」です。
-すべての行動はこの価値観から派生します。
-感情的になっても、この価値観は守られます。
-```
-
-## 2. 物理法則の破綻  
-**症状**：不可能な移動、矛盾する位置関係
-**原因**：空間認識の限界
-**対策**：
-- 物理描写を最小限に
-- 心理描写を中心に
-- 場所の設定をシンプルに
-
-### 具体例と修正
-
-**❌ 悪い例**
-```
-1階の書店から2階の部屋に移動し、窓から1階の庭を見下ろした。
+Misaki is a librarian who cherishes books.
+→ Even when emotional, she places books down carefully.
+→ Afterwards, she regrets her actions.
 ```
 
-**✅ 良い例**
+### Countermeasure in Prompts
 ```
-書店を出て、隣のビルの2階にある事務所へ向かった。
-窓からは、先ほどいた書店の看板が見えた。
-```
-
-### シンプルな空間設定
-- 場所は3つまでに限定
-- 移動は明確に描写
-- 複雑な建物構造は避ける
-
-## 3. 感情の不自然な変化
-**症状**：唐突な心変わり、説明なき感情変化
-**原因**：Lost in the Middle現象
-**対策**：
-- 重要な感情は冒頭で設定
-- 変化の過程を丁寧に
-- 内面の葛藤を明示
-
-### 段階的な感情変化の描写
-
-**❌ 悪い例**
-```
-激怒していた→突然許す
+This character's core value is "knowledge sharing."
+All actions derive from this value.
+Even when emotional, this value is upheld.
 ```
 
-**✅ 良い例**
+## 2. Breakdown of Physical Laws
+**Symptom**: Impossible movements, contradictory positional relationships.
+**Cause**: Limitations in spatial awareness.
+**Countermeasure**:
+- Minimize physical descriptions.
+- Focus on psychological descriptions.
+- Keep location settings simple.
+
+### Specific Example and Correction
+
+**❌ Bad Example**
 ```
-激怒 → 相手の事情を知る → 動揺 → 自分と重ねる → 理解 → 許し
-```
-
-### 感情変化のテンプレート
-1. きっかけ（外的要因）
-2. 内的な気づき
-3. 葛藤
-4. 決断
-5. 新しい感情状態
-
-## 4. 説明過多
-**症状**：すべてを説明、行動より説明
-**原因**：「伝える」ことを優先しすぎ
-**対策**：
-- 見せる＞語る
-- 読者の想像に委ねる
-- 必要最小限の情報
-
-### Show, Don't Tell の実践
-
-**❌ 悪い例**
-```
-美咲は悲しかった。とても悲しくて、泣きそうだった。
-母のことを思い出して、胸が痛んだ。
+Moved from the first-floor bookstore to a second-floor room and looked down at the first-floor garden from the window.
 ```
 
-**✅ 良い例**
+**✅ Good Example**
 ```
-美咲は本の背表紙をそっと撫でた。
-母が最後に仕入れた本。指先が、かすかに震えていた。
-```
-
-## 5. Lost in the Middle対策
-
-### 問題の理解
-AIは長文の中央部分の情報を忘れやすい
-
-### 対策1：重要情報の配置
-```
-構成：
-1. 冒頭：核心的な設定
-2. 中盤：展開と描写
-3. 結末：重要な結論や変化
+Left the bookstore and headed to an office on the second floor of the adjacent building.
+From the window, the sign of the bookstore they were just in was visible.
 ```
 
-### 対策2：定期的なリマインド
+### Simple Spatial Settings
+- Limit locations to a maximum of three.
+- Describe movements clearly.
+- Avoid complex building structures.
+
+## 3. Unnatural Emotional Changes
+**Symptom**: Sudden changes of heart, unexplained emotional shifts.
+**Cause**: "Lost in the Middle" phenomenon.
+**Countermeasure**:
+- Establish important emotions at the beginning.
+- Carefully depict the process of change.
+- Clearly show internal conflicts.
+
+### Depicting Gradual Emotional Changes
+
+**❌ Bad Example**
 ```
-3-5段落ごとに：
-- キャラクターの価値観を行動で示す
-- 重要な設定をさりげなく繰り返す
-- 伏線を小出しに配置
-```
-
-## 6. 対話の不自然さ
-
-### よくある問題
-- 全員が同じ話し方
-- 説明的すぎる会話
-- キャラクターらしくない発言
-
-### 対話の差別化テクニック
-
-**キャラクターA（丁寧）**
-```
-「申し訳ございません。その本でしたら、在庫を確認いたします」
+Was furious → Suddenly forgives
 ```
 
-**キャラクターB（カジュアル）**
+**✅ Good Example**
 ```
-「あー、その本？ちょっと待って、在庫見てくるね」
-```
-
-**キャラクターC（権威的）**
-```
-「その本か。在庫があるかどうか、確認させよう」
+Furious → Learns the other person's circumstances → Agitated → Relates to oneself → Understands → Forgives
 ```
 
-## 7. ペース配分の問題
+### Emotional Change Template
+1. Trigger (external factor)
+2. Internal realization
+3. Conflict
+4. Decision
+5. New emotional state
 
-### 症状
-- 前半が長すぎる
-- クライマックスが急ぎ足
-- 結末があっけない
+## 4. Excessive Explanation
+**Symptom**: Explaining everything, more explanation than action.
+**Cause**: Prioritizing "telling" too much.
+**Countermeasure**:
+- Show > Tell
+- Leave it to the reader's imagination.
+- Provide only the necessary minimum information.
 
-### 理想的な配分（短編の場合）
-- 導入：20%
-- 展開：50%
-- クライマックス：20%
-- 結末：10%
+### Practicing Show, Don't Tell
 
-## 8. 伏線の処理ミス
-
-### よくある失敗
-1. 伏線を張りすぎて回収し忘れる
-2. 伏線が露骨すぎる
-3. 伏線なしに重要な事実が出る
-
-### 伏線管理表
+**❌ Bad Example**
 ```
-| 伏線 | 登場章 | 回収章 | 重要度 |
-|------|--------|--------|--------|
-| 手紙 | 1章    | 8章    | 高     |
-| 鍵   | 3章    | 7章    | 中     |
+Misaki was sad. She was so sad, she felt like crying.
+She remembered her mother, and her chest ached.
 ```
 
-## 9. AIプロンプトの最適化
-
-### 問題のあるプロンプト
+**✅ Good Example**
 ```
-「感動的なシーンを書いて」
-```
-
-### 改善されたプロンプト
-```
-シーン：美咲が母の手紙を読む
-場所：薄暗い書店のカウンター
-時間：閉店後の静寂
-感情：驚き→理解→静かな涙
-文字数：500字程度
-注意：説明を避け、行動と情景で感情を表現
+Misaki gently stroked the spine of the book.
+The last book her mother had stocked. Her fingertips trembled faintly.
 ```
 
-## 10. ジャンル別の注意点
+## 5. Lost in the Middle Countermeasures
 
-### ミステリー
-- 手がかりはフェアに提示
-- 読者が推理可能な範囲で
-- 超能力的な解決は避ける
+### Understanding the Problem
+AI tends to forget information in the middle of long texts.
 
-### 恋愛小説
-- 感情の機微を丁寧に
-- 障害は現実的に
-- 両思いになるまでの過程を大切に
+### Countermeasure 1: Placement of Important Information
+```
+Structure:
+1. Beginning: Core settings
+2. Middle: Development and depiction
+3. End: Important conclusions or changes
+```
 
-### ファンタジー
-- 世界観のルールは一貫させる
-- 都合の良い魔法は避ける
-- 人間ドラマを忘れない
+### Countermeasure 2: Periodic Reminders
+```
+Every 3-5 paragraphs:
+- Show character values through actions.
+- Casually repeat important settings.
+- Place foreshadowing incrementally.
+```
+
+## 6. Unnatural Dialogue
+
+### Common Problems
+- Everyone speaks the same way.
+- Overly explanatory conversations.
+- Statements uncharacteristic of the speaker.
+
+### Dialogue Differentiation Techniques
+
+**Character A (Polite)**
+```
+"I do apologize. Regarding that book, I will check the inventory."
+```
+
+**Character B (Casual)**
+```
+"Oh, that book? Hang on, I'll go check if it's in stock."
+```
+
+**Character C (Authoritative)**
+```
+"That book, you say. I shall have someone confirm whether it is in stock."
+```
+
+## 7. Pacing Problems
+
+### Symptoms
+- First half is too long.
+- Climax feels rushed.
+- Ending is abrupt.
+
+### Ideal Distribution (for short stories)
+- Introduction: 20%
+- Development: 50%
+- Climax: 20%
+- Conclusion: 10%
+
+## 8. Foreshadowing Mistakes
+
+### Common Failures
+1. Too much foreshadowing, some is forgotten/not resolved.
+2. Foreshadowing is too obvious.
+3. Important facts appear without prior foreshadowing.
+
+### Foreshadowing Management Table
+```
+| Foreshadowing | Appears in Ch. | Resolved in Ch. | Importance |
+|---------------|----------------|-----------------|------------|
+| Letter        | 1              | 8               | High       |
+| Key           | 3              | 7               | Medium     |
+```
+
+## 9. AI Prompt Optimization
+
+### Problematic Prompt
+```
+"Write a moving scene."
+```
+
+### Improved Prompt
+```
+Scene: Misaki reads her mother's letter
+Location: Dimly lit bookstore counter
+Time: Silence after closing
+Emotion: Surprise → Understanding → Quiet tears
+Length: Around 500 characters
+Note: Avoid explanation; express emotion through actions and scenery.
+```
+
+## 10. Genre-Specific Points to Note
+
+### Mystery
+- Present clues fairly.
+- Within a range the reader can deduce.
+- Avoid supernatural solutions.
+
+### Romance Novel
+- Depict emotional subtleties carefully.
+- Obstacles should be realistic.
+- Value the process leading to mutual affection.
+
+### Fantasy
+- Keep world-building rules consistent.
+- Avoid convenient magic.
+- Don't forget human drama.
 
 ---
 
-## トラブルシューティングフローチャート
+## Troubleshooting Flowchart
 
 ```
-問題発生
-　↓
-種類の特定（上記1-10のどれか）
-　↓
-原因の分析
-　↓
-対策の選択
-　↓
-修正の実施
-　↓
-効果の確認
-　↓
-必要なら再修正
+Problem Occurs
+  ↓
+Identify Type (Which of 1-10 above)
+  ↓
+Analyze Cause
+  ↓
+Select Countermeasure
+  ↓
+Implement Correction
+  ↓
+Confirm Effect
+  ↓
+Re-correct if Necessary
 ```
 
-## 予防的アプローチ
+## Preventative Approach
 
-### 執筆前の準備
-1. キャラクター設定を明確に
-2. 物語の構造を決める
-3. 重要シーンを先に書く
+### Pre-Writing Preparation
+1. Clarify character settings.
+2. Decide on the story structure.
+3. Write important scenes first.
 
-### 執筆中の確認
-1. 3シーンごとに一貫性チェック
-2. 対話を音読して確認
-3. 時系列の整合性確認
+### Mid-Writing Checks
+1. Consistency check every 3 scenes.
+2. Read dialogue aloud to check.
+3. Confirm timeline consistency.
 
-### 執筆後の見直し
-1. 全体を通読
-2. チェックリストで評価
-3. 第三者の意見を聞く
+### Post-Writing Review
+1. Read through the entire work.
+2. Evaluate with a checklist.
+3. Get opinions from a third party.
 
 ---
 
-💡 **Remember**: 問題は必ず起きるもの。大切なのは、それを認識し、適切に対処すること。完璧を求めすぎず、着実に改善していきましょう。
+💡 **Remember**: Problems are bound to occur. What's important is to recognize them and address them appropriately. Don't aim for perfection too much; improve steadily.

@@ -1,303 +1,303 @@
 ---
-description: "キャラクターの個性が光る自然な会話シーンを作成するコマンド"
+description: "Command to create natural conversation scenes that highlight character personalities"
 ---
 
-# dialogue - 生きた会話を作成する
+# dialogue - Create living conversations
 
-キャラクターの個性が光る、自然で印象的な会話シーンを作成します。
+Creates natural and impressive conversation scenes that highlight character personalities.
 
-## 引数の処理
+## Argument Processing
 
-コマンド引数: $ARGUMENTS
+Command arguments: $ARGUMENTS
 
-引数形式: [タイプ] [キャラクター1] [キャラクター2] [オプション]
+Argument format: [type] [character1] [character2] [options]
 
-引数が与えられた場合、以下のように解釈します：
-- 第1引数（タイプ）:
-  - `first-meet` → 初対面の会話
-  - `conflict` → 対立・議論
-  - `confession` → 告白・本音
-  - `casual` → 日常会話
-  - `revelation` → 真実の開示
-- 第2引数以降: キャラクター名（スペース区切り）
-- 追加オプション: 雰囲気、目的など
+If arguments are given, they are interpreted as follows:
+- 1st argument (type):
+  - `first-meet` → First meeting conversation
+  - `conflict` → Conflict/argument
+  - `confession` → Confession/true feelings
+  - `casual` → Casual conversation
+  - `revelation` → Disclosure of truth
+- 2nd argument onwards: Character names (space-separated)
+- Additional options: Atmosphere, purpose, etc.
 
-例: `first-meet 佐藤明日香 山田太郎`
+Example: `first-meet Asuka Sato Taro Yamada`
 
-## 使い方
+## Usage
 
 ```
-/dialogue [タイプ] [キャラクター1] [キャラクター2] [オプション]
+/dialogue [type] [character1] [character2] [options]
 ```
 
-## 会話タイプ
+## Conversation Types
 
-- `first-meet` - 初対面の会話
-- `conflict` - 対立・議論
-- `confession` - 告白・本音
-- `casual` - 日常会話
-- `revelation` - 真実の開示
+- `first-meet` - First meeting conversation
+- `conflict` - Conflict/argument
+- `confession` - Confession/true feelings
+- `casual` - Casual conversation
+- `revelation` - Disclosure of truth
 
-## オプション
+## Options
 
-- `--mood <雰囲気>` - 会話の雰囲気
-- `--purpose <目的>` - この会話の役割
-- `--length <やり取り数>` - 会話の長さ
-- `--subtext` - 言外の意味を重視
+- `--mood <atmosphere>` - Atmosphere of the conversation
+- `--purpose <purpose>` - Role of this conversation
+- `--length <turns>` - Length of the conversation
+- `--subtext` - Emphasize subtext (implicit meaning)
 
-## 会話作成の原則
+## Principles of Conversation Creation
 
-### 1. キャラクターの差別化
+### 1. Differentiate Characters
 ```
-【佐藤明日香】（図書館司書）
-- 丁寧で控えめな話し方
-- 「もしよろしければ」が口癖
-- 本の話題では饒舌に
+【Asuka Sato】 (Librarian)
+- Polite and modest way of speaking
+- Catchphrase: "If you'd like"
+- Becomes talkative when discussing books
 
-【山田太郎】（刑事）
-- 簡潔で事実重視
-- 「...そういうことか」が口癖
-- 感情を表に出さない
-```
-
-### 2. サブテキスト（言外の意味）
-```
-表面の会話：「今日は良い天気ですね」
-真の意味：「あなたと話したい」
-
-表面の会話：「別に構いませんよ」
-真の意味：「本当は嫌だけど仕方ない」
+【Taro Yamada】 (Detective)
+- Concise and fact-oriented
+- Catchphrase: "...So that's it."
+- Does not show emotions openly
 ```
 
-### 3. 会話のリズム
+### 2. Subtext (Implicit Meaning)
 ```
-長い台詞
-　↓
-短い返答
-　↓
-沈黙（間）
-　↓
-核心的な一言
+Surface conversation: "Nice weather today, isn't it?"
+True meaning: "I want to talk to you."
+
+Surface conversation: "I don't really mind."
+True meaning: "I actually don't want to, but I have no choice."
 ```
 
-## 実行例
-
-### 初対面の会話
+### 3. Rhythm of Conversation
 ```
-User: /dialogue first-meet --characters 佐藤明日香 山田太郎
-Assistant: 【初対面の会話シーン】
-
-場所：市立図書館の参考図書コーナー
-状況：山田刑事が事件の資料を探している
-
----
-
-明日香は、参考図書コーナーで困った様子の男性に気づいた。
-
-「あの...もしよろしければ、何かお探しですか？」
-
-男性——スーツ姿で、鋭い目つき——は振り返った。
-
-「...法律関係の本を」
-
-「どのような内容でしょうか？　刑法？　民法？」
-
-一瞬の間。
-
-「...過去の判例集。20年前の」
-
-明日香の表情が和らいだ。
-
-「それでしたら、こちらに。もしよろしければ、
-特定の事件をお探しですか？」
-
-「...ああ」
-
-山田は明日香の真っ直ぐな視線に、少し居心地の悪さを感じた。
-図書館司書というのは、こんなに相手の心を見透かすものなのか。
-
-[会話の狙い：性格の違いを際立たせつつ、今後の関係性の種を蒔く]
+Long line
+  ↓
+Short reply
+  ↓
+Silence (pause)
+  ↓
+Core statement
 ```
 
-### 対立の会話
-```
-User: /dialogue conflict --characters 美咲 息子 --mood 緊張
-Assistant: 【対立の会話シーン】
+## Execution Examples
 
-場所：閉店後の書店
-状況：書店を継ぐことについての話し合い
+### First Meeting Conversation
+```
+User: /dialogue first-meet --characters Asuka Sato Taro Yamada
+Assistant: 【First Meeting Conversation Scene】
+
+Location: Reference section of the city library
+Situation: Detective Yamada is looking for case materials
 
 ---
 
-「この店を閉めるって、本気で言ってるの？」
+Asuka noticed a man who seemed troubled in the reference section.
 
-美咲は売上帳簿から目を上げず、静かに答えた。
+"Um... If you'd like, are you looking for something?"
 
-「継ぐ人がいないなら、仕方ないでしょう」
+The man—in a suit, with sharp eyes—turned around.
 
-「俺が継ぐって言ったら？」
+"...Books related to law."
 
-ペンを置く音が、静かな店内に響いた。
+"What kind of content? Criminal law? Civil law?"
 
-「あなたには、あなたの人生があるでしょう」
+A moment of silence.
 
-「母さんにだって、祖母さんから継いだ時は別の人生があったはずだ」
+"...Past case collections. From 20 years ago."
 
-美咲は初めて息子の顔を真っ直ぐ見た。
-二十年前の自分と同じ目をしている。
+Asuka's expression softened.
 
-「...本当に、後悔しない？」
+"In that case, this way. If you'd like,
+are you looking for a specific case?"
 
-「母さんは後悔してる？」
+"...Yeah."
 
-[間：お互いの本音を探る沈黙]
+Yamada felt a little uncomfortable under Asuka's direct gaze.
+Are librarians always this good at seeing through people?
 
-「...してないわ」
-
-「じゃあ、俺も」
-
-[会話の核心：世代を超えた理解と決意]
+[Goal of the conversation: Highlight personality differences while sowing seeds for a future relationship]
 ```
 
-### 告白の会話
+### Conflict Conversation
 ```
-User: /dialogue confession --subtext --mood 切ない
-Assistant: 【告白の会話シーン】
+User: /dialogue conflict --characters Misaki Son --mood Tense
+Assistant: 【Conflict Conversation Scene】
 
-状況：言えなかった想いが、遠回しに伝わる瞬間
+Location: Bookstore after closing
+Situation: Discussion about inheriting the bookstore
 
 ---
 
-「明日、東京に戻るんだ」
+"Are you serious about closing this store?"
 
-「...そう」
+Misaki answered quietly without looking up from the sales ledger.
 
-海風が二人の間を通り抜けていく。
+"If there's no one to inherit it, it can't be helped."
 
-「また来るよ。きっと」
+"What if I said I'd inherit it?"
 
-「きっと、ね」
+The sound of a pen being placed echoed in the quiet store.
 
-彼女の声に込められた疑念を、彼は聞き逃さなかった。
+"You have your own life, don't you?"
 
-「信じてない？」
+"You must have had a different life too, Mom, when you inherited it from Grandma."
 
-「信じてる。あなたが『きっと』と言う時は、
-本当は自信がない時だってことも含めて」
+Misaki looked directly at her son's face for the first time.
+He had the same eyes she had twenty years ago.
 
-図星だった。
+"...You really won't regret it?"
 
-「...君は、いつも俺のことをよく見てるね」
+"Do you regret it, Mom?"
 
-「そういう仕事だから。人を見るのが」
+[Pause: Silence to explore each other's true feelings]
 
-嘘だ、と二人とも分かっていた。
+"...I don't."
 
-[真実：仕事だからじゃない。好きだから、見ていた]
+"Then, me neither."
+
+[Core of the conversation: Understanding and determination transcending generations]
 ```
 
-## ワークスペースでの会話管理
+### Confession Conversation
+```
+User: /dialogue confession --subtext --mood Poignant
+Assistant: 【Confession Conversation Scene】
 
-### 会話シーンの保存
-```
-# シーンの一部として保存
-my-stories/[作品名]/scenes/scene-XX-dialogue.md
+Situation: A moment when unspoken feelings are conveyed indirectly
 
-# 会話練習用
-drafts/dialogue-practice-[キャラ名].md
+---
 
-# 重要な会話は個別管理
-my-stories/[作品名]/key-dialogues/confession.md
-```
+"I'm going back to Tokyo tomorrow."
 
-### 会話のバージョン管理
-異なるバージョンを試す場合：
-```
-scene-05-confession-v1.md  # 直接的なバージョン
-scene-05-confession-v2.md  # 遠回しなバージョン
-scene-05-confession-final.md  # 採用版
-```
+"...I see."
 
-## 会話テクニック集
+The sea breeze passed between them.
 
-### 1. 三点リーダーの活用
-```
-「...」（沈黙・ためらい）
-「まあ...」（言いよどみ）
-「そうね...」（考えながら）
-```
+"I'll come again. I promise."
 
-### 2. 言い直し・中断
-```
-「それは——いや、なんでもない」
-「君のことを、その、つまり...」
-```
+"Promise, huh."
 
-### 3. 相手の言葉を繰り返す
-```
-A:「もう会えないかもしれない」
-B:「会えないかもしれない、か」
-→ 言葉の重みを強調
+He didn't miss the doubt in her voice.
+
+"You don't believe me?"
+
+"I believe you. Including the fact that when you say 'promise,'
+you're actually not confident."
+
+She hit the mark.
+
+"...You always see right through me, don't you?"
+
+"It's my job. To observe people."
+
+They both knew it was a lie.
+
+[Truth: It's not because of work. It's because I like you that I watched.]
 ```
 
-### 4. 問いかけで終わる
+## Workspace Conversation Management
+
+### Saving Conversation Scenes
 ```
-「本当にそれでいいの？」
-→ 読者にも考えさせる
-```
+# Save as part of a scene
+my-stories/[work-title]/scenes/scene-XX-dialogue.md
 
-## 会話の品質チェック
+# For conversation practice
+drafts/dialogue-practice-[character-name].md
 
-- [ ] キャラクターの個性が出ているか
-- [ ] 不自然な情報説明になっていないか
-- [ ] 適度な間（沈黙）があるか
-- [ ] サブテキストが効いているか
-- [ ] 会話だけで状況が理解できるか
-
-## NG例と改善
-
-### NG：説明的すぎる
-```
-❌「私は図書館司書の佐藤明日香です。
-   本を通じて人々を助けたいと思っています」
-
-✅「本をお探しですか？　
-   もしよろしければ、お手伝いさせていただきます」
+# Manage important conversations individually
+my-stories/[work-title]/key-dialogues/confession.md
 ```
 
-### NG：キャラクターが同じ話し方
+### Conversation Version Control
+When trying different versions:
 ```
-❌ A:「それは素晴らしいね」
-   B:「本当に素晴らしいね」
-
-✅ A:「へえ、いいじゃない」
-   B:「...悪くない」
+scene-05-confession-v1.md  # Direct version
+scene-05-confession-v2.md  # Indirect version
+scene-05-confession-final.md  # Adopted version
 ```
 
-## 会話から生まれるもの
+## Conversation Techniques
 
-1. **関係性の変化**
-   - 距離が縮まる/広がる
-   - 理解が深まる/誤解が生じる
+### 1. Utilize Ellipses
+```
+"... " (Silence/hesitation)
+"Well..." (Stammering)
+"Let me see..." (While thinking)
+```
 
-2. **物語の推進**
-   - 新情報の開示
-   - 決断や行動のきっかけ
+### 2. Restating/Interruption
+```
+"That's—no, it's nothing."
+"About you, well, I mean..."
+```
 
-3. **感情の共有**
-   - 読者との共感
-   - キャラクターへの愛着
+### 3. Repeating the Other Person's Words
+```
+A: "I might not be able to see you again."
+B: "Might not be able to see me again, huh."
+→ Emphasizes the weight of the words
+```
 
-## 関連コマンド
+### 4. Ending with a Question
+```
+"Is that really okay?"
+→ Makes the reader think too
+```
 
-- `/character` - 会話に使うキャラクター作成
-- `/scene` - 会話を含むシーン作成
-- `/quality` - 会話の自然さ評価
-- `/subtext` - 言外の意味を分析
+## Conversation Quality Check
+
+- [ ] Does it show the character's personality?
+- [ ] Is it not an unnatural information dump?
+- [ ] Is there appropriate pausing (silence)?
+- [ ] Is the subtext effective?
+- [ ] Can the situation be understood from the conversation alone?
+
+## NG Examples and Improvements
+
+### NG: Too explanatory
+```
+❌ "I am Asuka Sato, a librarian.
+   I want to help people through books."
+
+✅ "Are you looking for a book?
+   If you'd like, I can help you."
+```
+
+### NG: Characters speak the same way
+```
+❌ A: "That's wonderful, isn't it?"
+   B: "It's truly wonderful, isn't it?"
+
+✅ A: "Oh, that's nice."
+   B: "...Not bad."
+```
+
+## What Arises from Conversation
+
+1. **Changes in Relationships**
+   - Distance narrows/widens
+   - Understanding deepens/misunderstandings arise
+
+2. **Story Progression**
+   - Disclosure of new information
+   - Triggers for decisions or actions
+
+3. **Sharing of Emotions**
+   - Empathy with the reader
+   - Attachment to characters
+
+## Related Commands
+
+- `/character` - Create characters to use in conversation
+- `/scene` - Create scenes that include conversation
+- `/quality` - Evaluate the naturalness of conversation
+- `/subtext` - Analyze implicit meaning
 
 ## Tips
 
-💬 現実の会話を観察しよう
-💬 完璧な会話より、人間らしい会話を
-💬 沈黙も立派な会話の一部
-💬 キャラクターの「声」を聞こう
+💬 Observe real-life conversations
+💬 Aim for human-like conversations rather than perfect ones
+💬 Silence is also a valid part of conversation
+💬 Listen to the "voices" of your characters
