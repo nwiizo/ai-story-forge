@@ -55,10 +55,10 @@ For Misaki, who values "knowledge sharing"...
 ```
 Scene Template:
 ┌─────────────────────┐
-│ 【Summary】Up to previous │
-│ 【Setting】Current situation│
-│ 【Body】Scene content     │
-│ 【Next】Foreshadowing     │
+│ 【Summary】 Previously       │
+│ 【Setting】 Current situation  │
+│ 【Body】 Scene content       │
+│ 【Next】 Foreshadowing       │
 └─────────────────────┘
 ```
 
