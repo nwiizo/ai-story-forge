@@ -91,7 +91,7 @@ Assistant: Checking Asuka Sato's consistency.
 User: /character dialogue Asuka Sato
 Assistant: I will converse as Asuka Sato. Settings loaded.
 
-Hello. I'm Sato from the市立図書館 (City Library).
+Hello. I'm Sato from the City Library.
 What kind of book are you looking for today?
 If you'd like, I can help you.
 
